@@ -1,4 +1,5 @@
-const url1 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/88";
+const url1 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/proces/88";
+const url2 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/proces/88";
 
 let process;
 
@@ -16,9 +17,11 @@ async function hentData() {
 
     process = await svar1.json();
 
+
     visData();
 }
 
 function visData() {
-    document.querySelector("#overskrift").textContent = process.title.rendered;
+    document.querySelector("#overskrift1").textContent = process.title.rendered;
+    document.querySelector("#tekst1").innerHTML = process.content.rendered;
 }
