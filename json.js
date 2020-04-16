@@ -1,8 +1,9 @@
+// FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
+
+// FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
+
+
 // Endpoint af vores json fil
-// FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
-
-// FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
-
 const endpoint1 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/forside/70";
 const endpoint2 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/forside/142";
 const endpoint3 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/forside/144";
@@ -82,3 +83,55 @@ function visData() {
 // FORSIDER SLUT ****************************** FORSIDER SLUT *********************************FORSIDER SLUT ********************************* //
 
 // FORSIDER SLUT ****************************** FORSIDER SLUT *********************************FORSIDER SLUT ********************************* //
+
+
+
+// KONCEPTET *************************************** KONCEPTET  **********************************KONCEPTET  ********************************* //
+
+const endpoint6 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/koncept/100";
+const endpoint7 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/koncept/100";
+
+// definerer en variabel vi kalder alleTekster
+let heading1;
+let tekst1;
+
+
+// venter på content er loaded og kalder funktionen start
+document.addEventListener("DOMContentLoaded", start);
+
+
+//funktionen start kalder funktionen som beder scriptet om at hende json data
+
+function start() {
+    hentData();
+}
+
+
+async function hentData() {
+    const response6 = await fetch(endpoint6);
+    const response7 = await fetch(endpoint7);
+
+
+
+    heading1 = await response6.json();
+    tekst1 = await response7.json();
+    visData();
+}
+
+
+function visData() {
+    //document.querySelector("#slide_img").src = slide1.billede.guid;
+    document.querySelector("#konceptet_heading1").textContent = heading1.title.rendered;
+    document.querySelector("#konceptet_tekst1").innerHTML = tekst1.content.rendered;
+
+
+
+
+}
+
+
+
+
+
+
+// KONCEPTET SLUT ****************************** KONCEPTET SLUT *********************************KONCEPTET SLUT ********************************* //
