@@ -1,12 +1,12 @@
-<<<<<<< HEAD
-const slutpunkt3 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/info/116";
-const slutpunkt4 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/info/117";
+Wordpress indhold til front end:
 
+    Forside færdig, men mangler billeder
+21 - 5 koncept - mangler billeder
+Processen færdig, men mangler billeder
+Destinationer indhold færdig, men mangler billeder og Single view til landene
+Tilgængelige foreninger - mangler billeder
 
-let kontakt;
-let job;
-=======
-// 21-5 KONCEPTET ******************************** 21-5 KONCEPTET  ****************************** 21-5 KONCEPTET  ********************************* //
+// 21-5 KONCEPTET ****************************** 21-5 KONCEPTET  **************************** 21-5 KONCEPTET  ******************************* //
 
 // Endpoint af vores json fil
 const endpoint6 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/koncept/83";
@@ -30,35 +30,18 @@ let tekst3;
 
 
 
->>>>>>> origin/master
 
 
 // venter på content er loaded og kalder funktionen start
 document.addEventListener("DOMContentLoaded", start);
 
-<<<<<<< HEAD
-=======
 
 //funktionen start kalder funktionen som beder scriptet om at hende json data
 
->>>>>>> origin/master
 function start() {
     hentData();
 }
 
-<<<<<<< HEAD
-//funktionen der henter json data ned og kalder en funktion som printer data ud i html
-
-async function hentData() {
-    const respns3 = await fetch(slutpunkt3);
-    const respns4 = await fetch(slutpunkt4);
-
-
-    kontakt = await respns3.json();
-    job = await respns4.json();
-
-
-=======
 
 async function hentData() {
     const response6 = await fetch(endpoint6);
@@ -81,36 +64,10 @@ async function hentData() {
     tekst2 = await response11.json();
     overskrift_3 = await response12.json();
     tekst3 = await response13.json()
->>>>>>> origin/master
 
     visData();
 }
 
-<<<<<<< HEAD
-function visData() {
-    /*    ORIENTERINGSMØDE */
-
-
-    /*    KAFFEMØDE */
-
-
-
-    /*    KONTAKT */
-
-    document.querySelector(".overskrift1").textContent = kontakt.title.rendered;
-    document.querySelector(".tekst1").innerHTML = kontakt.content.rendered;
-
-    /*    JOB I 21-5 */
-
-    document.querySelector(".overskrift1").textContent = job.title.rendered;
-    document.querySelector(".tekst1").innerHTML = job.content.rendered;
-
-
-    /*    OFTE STILLEDE SPØRGSMÅL */
-
-
-}
-=======
 
 function visData() {
     //document.querySelector("#koncept_img").src = koncept.billede.guid;
@@ -125,5 +82,4 @@ function visData() {
 
 }
 
-// 21-5 KONCEPTET SLUT *********************** 21-5  KONCEPTET SLUT ************************** 21-5 KONCEPTET SLUT ********************************* //
->>>>>>> origin/master
+// 21-5 KONCEPTET SLUT ********************* 21-5  KONCEPTET SLUT ************************ 21-5 KONCEPTET SLUT ******************************* //
