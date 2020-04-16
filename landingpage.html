@@ -13,61 +13,72 @@
     <header>
 
 
+
+
+
+
+
+
+
+
     </header>
 
-    <section class="sectionwrapper">
+    <div class="slideshow_container">
 
-        <slider>
-
-            <slide>
-                <h2 id="landingpage_slide1"></h2>
-                <p id="landingpage_detkandu"></p>
-                <img src="" id="slide_img" alt="">
-
-            </slide>
-
-            <slide>
-
-                <h2 id="landingpage_slide2"></h2>
-                <h3 id="hvad"></h3>
-                <p id="hvadtekst"></p>
-                <h3 id="hvor"></h3>
-                <p id="hvortekst"></p>
-                <h3 id="hvorfor"></h3>
-                <p id="hvorfortekst"></p>
-                <img src="" id="slide_img2" alt="">
-
-            </slide>
-
-            <slide>
-
-                <h2 id="landingpage_slide3"></h2>
-                <p id="landingpage_maalet"></p>
-                <img src="" id="slide_img3" alt="">
-
-            </slide>
-
-            <slide>
-
-                <h2 id="landingpage_slide4"></h2>
-                <img src="" id="slide_img4" alt="">
-
-            </slide>
-
-            <slide>
-
-                <h2 id="landingpage_slide5"></h2>
-                <p id="landingpage_skriv"></p>
-                <img src="" id="slide_img5" alt="">
-            </slide>
+        <div class="mySlides fade">
+            <img src="" id="slide_img" alt="" style="height: 100%">
+            <h2 id="landingpage_slide1"></h2>
+            <p id="landingpage_detkandu"></p>
 
 
+        </div>
 
-        </slider>
+        <div class="mySlides fade">
+
+            <img src="" id="slide_img2" alt="">
+            <h2 id="landingpage_slide2"></h2>
+            <h3 id="hvad"></h3>
+            <p id="hvadtekst"></p>
+            <h3 id="hvor"></h3>
+            <p id="hvortekst"></p>
+            <h3 id="hvorfor"></h3>
+            <p id="hvorfortekst"></p>
 
 
+        </div>
 
-    </section>
+        <div class="mySlides fade">
+            <img src="" id="slide_img3" alt="">
+            <h2 id="landingpage_slide3"></h2>
+            <p id="landingpage_maalet"></p>
+
+
+        </div>
+
+        <div class="mySlides fade">
+            <img src="" id="slide_img4" alt="">
+            <h2 id="landingpage_slide4"></h2>
+
+        </div>
+
+        <div class="mySlides fade">
+            <img src="" id="slide_img5" alt="">
+            <h2 id="landingpage_slide5"></h2>
+            <p id="landingpage_skriv"></p>
+
+        </div>
+
+    </div>
+
+
+    <!--prikker forneden der viser hvilken side man er på-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
 
     <script src="json.js"></script>
