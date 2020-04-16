@@ -1,0 +1,228 @@
+/* GENERELLE INDSTILLINGER */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: '', sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+
+/* GENEREL GRID */
+/*
+.splash {
+    grid-area: splash;
+}
+
+.splash {
+    grid-area: kolonne;
+}
+
+
+.footer {
+    grid-area: kolonne;
+}
+
+.sectionwrapper_general {
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "splash"
+        "kolonne"
+        "kolonne"
+        "footer";
+
+}*/
+
+
+/* GENEREL GRID SLUT */
+
+/* GENERELLE INDSTILLINGER SLUT */
+
+/* NAV MENU */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV MENU SLUT */
+
+
+/* LANDINGPAGE */
+
+
+
+
+/*
+
+slider {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    animation: slide 12s infinite;
+    overflow: hidden;
+
+}
+
+slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(2) {
+    animation-delay: -2s;
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(3) {
+    animation-delay: -5s;
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(4) {
+    animation-delay: 8s;
+    background-size: cover;
+    background-position: center;
+}
+
+slide p {
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: black;
+}
+
+slide h2 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: black;
+}
+
+
+
+
+@keyframes slide {
+    0% {
+        left: 100%;
+        width: 100%;
+    }
+
+    5% {
+        left: 0%;
+    }
+
+    25% {
+        left: 0%;
+    }
+
+    30% {
+        left: -100%;
+        width: 100%;
+    }
+
+    50% {
+        left: -100%;
+        width: 0%;
+    }
+
+    100%;
+
+        {
+        left: 100%;
+        width: 0%;
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LANDINGPAGE SLUT */
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER SLUT */

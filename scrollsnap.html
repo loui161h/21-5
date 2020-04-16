@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <template>
+        <section>
+            <img class="karu" src="" alt="">
+        </section>
+    </template>
+    <main>
+        <div class="karrusel">
+            <div class="indre_karrusel">
+                <div class="bwd">
+
+                    <p>&lt;</p>
+
+                </div>
+                <div class="container"></div>
+
+                <div class="fwd">
+
+                    <p>&lt;</p>
+
+                </div>
+
+            </div>
+
+            <div class="billede_lengt_container"></div>
+        </div>
+
+    </main>
+    <script>
+        "use strict"
+        const endpoint = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/destination/162";
+        document.addEventListener("DOMContentLoaded", start);
+
+        let billeder;
+
+        function start() {
+            hentData();
+        }
+        async function hentData() {
+            const response = await fetch(endpoint);
+            billeder = await response.json();
+            visBilleder();
+
+        }
+
+        function visBilleder() {
+            numberOfPicsInKaruseel = billeder.husbilleder.length;
+            billeder.husbilleder.forEach((billede, index) => {
+                const theClone = document.querySelector("template").cloneNode(true).content;
+                const secondClone = document.querySelector("template").cloneNode(true).content;
+                theClone.querySelector("img").src = husbilleder.guid;
+                secondClone.querySelector("img").src = husbilleder.guid;
+            })
+
+        }
+    </script>
+</body></html>

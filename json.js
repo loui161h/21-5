@@ -45,6 +45,8 @@ async function hentData() {
 function visData() {
     document.querySelector("#landingpage_slide1").textContent = slide1.title.rendered;
     document.querySelector("#landingpage_detkandu").innerHTML = slide1.content.rendered;
+    document.querySelector("#slide_img").src = slide1.billede.guid;
+
 
 
     document.querySelector("#landingpage_slide2").textContent = slide2.title.rendered;
@@ -54,13 +56,21 @@ function visData() {
     document.querySelector("#hvortekst").innerHTML = slide2.tekst2;
     document.querySelector("#hvorfor").textContent = slide2.hvorfor;
     document.querySelector("#hvorfortekst").innerHTML = slide2.tekst3;
+    document.querySelector("#slide_img2").src = slide2.billede.guid;
+
 
     document.querySelector("#landingpage_slide3").textContent = slide3.title.rendered;
     document.querySelector("#landingpage_maalet").innerHTML = slide3.content.rendered;
+    document.querySelector("#slide_img3").src = slide3.billede.guid;
+
 
     document.querySelector("#landingpage_slide4").textContent = slide4.title.rendered;
+    document.querySelector("#slide_img4").src = slide4.billede.guid;
+
+
     document.querySelector("#landingpage_slide5").textContent = slide5.title.rendered;
     document.querySelector("#landingpage_skriv").innerHTML = slide5.content.rendered;
+    document.querySelector("#slide_img5").src = slide5.billede.guid;
 
 
 }
