@@ -1,5 +1,4 @@
 // FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
-
 // FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
 
 
@@ -80,14 +79,17 @@ function visData() {
 
 }
 
-
-
 // FORSIDER SLUT ****************************** FORSIDER SLUT *********************************FORSIDER SLUT ********************************* //
-
 // FORSIDER SLUT ****************************** FORSIDER SLUT *********************************FORSIDER SLUT ********************************* //
 
 
 
+
+
+
+
+
+// 21-5 KONCEPTET ******************************** 21-5 KONCEPTET  ****************************** 21-5 KONCEPTET  ********************************* //
 // 21-5 KONCEPTET ******************************** 21-5 KONCEPTET  ****************************** 21-5 KONCEPTET  ********************************* //
 
 const endpoint6 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/koncept/83";
@@ -151,7 +153,7 @@ async function hentData() {
 
 
 function visData() {
-    //document.querySelector("#slide_img").src = slide1.billede.guid;
+    //document.querySelector("#koncept_img").src = koncept.billede.guid;
     document.querySelector("#konceptet_heading1").textContent = heading1.title.rendered;
     document.querySelector("#konceptet_tekst1").innerHTML = tekst1.content.rendered;
     document.querySelector("#hvad_overskrift").textContent = overskrift.overskrift;
@@ -164,3 +166,12 @@ function visData() {
 }
 
 // 21-5 KONCEPTET SLUT *********************** 21-5  KONCEPTET SLUT ************************** 21-5 KONCEPTET SLUT ********************************* //
+// 21-5 KONCEPTET SLUT *********************** 21-5  KONCEPTET SLUT ************************** 21-5 KONCEPTET SLUT ********************************* //
+
+
+
+
+
+
+
+// GIVER MENING ***************************** GIVER MENING ********************************** GIVER MENING ***************************************** //
