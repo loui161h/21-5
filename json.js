@@ -174,7 +174,7 @@ function visData() {
 
 
 
-
+// GIVER MENING ***************************** GIVER MENING ********************************** GIVER MENING ***************************************** //
 // GIVER MENING ***************************** GIVER MENING ********************************** GIVER MENING ***************************************** //
 
 // Endpoint af vores json fil
@@ -259,7 +259,8 @@ function visData() {
 
     document.querySelector("#hvorfor_head4").textContent = head4.overskrift_4;
     document.querySelector("#hvorfor_bread4").innerHTML = bread4.tekst_4;
-
-
-
 }
+
+
+// GIVER MENING SLUT ********************* GIVER MENING SLUT ********************************** GIVER MENING SLUT ********************************** //
+// GIVER MENING SLUT ********************* GIVER MENING SLUT ********************************** GIVER MENING SLUT ********************************** //
