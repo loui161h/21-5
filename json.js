@@ -10,6 +10,7 @@ const endpoint4 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/w
 const endpoint5 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/forside/147";
 
 
+
 // definerer en variabel vi kalder alleTekster
 let slide1;
 let slide2;
