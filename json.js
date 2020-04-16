@@ -1,5 +1,8 @@
 // Endpoint af vores json fil
-// FORSIDER
+// FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
+
+// FORSIDER ********************************** FORSIDER *********************************** FORSIDER *************************************** //
+
 const endpoint1 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/forside/70";
 const endpoint2 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/forside/142";
 const endpoint3 = "http://louisesettrup.dk/kea/09_cms/enogtyvefem_wp/wordpress/wp-json/wp/v2/forside/144";
@@ -75,3 +78,7 @@ function visData() {
 
 
 }
+
+// FORSIDER SLUT ****************************** FORSIDER SLUT *********************************FORSIDER SLUT ********************************* //
+
+// FORSIDER SLUT ****************************** FORSIDER SLUT *********************************FORSIDER SLUT ********************************* //
