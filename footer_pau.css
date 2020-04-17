@@ -100,13 +100,89 @@ img {
 
 /* LANDINGPAGE SLUT */
 
-/* FOOTER */
+/* FOOTER Responsiv*/
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+
+    bottom: 0;
+    color: white;
+    background-color: #BED2D0;
+    width: 100vw;
+    font-size: 1rem;
+}
+
+
+.opdate {
+    flex-basis: 350px;
+    flex-grow: 3;
+    text-decoration: none;
+}
+
+.nyhed_button {
+    background-color: #FDF8ED;
+    color: #375151;
+
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#fb_icon {
+    color: black;
+    height: 2vw;
+    width: 2vw;
+
+
+}
+
+#ig_icon {
+    color: black;
+    height: 2vw;
+    width: 2vw;
+
+
+
+}
 
 
 
 
 
+.menu_footer {
+    flex-basis: 350px;
+    flex-grow: 3;
+    text-decoration: none;
+}
 
+.menu_footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.kontakt {
+    flex-basis: 350px;
+    flex-grow: 3;
+    text-decoration: none;
+}
+
+
+.adresse {
+    flex-grow: 3;
+    text-align: center;
+    background-color: #F8F8F8;
+    color: #707070;
+}
 
 
 
