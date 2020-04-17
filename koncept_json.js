@@ -4,6 +4,9 @@ let urlParameter = new URLSearchParams(window.location.search);
 
 let tekstId = urlParameter.get("id");
 
+
+
+/* ændre id'et til siden id */
 const startId = 271;
 
 
@@ -32,7 +35,7 @@ async function hentData() {
     alleTekster = await response.json();
 
 
-
+    /* ændre data navn til hver */
     visDataKoncept();
 }
 
