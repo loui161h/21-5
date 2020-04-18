@@ -18,14 +18,16 @@ img {
 /* GENERELLE INDSTILLINER */
 
 
-#koncept_fullpage h1 {
+#koncept_fullpage,
+#givermening_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
 
 }
 
-#koncept_fullpage h2 {
+#koncept_fullpage,
+#givermening_fullpage h2 {
     font-size: 1.4rem;
     color: #375151;
 
@@ -34,6 +36,7 @@ img {
 p {
     font-size: 0.8rem;
     color: #343434;
+
 }
 
 
@@ -85,11 +88,13 @@ p {
 
 paragraf1 {
     grid-area: paragraf1;
+    max-width: 62ch;
 
 }
 
 paragraf2 {
     grid-area: paragraf2;
+    max-width: 62ch;
 
 }
 
@@ -103,24 +108,83 @@ footer {
 }
 
 
+/* PADDING I SIDEN VED MOBIL */
+
 #heading,
 #tekst1,
 #paragraf1,
 #paragraf2,
-#paragraf3 {
+#paragraf3,
+#givermening_heading,
+#givermening_tekst1,
+#givermening_paragraf1,
+#givermening_paragraf2,
+#givermening_tekst2 {
     margin: 0px 20px 0px 20px;
 }
 
 #paragraf1,
 #paragraf2,
 #paragraf3 {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
-
+/* PADDING I SIDEN VED MOBIL SLUT */
 
 
 /* KONCEPT GRID SLUT */
+
+/* GIVER MENING GRID */
+
+#givermening {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "givermening_heading"
+        "givermening_tekst1"
+        "givermening_paragraf1"
+        "givermening_paragraf2"
+        "givermening_tekst2"
+        "footer"
+
+}
+
+
+#givermening_heading {
+    grid-area: givermening_heading;
+}
+
+#givermening_tekst1 {
+    grid-area: givermening_tekst1;
+
+}
+
+
+#givermening_paragraf1 {
+    grid-area: givermening_paragraf1;
+    max-width: 62ch;
+
+
+}
+
+#givermening_paragraf2 {
+    grid-area: givermening_paragraf2;
+    max-width: 62ch;
+}
+
+#givermening_tekst2 {
+    grid-area: givermening_tekst2;
+    padding-bottom: 40px;
+}
+
+
+/* GIVER MENING GRID SLUT */
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -169,25 +233,52 @@ footer {
     }
 
     #heading,
-    #tekst1 {
+    #tekst1,
+    #givermening_heading,
+    #givermening_tekst1,
+    #givermening_tekst2 {
         margin: 0px 60px 0px 60px;
     }
 
-    #paragraf1 {
+    #paragraf1,
+    #givermening_paragraf1 {
         margin-left: 60px;
-        padding-right: 20px;
+
     }
 
     #paragraf2 {
         padding: 0px 20px 0px 20px;
     }
 
-    #paragraf3 {
+    #paragraf3,
+    #givermening_paragraf2 {
         margin-right: 60px;
-        padding-left: 20px;
+
     }
 
     /* KONCEPT GRID SLUT */
+
+    /* GIVER MENING GRID */
+    #givermening_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "givermening_heading givermening_heading"
+            "givermening_tekst1 givermening_tekst1"
+            "givermening_paragraf1 givermening_paragraf2"
+            "givermening_tekst2 givermening_tekst2"
+            "footer footer"
+
+    }
+
+    #givermening_tekst2 {
+        padding-bottom: 60px;
+    }
+
+    /* GIVER MENING GRID SLUT */
 }
 
 /* MEDIA QUERIES SLUT */
