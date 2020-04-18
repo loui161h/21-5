@@ -22,7 +22,8 @@ img {
 #givermening_fullpage,
 #voresfamilier_fullpage,
 #fordele_fullpage,
-#kommermed_fullpage h1 {
+#kommermed_fullpage,
+#udlejning_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -230,12 +231,90 @@ footer {
 
 /* HVORDAN KOMMER VI MED GRID  */
 
+#kommermed_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "kommermed_heading"
+        "kommermed_tekst1"
+        "kommermed_paragraf1"
+        "kommermed_paragraf2"
+        "kommermed_tekst2"
+        "footer footer"
+
+}
 
 
+#kommermed_heading {
+    grid-area: kommermed_heading;
+}
 
+#kommermed_tekst1 {
+    grid-area: kommermed_tekst1;
+}
+
+#kommermed_paragraf1 {
+    grid-area: kommermed_paragraf1;
+}
+
+#kommermed_paragraf2 {
+    grid-area: kommermed_paragraf2;
+}
+
+#kommermed_tekst2 {
+    grid-area: kommermed_tekst2;
+}
 
 /* HVORDAN KOMMER VI MED GRID SLUT */
 
+
+
+/* BOOKINGSYSTEMET */
+
+
+
+/* BOOKINGSYSTEMET SLUT */
+
+
+
+/* UDLEJNING BLANDT MEDLEMMER */
+
+
+
+#udlejning_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "udlejning_heading"
+        "udlejning_paragraf1"
+        "udlejning_paragraf2"
+        "footer footer"
+}
+
+#udlejning_heading {
+    grid-area: udlejning_heading;
+}
+
+#udlejning_paragraf1 {
+    grid-area: udlejning_paragraf1;
+}
+
+#udlejning_paragraf2 {
+    grid-area: udlejning_paragraf2;
+}
+
+
+
+
+
+
+/* UDLEJNING BLANDT MEDLEMMER SLUT */
 
 
 
@@ -357,11 +436,57 @@ footer {
 
     /* HVORDAN KOMMER VI MED GRID */
 
+    #kommermed_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "kommermed_heading kommermed_heading"
+            "kommermed_tekst1 kommermed_tekst1"
+            "kommermed_paragraf1 kommermed_paragraf2"
+            "kommermed_tekst2 kommermed_tekst2"
+            "footer footer"
+
+    }
 
 
 
 
     /* HVORDAN KOMMER VI MED GRID SLUT */
+
+
+
+
+    /* BOOKINGSYSTEMET */
+
+
+
+    /* BOOKINGSYSTEMET SLUT */
+
+
+
+    /* UDLEJNING BLANDT MEDLEMMER */
+
+    #udlejning_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "udlejning_heading udlejning_heading"
+            "udlejning_paragraf1 udlejning_paragraf2"
+            "footer footer"
+    }
+
+
+
+    /* UDLEJNING BLANDT MEDLEMMER SLUT */
+
+
+
 }
 
 /* MEDIA QUERIES SLUT */
