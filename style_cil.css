@@ -79,7 +79,7 @@ header {
     display: block;
     text-align: left;
     position: relative;
-      justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .dropdown a:hover {
@@ -94,7 +94,7 @@ header {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #E8E7E7;
-       border-radius: 10px;
+    border-radius: 10px;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -105,58 +105,86 @@ header {
 /* DROP DOWN NAVIGATION SLUT */
 
 
+/* MENU2 */
+
+#menu2{
+    text-align: end;
+    margin-right: 100px;
+    margin-top: -25px;
+}
+
+.footermenu a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 15px;
+    font-weight: 200;
+}
+
+.footermenu a:hover {
+    color: #649087;
+}
+
+/* MENU2 SLUT */
+
+
 /* SLIDESHOW LANDINGPAGE */
 
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
-width: 100%;
-  position: relative;
-  margin: auto;
+    width: 100%;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* The dots/bullets/indicators */
 
 .dots {
     margin-left: 100px;
-    margin-top: -100px;
+    margin-top: -150px;
 }
 
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin-right: 5px;
-  border-radius: 50%;
-border: solid 1px black;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #BED2D0;
+.active,
+.dot:hover {
+    background-color: #BED2D0;
 }
 
 /* SLIDESHOW LANDINGPAGE SLUT */
