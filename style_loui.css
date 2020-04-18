@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+
+}
+
+
+
+
+img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+
+}
+
+
+
+/* GENERELLE INDSTILLINER */
+
+
+#koncept_fullpage h1 {
+    font-size: 2rem;
+    color: #375151;
+    margin-bottom: 1vw;
+
+}
+
+#koncept_fullpage h2 {
+    font-size: 1.4rem;
+    color: #375151;
+
+}
+
+p {
+    font-size: 0.8rem;
+    color: #343434;
+}
+
+
+
+/* GENERELLE INDSTILLINER SLUT */
+
+
+
+/* KONCEPT GRID */
+
+
+#koncept_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "heading"
+        "tekst1"
+        "paragraf1"
+        "paragraf2"
+        "paragraf3"
+        "footer"
+
+}
+
+#splash {
+    width: 100%;
+    height: 33vh;
+    background-image: url(sky.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: splash;
+
+}
+
+#heading {
+    grid-area: heading;
+}
+
+
+#tekst1 {
+    grid-area: tekst1;
+
+}
+
+
+
+paragraf1 {
+    grid-area: paragraf1;
+
+}
+
+paragraf2 {
+    grid-area: paragraf2;
+
+}
+
+paragraf3 {
+    grid-area: paragraf3;
+
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+#heading,
+#tekst1,
+#paragraf1,
+#paragraf2,
+#paragraf3 {
+    margin: 0px 20px 0px 20px;
+}
+
+#paragraf1,
+#paragraf2,
+#paragraf3 {
+    margin-bottom: 40px;
+}
+
+
+
+
+/* KONCEPT GRID SLUT */
+
+/* MEDIA QUERIES */
+
+@media screen and (min-device-width: 768px) {
+
+    /*GENERELLE INDSTILLINGER */
+    #koncept_fullpage h1 {
+        font-size: 3rem;
+        margin-bottom: 1vw;
+
+    }
+
+    #koncept_fullpage h2 {
+        font-size: 1.7rem;
+
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /*GENERELLE INDSTILLINGER SLUT*/
+
+    /* KONCEPT GRID */
+
+    #koncept_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash splash"
+            "heading heading heading"
+            "tekst1 tekst1 tekst1"
+            "paragraf1 paragraf2 paragraf3"
+            "footer footer footer"
+
+    }
+
+    #splash {
+        height: 80vh;
+    }
+
+    #splash img {
+        height: 80vh;
+    }
+
+    #heading,
+    #tekst1 {
+        margin: 0px 60px 0px 60px;
+    }
+
+    #paragraf1 {
+        margin-left: 60px;
+        padding-right: 20px;
+    }
+
+    #paragraf2 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    #paragraf3 {
+        margin-right: 60px;
+        padding-left: 20px;
+    }
+
+    /* KONCEPT GRID SLUT */
+}
+
+/* MEDIA QUERIES SLUT */

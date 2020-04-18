@@ -110,12 +110,11 @@ img {
 footer {
     display: flex;
     flex-wrap: wrap;
-    position: fixed;
-
+    position: relative;
     bottom: 0;
     color: white;
     background-color: #BED2D0;
-    width: 100vw;
+    width: 100%;
     font-size: 1rem;
 }
 
