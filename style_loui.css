@@ -20,7 +20,8 @@ img {
 
 #koncept_fullpage,
 #givermening_fullpage,
-#voresfamilier_fullpage h1 {
+#voresfamilier_fullpage,
+#fordele_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -29,7 +30,8 @@ img {
 
 #koncept_fullpage,
 #givermening_fullpage,
-#voresfamilier_fullpage h2 {
+#voresfamilier_fullpage,
+#fordele_fullpage h2 {
     font-size: 1.4rem;
     color: #375151;
 
@@ -213,6 +215,14 @@ footer {
 /* DET SIGER VORES FAMILIER GRID SLUT */
 
 
+/* FORDELE VED AT KØBE EN ANDEL GRID */
+
+
+
+
+/* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
+
+
 
 
 /* MEDIA QUERIES */
@@ -308,6 +318,17 @@ footer {
     }
 
     /* GIVER MENING GRID SLUT */
+
+
+    /* FORDELE VED AT KØBE EN ANDEL GRID */
+
+
+
+
+
+
+
+    /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
 }
 
 /* MEDIA QUERIES SLUT */
