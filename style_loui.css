@@ -121,7 +121,8 @@ footer {
 #givermening_tekst1,
 #givermening_paragraf1,
 #givermening_paragraf2,
-#givermening_tekst2 {
+#givermening_tekst2,
+#voresfamilier_heading {
     margin: 0px 20px 0px 20px;
 }
 
@@ -187,6 +188,24 @@ footer {
 
 
 /* DET SIGER VORES FAMILIER GRID */
+
+
+#givermening {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "voresfamilier_heading"
+        "footer"
+
+}
+
+
+#voresfamilier_heading {
+    grid-area: voresfamilier_heading
+}
 
 
 
