@@ -21,7 +21,8 @@ img {
 #koncept_fullpage,
 #givermening_fullpage,
 #voresfamilier_fullpage,
-#fordele_fullpage h1 {
+#fordele_fullpage,
+#kommermed_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -31,7 +32,8 @@ img {
 #koncept_fullpage,
 #givermening_fullpage,
 #voresfamilier_fullpage,
-#fordele_fullpage h2 {
+#fordele_fullpage,
+#kommermed_fullpage h2 {
     font-size: 1.4rem;
     color: #375151;
 
@@ -40,6 +42,7 @@ img {
 p {
     font-size: 0.8rem;
     color: #414141;
+
 
 }
 
@@ -225,24 +228,46 @@ footer {
 
 
 
+/* HVORDAN KOMMER VI MED GRID  */
+
+
+
+
+
+/* HVORDAN KOMMER VI MED GRID SLUT */
+
+
+
+
 /* MEDIA QUERIES */
 
 @media screen and (min-device-width: 768px) {
 
     /*GENERELLE INDSTILLINGER */
-    #koncept_fullpage h1 {
+    #koncept_fullpage,
+    #givermening_fullpage,
+    #voresfamilier_fullpage,
+    #fordele_fullpage,
+    #kommermed_fullpage h1 {
         font-size: 3rem;
         margin-bottom: 1vw;
+        /*   margin: 60px;*/
 
     }
 
-    #koncept_fullpage h2 {
+    #koncept_fullpage,
+    #givermening_fullpage,
+    #voresfamilier_fullpage,
+    #fordele_fullpage,
+    #kommermed_fullpage h2 {
         font-size: 1.7rem;
+        /*        margin: 60px;*/
 
     }
 
     p {
         font-size: 1rem;
+
     }
 
     /*GENERELLE INDSTILLINGER SLUT*/
@@ -329,6 +354,14 @@ footer {
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
+
+    /* HVORDAN KOMMER VI MED GRID */
+
+
+
+
+
+    /* HVORDAN KOMMER VI MED GRID SLUT */
 }
 
 /* MEDIA QUERIES SLUT */
