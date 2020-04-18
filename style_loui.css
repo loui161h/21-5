@@ -19,7 +19,8 @@ img {
 
 
 #koncept_fullpage,
-#givermening_fullpage h1 {
+#givermening_fullpage,
+#voresfamilier_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -27,7 +28,8 @@ img {
 }
 
 #koncept_fullpage,
-#givermening_fullpage h2 {
+#givermening_fullpage,
+#voresfamilier_fullpage h2 {
     font-size: 1.4rem;
     color: #375151;
 
@@ -35,7 +37,7 @@ img {
 
 p {
     font-size: 0.8rem;
-    color: #343434;
+    color: #414141;
 
 }
 
@@ -182,6 +184,14 @@ footer {
 
 
 /* GIVER MENING GRID SLUT */
+
+
+/* DET SIGER VORES FAMILIER GRID */
+
+
+
+
+/* DET SIGER VORES FAMILIER GRID SLUT */
 
 
 
