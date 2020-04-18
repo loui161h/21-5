@@ -45,14 +45,14 @@ function visDataBooking() {
     document.querySelector("#").innerHTML = alleTekster.content.rendered;
 
     document.querySelector("#").textContent = alleTekster.overskrift1;
-    document.querySelector("#").innerHTML = alleTekster.tekst1;
+
 
     document.querySelector("#").textContent = alleTekster.overskrift2;
-    document.querySelector("#").innerHTML = alleTekster.tekst3;
+    document.querySelector("#").innerHTML = alleTekster.tekst1;
 
     document.querySelector("#").textContent = alleTekster.overskrift3;
-    document.querySelector("#").innerHTML = alleTekster.tekst5;
+    document.querySelector("#").innerHTML = alleTekster.tekst2;
 
     document.querySelector("#").textContent = alleTekster.overskrift4;
-    document.querySelector("#").innerHTML = alleTekster.tekst7;
+    document.querySelector("#").innerHTML = alleTekster.tekst3;
 }
