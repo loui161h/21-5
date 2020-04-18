@@ -48,9 +48,8 @@ function visDataKommerMed() {
     document.querySelector("#kommermed_p3").innerHTML = alleTekster.tekst2;
 
 
+    document.querySelector("#kommermed_overskrift2").textContent = alleTekster.overskrift2;
     document.querySelector("#kommermed_p4").innerHTML = alleTekster.tekst3;
-    document.querySelector("#kommermed_overskrift2").textContent = alleTekster.overskrift3;
-    document.querySelector("#kommermed_p5").innerHTML = alleTekster.tekst5;
 
 
 }
