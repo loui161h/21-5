@@ -100,13 +100,13 @@ p {
 
 paragraf1 {
     grid-area: paragraf1;
-    max-width: 62ch;
+    /*    max-width: 62ch;*/
 
 }
 
 paragraf2 {
     grid-area: paragraf2;
-    max-width: 62ch;
+    /*    max-width: 62ch;*/
 
 }
 
