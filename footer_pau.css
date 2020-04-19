@@ -240,13 +240,13 @@ p {
 
 #omos_paragraf1 {
     grid-area: omos_paragraf1;
-    max-width: 62ch;
+
 
 }
 
 #omos_paragraf2 {
     grid-area: omos_paragraf2;
-    max-width: 62ch;
+
 
 }
 
@@ -510,12 +510,12 @@ p {
     #omos_paragraf1 {
         grid-area: omos_paragraf1;
 
-        max-width: 62ch;
+
     }
 
     #omos_paragraf2 {
         grid-area: omos_paragraf2;
-        max-width: 62ch;
+
 
     }
 
@@ -555,12 +555,9 @@ p {
         /* max-width: 62ch; */
 
     }
+}
 
-
-    /* HISTORIEN OM 21-5 GRID SLUT */
-
-
-
+/* HISTORIEN OM 21-5 GRID SLUT */
 
 
 
@@ -575,12 +572,15 @@ p {
 
 
 
-    /********************* FOOTER Responsiv **********************/
+
+
+
+/********************* FOOTER Responsiv **********************/
 
 
 
 
-    /*
+/*
     .padding {
         padding: 20px;
     }
@@ -704,4 +704,4 @@ p {
 
 
 
-    /* FOOTER SLUT */
+/* FOOTER SLUT */
