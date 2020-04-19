@@ -28,7 +28,8 @@ img {
 
 
 #omos_fullpage,
-#historien_fullpage h1 {
+#historien_fullpage,
+#teamet_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -41,7 +42,8 @@ img {
 #stiftedeforeninger_fullpage,
 
 #omos_fullpage,
-#historien_fullpageh2 {
+#historien_fullpage,
+#teamet_fullpage h2 {
     font-size: 1.4rem;
     color: #375151;
 }
@@ -98,13 +100,13 @@ p {
 
 #process_paragraf1 {
     grid-area: process_paragraf1;
-    max-width: 62ch;
+
 
 }
 
 #process_paragraf2 {
     grid-area: process_paragraf2;
-    max-width: 62ch;
+
 
 }
 
@@ -240,13 +242,13 @@ p {
 
 #omos_paragraf1 {
     grid-area: omos_paragraf1;
-    max-width: 62ch;
+
 
 }
 
 #omos_paragraf2 {
     grid-area: omos_paragraf2;
-    max-width: 62ch;
+
 
 }
 
@@ -279,13 +281,13 @@ p {
 
 #historien_paragraf1 {
     grid-area: historien_paragraf1;
-    /* max-width: 62ch; */
+
 
 }
 
 #historien_paragraf2 {
     grid-area: historien_paragraf2;
-    /* max-width: 62ch; */
+
 
 }
 
@@ -293,7 +295,62 @@ p {
 /* HISTORIEN OM 21-5 GRID SLUT */
 
 
+/************  21-5 TEAMET GRID ************/
 
+#teamet_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "teamet_heading"
+        "teamet_tekst1"
+        "teamet_paragraf2"
+        "teamet_paragraf3"
+        "teamet_paragraf4"
+        "teamet_paragraf45"
+        "footer"
+
+}
+
+#teamet_heading {
+    grid-area: teamet_heading;
+}
+
+
+#teamet_tekst1 {
+    grid-area: teamet_tekst1;
+
+}
+
+
+
+#teamet_paragraf2 {
+    grid-area: teamet_paragraf2;
+
+
+}
+
+#teamet_paragraf3 {
+    grid-area: teamet_paragraf3;
+
+
+}
+
+#teamet_paragraf4 {
+    grid-area: teamet_paragraf4;
+
+
+}
+
+#teamet_paragraf5 {
+    grid-area: teamet_paragraf5;
+
+
+}
+
+/* 21-5 TEAMET GRID SLUT */
 
 
 
@@ -343,6 +400,8 @@ p {
         height: 80vh;
     }
 
+
+
     /*GENERELLE INDSTILLINGER SLUT*/
 
 
@@ -377,15 +436,17 @@ p {
 
     #process_paragraf1 {
         grid-area: process_paragraf1;
-        max-width: 62ch;
+
 
     }
 
     #process_paragraf2 {
         grid-area: process_paragraf2;
-        max-width: 62ch;
+
 
     }
+
+
 
     /* PROCESSEN GRID SLUT */
 
@@ -429,6 +490,7 @@ p {
 
 
     }
+
 
     /* VI SKABER HJEM GRID SLUT */
 
@@ -510,14 +572,15 @@ p {
     #omos_paragraf1 {
         grid-area: omos_paragraf1;
 
-        max-width: 62ch;
+
     }
 
     #omos_paragraf2 {
         grid-area: omos_paragraf2;
-        max-width: 62ch;
+
 
     }
+
 
 
     /* OM OS GRID SLUT */
@@ -546,13 +609,13 @@ p {
 
     #historien_paragraf1 {
         grid-area: historien_paragraf1;
-        /* max-width: 62ch; */
+
 
     }
 
     #historien_paragraf2 {
         grid-area: historien_paragraf2;
-        /* max-width: 62ch; */
+
 
     }
 
@@ -561,6 +624,63 @@ p {
 
 
 
+    /************  21-5 TEAMET GRID ************/
+
+    #teamet_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "teamet_heading teamet_heading"
+            "teamet_tekst1 teamet_tekst1"
+            "teamet_paragraf2 ."
+            ". teamet_paragraf3"
+            "teamet_paragraf4 ."
+            ". teamet_paragraf5"
+            "footer footer"
+
+    }
+
+    #teamet_heading {
+        grid-area: teamet_heading;
+    }
+
+
+    #teamet_tekst1 {
+        grid-area: teamet_tekst1;
+
+    }
+
+
+
+    #teamet_paragraf2 {
+        grid-area: teamet_paragraf2;
+
+    }
+
+    #teamet_paragraf3 {
+        grid-area: teamet_paragraf3;
+
+
+    }
+
+    #teamet_paragraf4 {
+        grid-area: teamet_paragraf4;
+
+
+    }
+
+    #teamet_paragraf5 {
+        grid-area: teamet_paragraf5;
+
+    }
+
+}
+
+
+/* 21-5 TEAMET GRID SLUT */
 
 
 
@@ -575,12 +695,14 @@ p {
 
 
 
-    /********************* FOOTER Responsiv **********************/
+
+
+/********************* FOOTER Responsiv **********************/
 
 
 
 
-    /*
+/*
     .padding {
         padding: 20px;
     }
@@ -704,4 +826,4 @@ p {
 
 
 
-    /* FOOTER SLUT */
+/* FOOTER SLUT */
