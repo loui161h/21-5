@@ -1,0 +1,730 @@
+body {
+    margin: 0;
+
+}
+
+
+
+
+img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+
+}
+
+
+
+/* GENERELLE INDSTILLINER */
+
+
+h1 {
+    font-size: 2rem;
+    color: #375151;
+    margin-bottom: 1vw;
+
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #375151;
+
+}
+
+
+h3 {
+    font-size: 1rem;
+    color: #375151;
+
+}
+
+p {
+    font-size: 0.8rem;
+    color: #414141;
+    line-height: 20px;
+
+
+
+}
+
+
+/* ALLE SPLASH BILLEDE */
+#splash {
+    width: 100%;
+    height: 33vh;
+    background-image: url(sky.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: splash;
+
+}
+
+/* ALLE SPLASH BILLEDE SLUT */
+
+/* GENERELLE INDSTILLINER SLUT */
+
+
+
+/* KONCEPT GRID */
+
+
+#koncept_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "heading"
+        "tekst1"
+        "paragraf1"
+        "paragraf2"
+        "paragraf3"
+        "footer"
+
+}
+
+
+
+#heading {
+    grid-area: heading;
+}
+
+
+#tekst1 {
+    grid-area: tekst1;
+
+}
+
+
+
+paragraf1 {
+    grid-area: paragraf1;
+    max-width: 62ch;
+
+}
+
+paragraf2 {
+    grid-area: paragraf2;
+    max-width: 62ch;
+
+}
+
+paragraf3 {
+    grid-area: paragraf3;
+
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* PADDING I SIDEN VED MOBIL */
+
+#heading,
+#tekst1,
+#paragraf1,
+#paragraf2,
+#paragraf3,
+#givermening_heading,
+#givermening_tekst1,
+#givermening_paragraf1,
+#givermening_paragraf2,
+#givermening_tekst2,
+#voresfamilier_heading {
+    margin: 0px 20px 0px 20px;
+}
+
+#paragraf1,
+#paragraf2,
+#paragraf3 {
+    padding-bottom: 40px;
+}
+
+/* PADDING I SIDEN VED MOBIL SLUT */
+
+
+/* KONCEPT GRID SLUT */
+
+/* GIVER MENING GRID */
+
+#givermening {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "givermening_heading"
+        "givermening_tekst1"
+        "givermening_paragraf1"
+        "givermening_paragraf2"
+        "givermening_tekst2"
+        "footer"
+
+}
+
+
+#givermening_heading {
+    grid-area: givermening_heading;
+}
+
+#givermening_tekst1 {
+    grid-area: givermening_tekst1;
+
+}
+
+
+#givermening_paragraf1 {
+    grid-area: givermening_paragraf1;
+    max-width: 62ch;
+
+
+}
+
+#givermening_paragraf2 {
+    grid-area: givermening_paragraf2;
+    max-width: 62ch;
+}
+
+#givermening_tekst2 {
+    grid-area: givermening_tekst2;
+    padding-bottom: 40px;
+}
+
+
+/* GIVER MENING GRID SLUT */
+
+
+/* DET SIGER VORES FAMILIER GRID */
+
+
+
+
+
+
+/* DET SIGER VORES FAMILIER GRID SLUT */
+
+
+/* FORDELE VED AT KØBE EN ANDEL GRID */
+
+
+
+
+
+
+
+/* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
+
+
+
+
+/* HVORDAN KOMMER VI MED GRID  */
+
+#kommermed_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "kommermed_heading"
+        "kommermed_tekst1"
+        "kommermed_paragraf1"
+        "kommermed_paragraf2"
+        "kommermed_tekst2"
+        "footer"
+
+}
+
+
+#kommermed_heading {
+    grid-area: kommermed_heading;
+}
+
+#kommermed_tekst1 {
+    grid-area: kommermed_tekst1;
+}
+
+#kommermed_paragraf1 {
+    grid-area: kommermed_paragraf1;
+}
+
+#kommermed_paragraf2 {
+    grid-area: kommermed_paragraf2;
+}
+
+#kommermed_tekst2 {
+    grid-area: kommermed_tekst2;
+}
+
+/* HVORDAN KOMMER VI MED GRID SLUT */
+
+
+
+/* BOOKINGSYSTEMET */
+
+
+
+/* BOOKINGSYSTEMET SLUT */
+
+
+
+/* UDLEJNING BLANDT MEDLEMMER */
+
+
+
+#udlejning_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "udlejning_heading"
+        "udlejning_paragraf1"
+        "udlejning_paragraf2"
+        "footer"
+}
+
+#udlejning_heading {
+    grid-area: udlejning_heading;
+}
+
+#udlejning_paragraf1 {
+    grid-area: udlejning_paragraf1;
+}
+
+#udlejning_paragraf2 {
+    grid-area: udlejning_paragraf2;
+}
+
+
+
+
+
+
+/* UDLEJNING BLANDT MEDLEMMER SLUT */
+
+
+
+
+/* DK39 FAMILY GRID */
+
+
+#dk39_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "dk39_heading1"
+        "dk39_tekst1"
+        "dk39_paragraf1"
+        "dk39_paragraf2"
+        "dk39_paragraf3"
+        "dk39_paragraf4"
+        "dk39_heading2"
+        "dk39_heading3"
+        "footer"
+}
+
+
+#dk39_heading1 {
+    grid-area: dk39_heading1;
+}
+
+#dk39_tekst1 {
+    grid-area: dk39_tekst1;
+}
+
+
+#dk39_paragraf1 {
+    grid-area: dk39_paragraf1;
+}
+
+#dk39_paragraf2 {
+    grid-area: dk39_paragraf2;
+}
+
+#dk39_paragraf3 {
+    grid-area: dk39_paragraf3;
+}
+
+#dk39_paragraf4 {
+    grid-area: dk39_paragraf4;
+}
+
+#dk39_heading2 {
+    grid-area: dk39_heading2;
+}
+
+dk39_heading3 {
+    grid-area: dk39_heading3;
+}
+
+
+
+
+
+
+/* DK39 FAMILY GRID SLUT */
+
+/* DK38 LARGE GRID  */
+
+
+#dk38_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "dk38_heading1"
+        "dk38_tekst1"
+        "dk38_paragraf1"
+        "dk38_paragraf2"
+        "dk38_paragraf3"
+        "dk38_paragraf4"
+        "dk38_heading2"
+        "dk38_heading3"
+        "footer"
+}
+
+
+#dk38_heading1 {
+    grid-area: dk38_heading1;
+}
+
+#dk38_tekst1 {
+    grid-area: dk38_tekst1;
+}
+
+
+#dk38_paragraf1 {
+    grid-area: dk38_paragraf1;
+}
+
+#dk38_paragraf2 {
+    grid-area: dk38_paragraf2;
+}
+
+#dk38_paragraf3 {
+    grid-area: dk38_paragraf3;
+}
+
+#dk38_paragraf4 {
+    grid-area: dk38_paragraf4;
+}
+
+#dk38_heading2 {
+    grid-area: dk38_heading2;
+}
+
+dk38_heading3 {
+    grid-area: dk38_heading3;
+}
+
+
+
+/* DK38 LARGE GRID SLUT */
+
+
+/* DK36 GRANDE GRID */
+
+#dk36_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "dk36_heading1"
+        "dk36_tekst1"
+        "dk36_paragraf1"
+        "dk36_paragraf2"
+        "dk36_paragraf3"
+        "dk36_paragraf4"
+        "dk36_heading2"
+        "dk36_heading3"
+        "footer"
+}
+
+
+#dk36_heading1 {
+    grid-area: dk36_heading1;
+}
+
+#dk36_tekst1 {
+    grid-area: dk36_tekst1;
+}
+
+
+#dk36_paragraf1 {
+    grid-area: dk36_paragraf1;
+}
+
+#dk36_paragraf2 {
+    grid-area: dk36_paragraf2;
+}
+
+#dk36_paragraf3 {
+    grid-area: dk36_paragraf3;
+}
+
+#dk36_paragraf4 {
+    grid-area: dk36_paragraf4;
+}
+
+#dk36_heading2 {
+    grid-area: dk36_heading2;
+}
+
+dk36_heading3 {
+    grid-area: dk36_heading3;
+}
+
+
+
+
+/* DK36 GRANDE GRID SLUT */
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-device-width: 768px) {
+
+    /*GENERELLE INDSTILLINGER */
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1vw;
+        /*   margin: 60px;*/
+
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        /*        margin: 60px;*/
+
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1rem;
+
+    }
+
+    /* SPLASH */
+
+    #splash {
+        height: 80vh;
+    }
+
+    #splash img {
+        height: 80vh;
+    }
+
+    /* SPLASH SLUT */
+
+
+    /*GENERELLE INDSTILLINGER SLUT*/
+
+    /* KONCEPT GRID */
+
+    #koncept_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash splash"
+            "heading heading heading"
+            "tekst1 tekst1 tekst1"
+            "paragraf1 paragraf2 paragraf3"
+            "footer footer footer"
+
+    }
+
+
+
+    #heading,
+    #tekst1,
+    #givermening_heading,
+    #givermening_tekst1,
+    #givermening_tekst2 {
+        margin: 0px 60px 0px 60px;
+    }
+
+    #paragraf1,
+    #givermening_paragraf1 {
+        margin-left: 60px;
+
+    }
+
+    #paragraf2 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    #paragraf3,
+    #givermening_paragraf2 {
+        margin-right: 60px;
+
+    }
+
+    /* KONCEPT GRID SLUT */
+
+    /* GIVER MENING GRID */
+    #givermening_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "givermening_heading givermening_heading"
+            "givermening_tekst1 givermening_tekst1"
+            "givermening_paragraf1 givermening_paragraf2"
+            "givermening_tekst2 givermening_tekst2"
+            "footer footer"
+
+    }
+
+    #givermening_tekst2 {
+        padding-bottom: 60px;
+    }
+
+    /* GIVER MENING GRID SLUT */
+
+
+    /* FORDELE VED AT KØBE EN ANDEL GRID */
+
+
+
+
+
+
+
+    /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
+
+    /* HVORDAN KOMMER VI MED GRID */
+
+    #kommermed_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "kommermed_heading kommermed_heading"
+            "kommermed_tekst1 kommermed_tekst1"
+            "kommermed_paragraf1 kommermed_paragraf2"
+            "kommermed_tekst2 kommermed_tekst2"
+            "footer footer"
+
+    }
+
+
+
+
+    /* HVORDAN KOMMER VI MED GRID SLUT */
+
+
+
+
+    /* BOOKINGSYSTEMET */
+
+
+
+    /* BOOKINGSYSTEMET SLUT */
+
+
+
+    /* UDLEJNING BLANDT MEDLEMMER */
+
+    #udlejning_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "udlejning_heading udlejning_heading"
+            "udlejning_paragraf1 udlejning_paragraf2"
+            "footer footer"
+    }
+
+
+
+    /* UDLEJNING BLANDT MEDLEMMER SLUT */
+
+
+    /* DK39 FAMILY, DK39 FAMILY */
+
+
+    #dk39_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "dk39_heading1 dk39_heading1"
+            "dk39_tekst1 dk39_tekst1"
+            "dk39_paragraf1 dk39_paragraf2"
+            "dk39_paragraf3 dk39_paragraf4"
+            "dk39_heading2 dk39_heading2"
+            "dk39_heading3 dk39_heading3"
+            "footer footer"
+    }
+
+
+
+    #dk38_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "dk38_heading1 dk38_heading1"
+            "dk38_tekst1 dk38_tekst1"
+            "dk38_paragraf1 dk38_paragraf2"
+            "dk38_paragraf3 dk38_paragraf4"
+            "dk38_heading2 dk38_heading2"
+            "dk38_heading3 dk38_heading3"
+            "footer footer"
+    }
+
+
+
+    #dk36_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "dk36_heading1 dk36_heading1"
+            "dk36_tekst1 dk36_tekst1"
+            "dk36_paragraf1 dk36_paragraf2"
+            "dk36_paragraf3 dk36_paragraf4"
+            "dk36_heading2 dk36_heading2"
+            "dk36_heading3 dk36_heading3"
+            "footer footer"
+    }
+
+
+
+
+
+
+}
+
+/* MEDIA QUERIES SLUT */
