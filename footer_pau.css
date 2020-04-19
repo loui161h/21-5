@@ -23,7 +23,8 @@ img {
 /* GENERELLE INDSTILLINER */
 
 #process_fullpage,
-#skaberhjem_fullpage h1 {
+#skaberhjem_fullpage,
+#stiftedeforeninger_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -32,7 +33,8 @@ img {
 
 
 #process_fullpage,
-#skaberhjem_fullpage h2 {
+#skaberhjem_fullpage,
+#stiftedeforeninger_fullpage h2 {
     font-size: 1.4rem;
     color: #375151;
 }
@@ -56,11 +58,6 @@ p {
 
 
 /* GENERELLE INDSTILLINGER SLUT */
-
-
-
-
-
 
 
 /************  PROCESSEN GRID ************/
@@ -152,14 +149,63 @@ p {
 /* VI SKABER HJEM GRID SLUT */
 
 
+/*********** STIFTEDE FORENINGER *************/
 
-/* MEDIA QUERIES */
+
+#stiftedeforeninger_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "stiftedeforeninger_heading"
+        "stiftedeforeninger_tekst1"
+        "stiftedeforeninger_paragraf1"
+        "stiftedeforeninger_paragraf2"
+        "footer"
+
+}
+
+#stiftedeforeninger_heading {
+    grid-area: stiftedeforeninger_heading;
+}
+
+
+#stiftedeforeninger_tekst1 {
+    grid-area: stiftedeforeninger_tekst1;
+
+}
+
+
+
+#stiftedeforeninger_paragraf1 {
+    grid-area: stiftedeforeninger_paragraf1;
+
+
+}
+
+#stiftedeforeninger_paragraf2 {
+    grid-area: stiftedeforeninger_paragraf2;
+
+
+}
+
+
+/* STIFTEDE FORENINGER SLUT */
+
+
+
+
+
+/****************** MEDIA QUERIES **********************/
 
 @media screen and (min-device-width: 768px) {
 
     /*GENERELLE INDSTILLINGER */
     #process_fullpage,
-    #skaberhjem_fullpage h1 {
+    #skaberhjem_fullpage,
+    #stiftedeforeninger_fullpage h1 {
         font-size: 3rem;
         margin-bottom: 1vw;
 
@@ -167,7 +213,8 @@ p {
     }
 
     #process_fullpage,
-    #skaberhjem_fullpage h2 {
+    #skaberhjem_fullpage,
+    #stiftedeforeninger_fullpageh2 {
         font-size: 1.7rem;
 
 
@@ -275,6 +322,62 @@ p {
     }
 
     /* VI SKABER HJEM GRID SLUT */
+
+
+    /*********** STIFTEDE FORENINGER *************/
+
+
+    #stiftedeforeninger_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "stiftedeforeninger_heading stiftedeforeninger_heading"
+            "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
+            "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+            "footer footer"
+
+    }
+
+    #stiftedeforeninger_heading {
+        grid-area: stiftedeforeninger_heading;
+    }
+
+
+    #stiftedeforeninger_tekst1 {
+        grid-area: stiftedeforeninger_tekst1;
+
+    }
+
+
+
+    #stiftedeforeninger_paragraf1 {
+        grid-area: stiftedeforeninger_paragraf1;
+
+
+    }
+
+    #stiftedeforeninger_paragraf2 {
+        grid-area: stiftedeforeninger_paragraf2;
+
+
+    }
+
+
+    /* STIFTEDE FORENINGER SLUT */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
