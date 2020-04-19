@@ -18,24 +18,22 @@ img {
 /* GENERELLE INDSTILLINER */
 
 
-#koncept_fullpage,
-#givermening_fullpage,
-#voresfamilier_fullpage,
-#fordele_fullpage,
-#kommermed_fullpage,
-#udlejning_fullpage h1 {
+h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
 
 }
 
-#koncept_fullpage,
-#givermening_fullpage,
-#voresfamilier_fullpage,
-#fordele_fullpage,
-#kommermed_fullpage h2 {
+h2 {
     font-size: 1.4rem;
+    color: #375151;
+
+}
+
+
+h3 {
+    font-size: 1rem;
     color: #375151;
 
 }
@@ -501,25 +499,21 @@ dk36_heading3 {
 @media screen and (min-device-width: 768px) {
 
     /*GENERELLE INDSTILLINGER */
-    #koncept_fullpage,
-    #givermening_fullpage,
-    #voresfamilier_fullpage,
-    #fordele_fullpage,
-    #kommermed_fullpage h1 {
+    h1 {
         font-size: 3rem;
         margin-bottom: 1vw;
         /*   margin: 60px;*/
 
     }
 
-    #koncept_fullpage,
-    #givermening_fullpage,
-    #voresfamilier_fullpage,
-    #fordele_fullpage,
-    #kommermed_fullpage h2 {
+    h2 {
         font-size: 1.7rem;
         /*        margin: 60px;*/
 
+    }
+
+    h3 {
+        font-size: 1.3rem;
     }
 
     p {
