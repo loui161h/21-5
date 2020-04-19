@@ -107,7 +107,7 @@ header {
 
 /* MENU2 */
 
-#menu2{
+#menu2 {
     text-align: end;
     margin-right: 100px;
     margin-top: -25px;
@@ -188,3 +188,178 @@ header {
 }
 
 /* SLIDESHOW LANDINGPAGE SLUT */
+
+
+/* SLIDESHOW FRA SKROT TIL SLOT */
+
+* {
+    box-sizing: border-box
+}
+
+.mySlides1,
+.mySlides2 {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container2 {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* SLIDESHOW FRA SKROT TIL SLOT SLUT */
+
+
+/* ZOOM HOVER TIL LANDINGPAGE BLIV EN DEL AF OG TILGÆNGELIGE FORENINGER */
+
+* {
+    box-sizing: border-box;
+}
+
+#foreningerbokse {
+    display: flex;
+    align-items: center;
+    margin: 200px;
+}
+
+#foreningerbokse div {
+    flex: 1;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: beige;
+    transition: transform .2s;
+    width: 100px;
+    height: 450px;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+
+/* ZOOM HOVER TIL LANDINGPAGE BLIV EN DEL AF OG TILGÆNGELIGE FORENINGER SLUT */
+
+
+/* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL */
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .3s ease;
+    background-color: rgba(239, 176, 71, 0.71);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.tekst {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.container2 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.boks {
+    display: block;
+    width: 100%;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(239, 176, 71, 0.4);
+}
+
+.tekst2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+container2 p {
+    color: white;
+    font-size: 20px;
+}
+
+.container2:hover .overlay {
+    opacity: 1;
+}
+
+/* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL SLUT */
