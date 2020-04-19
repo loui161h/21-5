@@ -15,90 +15,85 @@ body {
 
 img {
     width: 100%;
+    margin: 0;
+    object-fit: cover;
 }
 
 
+/* GENERELLE INDSTILLINER */
 
-/* GENEREL GRID */
-/*
-.splash {
-    grid-area: splash;
+#process_fullpage h1 {
+    font-size: 2rem;
+    color: #375151;
+    margin-bottom: 1vw;
+
 }
 
-.splash {
-    grid-area: kolonne;
+
+#process_fullpage h2 {
+    font-size: 1.4rem;
+    color: #375151;
 }
 
-
-.footer {
-    grid-area: kolonne;
+p {
+    font-size: 0.8rem;
+    color: #414141;
+    line-height: 20px;
 }
 
-.sectionwrapper_general {
-    height: 100vh;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-areas:
-        "splash"
-        "kolonne"
-        "kolonne"
-        "footer";
-
-}*/
-
-
-/* GENEREL GRID SLUT */
 
 /* GENERELLE INDSTILLINGER SLUT */
 
-/* NAV MENU */
+
+
+/* PROCESSEN GRID */
+
+#process_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "process_heading"
+        "process_tekst1"
+        "paragraf1"
+        "paragraf2"
+        "footer"
+
+}
+
+#process_heading {
+    grid-area: process_heading;
+}
+
+
+#process_tekst1 {
+    grid-area: process_tekst1;
+
+}
+
+
+
+paragraf1 {
+    grid-area: paragraf1;
+    max-width: 62ch;
+
+}
+
+paragraf2 {
+    grid-area: paragraf2;
+    max-width: 62ch;
+
+}
+
+
+/* PROCESSEN GRID SLUT */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* NAV MENU SLUT */
-
-
-/* LANDINGPAGE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* LANDINGPAGE SLUT */
 
 /* FOOTER Responsiv*/
 
