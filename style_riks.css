@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+
+}
+
+
+
+
+img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+
+}
+
+/* JOB I 21-5 */
+
+
+#job_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "job_heading"
+        "job_paragraf1"
+        "job_paragraf2"
+        "footer footer"
+}
+
+#job_heading {
+    grid-area: udlejning_heading;
+}
+
+#job_paragraf1 {
+    grid-area: job_paragraf1;
+}
+
+#job_paragraf2 {
+    grid-area: job_paragraf2;
+}
+
+/* JOB I 21-5 */
