@@ -266,6 +266,75 @@ footer {
 /* BOOKINGSYSTEMET */
 
 
+#bookingsystemet_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "bookingsystemet_heading"
+        "bookingsystemet_tekst1"
+        "bookingsystemet_paragraf1"
+        "bookingsystemet_paragraf2"
+        "bookingsystemet_paragraf3"
+        "bookingsystemet_paragraf4"
+        "bookingsystemet_tekst2"
+        "bookingsystemet_paragraf5"
+        "paragraf_img1"
+        "bookingsystemet_paragraf6"
+        "paragraf_img2"
+        "footer"
+
+}
+
+
+#bookingsystemet_heading {
+    grid-area: bookingsystemet_heading;
+}
+
+#bookingsystemet_tekst1 {
+    grid-area: bookingsystemet_tekst1;
+}
+
+#bookingsystemet_paragraf1 {
+    grid-area: bookingsystemet_paragraf1;
+}
+
+#bookingsystemet_paragraf2 {
+    grid-area: bookingsystemet_paragraf2;
+}
+
+#bookingsystemet_paragraf3 {
+    grid-area: bookingsystemet_paragraf3;
+}
+
+#bookingsystemet_paragraf4 {
+    grid-area: bookingsystemet_paragraf4;
+}
+
+#bookingsystemet_tekst2 {
+    grid-area: bookingsystemet_tekst2;
+}
+
+
+#bookingsystemet_paragraf5 {
+    grid-area: bookingsystemet_paragraf5;
+}
+
+#bookingsystemet_paragraf6 {
+    grid-area: bookingsystemet_paragraf6;
+}
+
+#paragraf_img1 {
+    grid-area: paragraf_img1;
+}
+
+#paragraf_img2 {
+    grid-area: paragraf_img2;
+}
+
+
 
 /* BOOKINGSYSTEMET SLUT */
 
@@ -640,6 +709,23 @@ dk36_heading3 {
 
     /* BOOKINGSYSTEMET */
 
+    #bookingsystemet_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "bookingsystemet_heading bookingsystemet_heading"
+            "bookingsystemet_tekst1 bookingsystemet_tekst1"
+            "bookingsystemet_paragraf1 bookingsystemet_paragraf2"
+            "bookingsystemet_paragraf3 bookingsystemet_paragraf4"
+            "bookingsystemet_tekst2 bookingsystemet_tekst2"
+            "paragraf_img1 bookingsystemet_paragraf5"
+            "bookingsystemet_paragraf6 paragraf_img2"
+            "footer footer"
+
+    }
 
 
     /* BOOKINGSYSTEMET SLUT */
