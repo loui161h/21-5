@@ -27,7 +27,8 @@ img {
 #stiftedeforeninger_fullpage,
 
 
-#omos_fullpage h1 {
+#omos_fullpage,
+#historien_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -39,7 +40,8 @@ img {
 #skaberhjem_fullpage,
 #stiftedeforeninger_fullpage,
 
-#omos_fullpage h2 {
+#omos_fullpage,
+#historien_fullpageh2 {
     font-size: 1.4rem;
     color: #375151;
 }
@@ -250,6 +252,48 @@ p {
 
 
 /* OM OS GRID SLUT */
+
+
+
+/************  HISTORIEN OM 21-5 GRID ************/
+
+#historien_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "historien_heading"
+        "historien_paragraf1"
+        "historien_paragraf2"
+        "footer"
+
+}
+
+#historien_heading {
+    grid-area: historien_heading;
+}
+
+
+
+#historien_paragraf1 {
+    grid-area: historien_paragraf1;
+    /* max-width: 62ch; */
+
+}
+
+#historien_paragraf2 {
+    grid-area: historien_paragraf2;
+    /* max-width: 62ch; */
+
+}
+
+
+/* HISTORIEN OM 21-5 GRID SLUT */
+
+
+
 
 
 
@@ -479,7 +523,41 @@ p {
     /* OM OS GRID SLUT */
 
 
+    /************  HISTORIEN OM 21-5 GRID ************/
 
+    #historien_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "historien_heading historien_heading"
+            "historien_paragraf1 historien_paragraf2"
+            "footer footer"
+
+    }
+
+    #historien_heading {
+        grid-area: historien_heading;
+    }
+
+
+
+    #historien_paragraf1 {
+        grid-area: historien_paragraf1;
+        /* max-width: 62ch; */
+
+    }
+
+    #historien_paragraf2 {
+        grid-area: historien_paragraf2;
+        /* max-width: 62ch; */
+
+    }
+
+
+    /* HISTORIEN OM 21-5 GRID SLUT */
 
 
 
