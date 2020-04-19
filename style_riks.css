@@ -13,6 +13,18 @@ img {
 
 }
 
+#splash {
+    width: 100%;
+    height: 33vh;
+    background-image: url(sky.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: splash;
+
+
+
+}
+
 /* JOB I 21-5 */
 
 
@@ -26,11 +38,11 @@ img {
         "job_heading"
         "job_paragraf1"
         "job_paragraf2"
-        "footer footer"
+        "footer"
 }
 
 #job_heading {
-    grid-area: udlejning_heading;
+    grid-area: job_heading;
 }
 
 #job_paragraf1 {
@@ -41,4 +53,66 @@ img {
     grid-area: job_paragraf2;
 }
 
-/* JOB I 21-5 */
+footer {
+    grid-area: footer;
+}
+
+/* JOB I 21-5 SLUT*/
+
+/* KONTAKT */
+
+#kontakt_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "kontakt_heading"
+        "kontakt_paragraf1"
+        "footer"
+}
+
+#kontakt_heading {
+    grid-area: kontakt_heading;
+}
+
+#kontakt_paragraf1 {
+    grid-area: kontakt_paragraf1;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* KONTAKT SLUT*/
+
+/* MEDIA QUERIES */
+
+@media screen and (min-device-width: 768px) {
+
+    #job_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "job_heading job_heading"
+            "job_paragraf1 job_paragraf2"
+            "footer footer"
+    }
+
+    #splash {
+        height: 80vh;
+    }
+
+
+
+    #splash img {
+        height: 80vh;
+    }
+}
+
+/* MEDIA QUERIES SLUT */
