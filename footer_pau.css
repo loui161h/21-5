@@ -24,7 +24,10 @@ img {
 
 #process_fullpage,
 #skaberhjem_fullpage,
-#stiftedeforeninger_fullpage h1 {
+#stiftedeforeninger_fullpage,
+
+
+#omos_fullpage h1 {
     font-size: 2rem;
     color: #375151;
     margin-bottom: 1vw;
@@ -34,7 +37,9 @@ img {
 
 #process_fullpage,
 #skaberhjem_fullpage,
-#stiftedeforeninger_fullpage h2 {
+#stiftedeforeninger_fullpage,
+
+#omos_fullpage h2 {
     font-size: 1.4rem;
     color: #375151;
 }
@@ -198,6 +203,62 @@ p {
 
 
 
+
+
+
+/***************** OM OS GRID *************/
+
+
+#omos_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "omos_heading"
+        "omos_tekst1"
+        "omos_paragraf1"
+        "omos_paragraf2"
+        "footer"
+
+}
+
+#omos_heading {
+    grid-area: omos_heading;
+}
+
+
+#omos_tekst1 {
+    grid-area: omos_tekst1;
+
+}
+
+
+
+#omos_paragraf1 {
+    grid-area: omos_paragraf1;
+    max-width: 62ch;
+
+}
+
+#omos_paragraf2 {
+    grid-area: omos_paragraf2;
+    max-width: 62ch;
+
+}
+
+
+/* OM OS GRID SLUT */
+
+
+
+
+
+
+
+
+
 /****************** MEDIA QUERIES **********************/
 
 @media screen and (min-device-width: 768px) {
@@ -205,7 +266,9 @@ p {
     /*GENERELLE INDSTILLINGER */
     #process_fullpage,
     #skaberhjem_fullpage,
-    #stiftedeforeninger_fullpage h1 {
+    #stiftedeforeninger_fullpage,
+
+    #omos_fullpage h1 {
         font-size: 3rem;
         margin-bottom: 1vw;
 
@@ -214,7 +277,9 @@ p {
 
     #process_fullpage,
     #skaberhjem_fullpage,
-    #stiftedeforeninger_fullpageh2 {
+    #stiftedeforeninger_fullpage,
+
+    #omos_fullpage h2 {
         font-size: 1.7rem;
 
 
@@ -369,6 +434,49 @@ p {
     /* STIFTEDE FORENINGER SLUT */
 
 
+    /***************** OM OS GRID *************/
+
+
+    #omos_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "omos_heading omos_heading"
+            "omos_tekst1 omos_tekst1"
+            "omos_paragraf1 omos_paragraf2"
+            "footer footer"
+
+    }
+
+    #omos_heading {
+        grid-area: omos_heading;
+    }
+
+
+    #omos_tekst1 {
+        grid-area: omos_tekst1;
+
+    }
+
+
+
+    #omos_paragraf1 {
+        grid-area: omos_paragraf1;
+
+        max-width: 62ch;
+    }
+
+    #omos_paragraf2 {
+        grid-area: omos_paragraf2;
+        max-width: 62ch;
+
+    }
+
+
+    /* OM OS GRID SLUT */
 
 
 
@@ -392,6 +500,9 @@ p {
     /********************* FOOTER Responsiv **********************/
 
 
+
+
+    /*
     .padding {
         padding: 20px;
     }
@@ -499,6 +610,8 @@ p {
         color: #707070;
     }
 
+
+*/
 
 
 
