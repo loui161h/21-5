@@ -377,6 +377,50 @@ footer {
 /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
 
+/* DESTINATION */
+
+
+
+
+
+/* DESTINATION SLUT */
+
+/* MALLORCA */
+#mallorca_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "mallorca_heading"
+        "mallorca_tekst1"
+        "mallorca_paragraf1"
+        "mallorca_paragraf2"
+        "footer"
+}
+
+#mallorca_heading {
+    grid-area: mallorca_heading;
+}
+
+#mallorca_tekst1 {
+    grid-area: mallorca_tekst1;
+}
+
+#mallorca_paragraf1 {
+    grid-area: mallorca_paragraf1;
+}
+
+#mallorca_paragraf2 {
+    grid-area: mallorca_paragraf2;
+}
+
+
+
+
+/* MALLORCA SLUT */
+
 
 
 /* DK39 FAMILY GRID */
@@ -433,9 +477,6 @@ footer {
 dk39_heading3 {
     grid-area: dk39_heading3;
 }
-
-
-
 
 
 
@@ -555,6 +596,12 @@ dk36_heading3 {
     grid-area: dk36_heading3;
 }
 
+
+/* LEDIE ANDELE */
+
+
+
+/* LEDIE ANDELE SLUT*/
 
 
 
@@ -854,6 +901,32 @@ footer {
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
+    /* DESTINATION */
+
+
+
+
+    /* DESTINATION SLUT */
+
+
+    /* MALLORCA */
+    #mallorca_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "mallorca_heading mallorca_heading"
+            "mallorca_tekst1 mallorca_tekst1"
+            "mallorca_paragraf1 mallorca_paragraf2"
+            "footer footer"
+    }
+
+
+    /* MALLORCA SLUT */
+
+
 
     /* DK39 FAMILY, DK39 FAMILY */
 
@@ -943,6 +1016,8 @@ footer {
     }
 
     /* JOB I 21-5 SLUT */
+
+
 
 
 
