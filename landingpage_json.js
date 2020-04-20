@@ -62,5 +62,5 @@ function visLandingPage() {
     document.querySelector("#landing_p8").textContent = alleTekster.tekst13;
 
     document.querySelector("#landing_overskrift5").textContent = alleTekster.overskrift9;
-    document.querySelector("#landing_p9").textContent = alleTekster.overskrift14;
+    document.querySelector("#landing_p9").textContent = alleTekster.tekst14;
 }

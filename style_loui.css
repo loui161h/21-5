@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -377,6 +378,87 @@ footer {
 /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
 
+/* DESTINATION */
+
+
+
+
+
+/* DESTINATION SLUT */
+
+/* MALLORCA */
+#mallorca_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "mallorca_heading"
+        "mallorca_tekst1"
+        "mallorca_paragraf1"
+        "mallorca_paragraf2"
+        "footer"
+}
+
+#mallorca_heading {
+    grid-area: mallorca_heading;
+}
+
+#mallorca_tekst1 {
+    grid-area: mallorca_tekst1;
+}
+
+#mallorca_paragraf1 {
+    grid-area: mallorca_paragraf1;
+}
+
+#mallorca_paragraf2 {
+    grid-area: mallorca_paragraf2;
+}
+
+
+
+
+/* MALLORCA SLUT */
+
+/* TILGÆNGELIGE FORENINGER */
+
+#foreninger_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "foreninger_heading"
+        "foreninger_tekst1"
+        "foreninger_paragraf1"
+        "foreninger_paragraf2"
+        "foreninger_paragraf3"
+        "footer"
+}
+
+
+
+#foreninger_heading {
+    grid-area: foreninger_heading;
+}
+
+#foreninger_tekst1 {
+    grid-area: foreninger_tekst1;
+}
+
+#foreninger_paragraf2 {
+    grid-area: foreninger_paragraf2;
+}
+
+#foreninger_paragraf3 {
+    grid-area: foreninger_paragraf3;
+}
+
+
+/* TILGÆNGELIGE FORENINGER SLUT */
 
 
 /* DK39 FAMILY GRID */
@@ -433,9 +515,6 @@ footer {
 dk39_heading3 {
     grid-area: dk39_heading3;
 }
-
-
-
 
 
 
@@ -555,6 +634,12 @@ dk36_heading3 {
     grid-area: dk36_heading3;
 }
 
+
+/* LEDIE ANDELE */
+
+
+
+/* LEDIE ANDELE SLUT*/
 
 
 
@@ -854,8 +939,53 @@ footer {
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
+    /* DESTINATION */
 
-    /* DK39 FAMILY, DK39 FAMILY */
+
+
+
+    /* DESTINATION SLUT */
+
+
+    /* MALLORCA */
+    #mallorca_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "mallorca_heading mallorca_heading"
+            "mallorca_tekst1 mallorca_tekst1"
+            "mallorca_paragraf1 mallorca_paragraf2"
+            "footer footer"
+    }
+
+
+    /* MALLORCA SLUT */
+
+    /* TILGÆNGELIGE FORENINGER */
+
+    #foreninger_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash splash"
+            "foreninger_heading foreninger_heading foreninger_heading"
+            "foreninger_tekst1 foreninger_tekst1 foreninger_tekst1"
+            "foreninger_paragraf1 foreninger_paragraf2 foreninger_paragraf3"
+            "footer footer footer"
+    }
+
+
+
+
+    /* TILGÆNGELIGE FORENINGER SLUT */
+
+
+    /* DK39 FAMILY, DK38 LARGE, DK36 GRANDE */
 
 
     #dk39_fullpage {
@@ -911,6 +1041,8 @@ footer {
     }
 
 
+    /* DK39 FAMILY, DK38 LARGE, DK36 GRANDE SLUT */
+
     /* PRAKTISK INFORMATION */
 
     #information_fullpage {
@@ -943,6 +1075,8 @@ footer {
     }
 
     /* JOB I 21-5 SLUT */
+
+
 
 
 
