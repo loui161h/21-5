@@ -21,7 +21,7 @@ img {
 h1 {
     font-size: 2rem;
     color: #375151;
-    margin-bottom: 1vw;
+    /*  margin-bottom: 1vw;*/
 
 }
 
@@ -122,7 +122,7 @@ footer {
 
 /* PADDING I SIDEN VED MOBIL */
 
-#heading,
+/*#heading,
 #tekst1,
 #paragraf1,
 #paragraf2,
@@ -140,7 +140,7 @@ footer {
 #paragraf2,
 #paragraf3 {
     padding-bottom: 40px;
-}
+}*/
 
 /* PADDING I SIDEN VED MOBIL SLUT */
 
@@ -178,19 +178,19 @@ footer {
 
 #givermening_paragraf1 {
     grid-area: givermening_paragraf1;
-    max-width: 62ch;
+
 
 
 }
 
 #givermening_paragraf2 {
     grid-area: givermening_paragraf2;
-    max-width: 62ch;
+
 }
 
 #givermening_tekst2 {
     grid-area: givermening_tekst2;
-    padding-bottom: 40px;
+
 }
 
 
@@ -570,7 +570,7 @@ dk36_heading3 {
     /*GENERELLE INDSTILLINGER */
     h1 {
         font-size: 3rem;
-        margin-bottom: 1vw;
+        /*        margin-bottom: 1vw;*/
         /*   margin: 60px;*/
 
     }
@@ -623,7 +623,7 @@ dk36_heading3 {
 
 
 
-    #heading,
+    /*    #heading,
     #tekst1,
     #givermening_heading,
     #givermening_tekst1,
@@ -645,7 +645,7 @@ dk36_heading3 {
     #givermening_paragraf2 {
         margin-right: 60px;
 
-    }
+    }*/
 
     /* KONCEPT GRID SLUT */
 
@@ -665,10 +665,10 @@ dk36_heading3 {
 
     }
 
-    #givermening_tekst2 {
+    /*  #givermening_tekst2 {
         padding-bottom: 60px;
     }
-
+*/
     /* GIVER MENING GRID SLUT */
 
 

@@ -32,7 +32,7 @@ img {
 #teamet_fullpage h1 {
     font-size: 2rem;
     color: #375151;
-    margin-bottom: 1vw;
+    /* margin-bottom: 1vw;*/
 
 }
 
@@ -371,7 +371,7 @@ p {
 
     #omos_fullpage h1 {
         font-size: 3rem;
-        margin-bottom: 1vw;
+      /*  margin-bottom: 1vw;*/
 
 
     }
@@ -624,58 +624,58 @@ p {
 
 
 
-    /************  21-5 TEAMET GRID ************/
+/************  21-5 TEAMET GRID ************/
 
-    #teamet_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
-        grid-template-areas:
+#teamet_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
 
-            "splash splash"
-            "teamet_heading teamet_heading"
-            "teamet_tekst1 teamet_tekst1"
-            "teamet_paragraf2 ."
-            ". teamet_paragraf3"
-            "teamet_paragraf4 ."
-            ". teamet_paragraf5"
-            "footer footer"
+        "splash splash"
+        "teamet_heading teamet_heading"
+        "teamet_tekst1 teamet_tekst1"
+        "teamet_paragraf2 ."
+        ". teamet_paragraf3"
+        "teamet_paragraf4 ."
+        ". teamet_paragraf5"
+        "footer footer"
 
-    }
+}
 
-    #teamet_heading {
-        grid-area: teamet_heading;
-    }
-
-
-    #teamet_tekst1 {
-        grid-area: teamet_tekst1;
-
-    }
+#teamet_heading {
+    grid-area: teamet_heading;
+}
 
 
+#teamet_tekst1 {
+    grid-area: teamet_tekst1;
 
-    #teamet_paragraf2 {
-        grid-area: teamet_paragraf2;
-
-    }
-
-    #teamet_paragraf3 {
-        grid-area: teamet_paragraf3;
+}
 
 
-    }
 
-    #teamet_paragraf4 {
-        grid-area: teamet_paragraf4;
+#teamet_paragraf2 {
+    grid-area: teamet_paragraf2;
+
+}
+
+#teamet_paragraf3 {
+    grid-area: teamet_paragraf3;
 
 
-    }
+}
 
-    #teamet_paragraf5 {
-        grid-area: teamet_paragraf5;
+#teamet_paragraf4 {
+    grid-area: teamet_paragraf4;
 
-    }
+
+}
+
+#teamet_paragraf5 {
+    grid-area: teamet_paragraf5;
+
+}
 
 }
 
@@ -702,128 +702,113 @@ p {
 
 
 
-/*
-    .padding {
-        padding: 20px;
-    }
+.padding {
+    padding: 20px;
+}
 
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        bottom: 0;
-        color: white;
-        background-color: #BED2D0;
-        width: 100%;
-        font-size: 1rem;
-    }
-
-
-    #opdate {
-        flex-basis: 350px;
-        flex-grow: 3;
-        text-decoration: none;
-        padding-left: 20px;
-    }
-
-    #opdate h4 {
-        font-size: 1.2rem;
-    }
-
-    .nyhed_button {
-        background-color: #FDF8ED;
-        color: #375151;
-
-        border: none;
-        padding: 20px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 12px;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-
-    }
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0;
+    color: white;
+    background-color: #BED2D0;
+    width: 100%;
+    font-size: 1rem;
+}
 
 
-    #opdate.fa {
+#opdate {
+    flex-basis: 350px;
+    flex-grow: 3;
+    text-decoration: none;
+    padding-left: 20px;
+}
 
-        font-size: 50px;
-        width: 30px;
-        border-radius: 12px;
-        text-align: center;
-        text-decoration: none;
-    }
+#opdate h4 {
+    font-size: 1.2rem;
+}
 
-    .fa:hover {
-        opacity: 0.7;
-    }
+.nyhed_button {
+    background-color: #FDF8ED;
+    color: #375151;
 
-    .fa-facebook {
-        background: #3B5998;
-        color: white;
-        border-radius: 50%;
-        padding: 20px;
-        margin: 5px 2px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
 
 
-    }
+#opdate.fa {
 
-    .fa-instagram {
-        background: #125688;
-        color: white;
-        border-radius: 50%;
-        padding: 20px;
-        margin: 5px 2px;
+    font-size: 50px;
+    width: 30px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+}
 
-    }
+.fa:hover {
+    opacity: 0.7;
+}
 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 5px 2px;
+
+
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 5px 2px;
+
+}
 
 
 
 
-    .menu_footer {
-        flex-basis: 350px;
-        flex-grow: 3;
-        text-decoration: none;
-    }
 
-    .menu_footer a {
-        text-decoration: none;
-        color: white;
-    }
+.menu_footer {
+    flex-basis: 350px;
+    flex-grow: 3;
+    text-decoration: none;
+}
 
-
-    .kontakt {
-        flex-basis: 350px;
-        flex-grow: 3;
-        text-decoration: none;
-        line-height: 1.5rem;
-    }
+.menu_footer a {
+    text-decoration: none;
+    color: white;
+}
 
 
-    .adresse {
-        flex-grow: 3;
-        text-align: center;
-        background-color: #F8F8F8;
-        color: #707070;
-    }
+.kontakt {
+    flex-basis: 350px;
+    flex-grow: 3;
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+
+.adresse {
+    flex-grow: 3;
+    text-align: center;
+    background-color: #F8F8F8;
+    color: #707070;
+}
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER SLUT */
