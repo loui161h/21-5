@@ -6,81 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21-5</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@515&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style_cil.css">
+    <link rel="stylesheet" href="landingpage_style.css">
+
 </head>
 
 <body>
-
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-
-
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <img src="pr%C3%B8vebillede.jpg" style="width:100%">
-            <div id="foersteslide"><h1 id="landing_overskrift1"></h1>
-            <p id="landing_p1"></p></div>
-        </div>
-
-        <div class="mySlides fade">
-            <img src="pr%C3%B8vebillede.jpg" style="width:100%">
-            <div id="andenslide"><h1 id="landing_overskrift2"></h1>
-            <h2 id="landing_underoverskrift1"></h2>
-            <p id="landing_p2"></p>
-            <h2 id="landing_underoverskrift2"></h2>
-            <p id="landing_p3"></p>
-            <h2 id="landing_underoverskrift3"></h2>
-            <p id="landing_p4"></p></div>
-
-        </div>
-
-        <div class="mySlides fade">
-            <img src="pr%C3%B8vebillede.jpg" style="width:100%">
-            <div id="tredjeslide"><h1 id="landing_overskrift3"></h1>
-            <p id="landing_p5"></p></div>
-        </div>
-
-        <div class="mySlides fade">
-            <img src="pr%C3%B8vebillede.jpg" style="width:100%">
-              <div id="fjerdeslide"><h1 id="landing_overskrift4"></h1>
-            <p id="landing_p6"></p>
-            <p id="landing_p7"></p>
-            <p id="landing_p8"></p></div>
-        </div>
+    <section id="landingpage_fullpage">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
 
 
 
-        <div class="mySlides fade">
-            <img src="pr%C3%B8vebillede.jpg" style="width:100%">
-            <div id="femteslide"><h1 id="landing_overskrift5"></h1>
-             <p id="landing_p9"></p>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="pr%C3%B8vebillede.jpg" style="width:100%">
+                <div id="foersteslide">
+                    <h1 id="landing_overskrift1"></h1>
+                    <p id="landing_p1"></p>
+                </div>
             </div>
+
+            <div class="mySlides fade">
+                <img src="pr%C3%B8vebillede.jpg" style="width:100%">
+                <div id="andenslide">
+                    <h1 id="landing_overskrift2"></h1>
+                    <div id="hvad">
+                        <h2 id="landing_underoverskrift1"></h2>
+                        <p id="landing_p2"></p>
+                    </div>
+                    <div id="hvor">
+                        <h2 id="landing_underoverskrift2"></h2>
+                        <p id="landing_p3"></p>
+                    </div>
+                    <div id="hvorfor">
+                        <h2 id="landing_underoverskrift3"></h2>
+                        <p id="landing_p4"></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <img src="pr%C3%B8vebillede.jpg" style="width:100%">
+                <div id="tredjeslide">
+                    <h1 id="landing_overskrift3"></h1>
+                    <p id="landing_p5"></p>
+                    <a href="">Lær os at kende</a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="pr%C3%B8vebillede.jpg" style="width:100%">
+                <div id="fjerdeslide">
+                    <div id="blivendelaf">´
+                        <h1 id="landing_overskrift4"></h1>
+                        <a href="foreninger.html?=304">Find din forening</a>
+                    </div>
+                    <div id="foreningerbokse">
+                        <div class="boks">
+                            <a href="dk39.html?=305"></a>
+                            <p id="landing_p6"></p>
+                        </div>
+                        <div class="boks">
+                            <a href="dk38.html?=306"></a>
+                            <p id="landing_p7"></p>
+                        </div>
+                        <div class="boks">
+                            <a href="dk36.html?=307"></a>
+                            <p id="landing_p8"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="mySlides fade">
+                <img src="pr%C3%B8vebillede.jpg" style="width:100%">
+                <div id="femteslide">
+                    <h1 id="landing_overskrift5"></h1>
+                    <p id="landing_p9"></p>
+                    <a href="kaffemode.html?=311">Book kaffemøde</a>
+                </div>
+            </div>
+
+
+
+            <!-- The dots/circles -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+
+            <div id="menu2" class="footermenu">
+                <a href="omos.html?=315">Om os</a>
+                <a href="kontakt.html?=312">Kontakt</a>
+                <a href="#logind">Log ind</a>
+                <a href="#sprog">Sprog</a>
+            </div>
+
+
         </div>
 
-
-
-        <!-- The dots/circles -->
-        <div class="dots">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-        </div>
-
-
-        <div id="menu2" class="footermenu">
-            <a href="omos.html?=315">Om os</a>
-            <a href="kontakt.html?=312">Kontakt</a>
-            <a href="#logind">Log ind</a>
-            <a href="#sprog">Sprog</a>
-        </div>
-
-
-    </div>
-
-
+    </section>
 
 
     <header>
@@ -159,6 +194,4 @@
 
     <script src="landingpage_json.js"></script>
     <script src="index.js"></script>
-</body>
-
-</html>
+</body></html>

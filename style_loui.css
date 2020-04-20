@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+
 
 }
 
@@ -22,13 +22,15 @@ img {
 h1 {
     font-size: 2rem;
     color: #375151;
-    /*  margin-bottom: 1vw;*/
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1vw;
 
 }
 
 h2 {
     font-size: 1.4rem;
     color: #375151;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -36,6 +38,7 @@ h2 {
 h3 {
     font-size: 1rem;
     color: #375151;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -43,9 +46,7 @@ p {
     font-size: 0.8rem;
     color: #414141;
     line-height: 20px;
-
-
-
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -63,7 +64,6 @@ p {
 /* ALLE SPLASH BILLEDE SLUT */
 
 /* GENERELLE INDSTILLINER SLUT */
-
 
 
 /* KONCEPT GRID */
@@ -121,29 +121,6 @@ footer {
 }
 
 
-/* PADDING I SIDEN VED MOBIL */
-
-/*#heading,
-#tekst1,
-#paragraf1,
-#paragraf2,
-#paragraf3,
-#givermening_heading,
-#givermening_tekst1,
-#givermening_paragraf1,
-#givermening_paragraf2,
-#givermening_tekst2,
-#voresfamilier_heading {
-    margin: 0px 20px 0px 20px;
-}
-
-#paragraf1,
-#paragraf2,
-#paragraf3 {
-    padding-bottom: 40px;
-}*/
-
-/* PADDING I SIDEN VED MOBIL SLUT */
 
 
 /* KONCEPT GRID SLUT */
@@ -774,10 +751,11 @@ footer {
         font-size: 1.3rem;
     }
 
+    /*
     p {
         font-size: 1rem;
 
-    }
+    }*/
 
     /* SPLASH */
 
@@ -794,47 +772,6 @@ footer {
 
     /*GENERELLE INDSTILLINGER SLUT*/
 
-    /* KONCEPT GRID */
-
-    #koncept_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
-        grid-template-areas:
-
-            "splash splash splash"
-            "heading heading heading"
-            "tekst1 tekst1 tekst1"
-            "paragraf1 paragraf2 paragraf3"
-            "footer footer footer"
-
-    }
-
-
-
-    /*    #heading,
-    #tekst1,
-    #givermening_heading,
-    #givermening_tekst1,
-    #givermening_tekst2 {
-        margin: 0px 60px 0px 60px;
-    }
-
-    #paragraf1,
-    #givermening_paragraf1 {
-        margin-left: 60px;
-
-    }
-
-    #paragraf2 {
-        padding: 0px 20px 0px 20px;
-    }
-
-    #paragraf3,
-    #givermening_paragraf2 {
-        margin-right: 60px;
-
-    }*/
 
     /* KONCEPT GRID SLUT */
 
@@ -1076,10 +1013,8 @@ footer {
 
     /* JOB I 21-5 SLUT */
 
-
-
-
-
 }
+
+
 
 /* MEDIA QUERIES SLUT */
