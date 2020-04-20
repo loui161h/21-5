@@ -17,6 +17,65 @@ img {
     width: 100%;
 }
 
+
+/* LANDINGPAGE PLACERING AF INDHOLD */
+
+#foersteslide,
+#tredjeslide,
+#femteslide {
+    margin-top: -600px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+
+
+}
+
+#landing_overskrift1,
+#landing_overskrift2,
+#landing_overskrift3,
+#landing_overskrift4,
+#landing_overskrift5 h1 {
+    font-size: 4rem;
+    color: #375151;
+    font-family: 'Roboto', sans-serif;
+}
+
+#landing_p1,
+#landing_p5,
+#landing_p9 p {
+    font-size: 1.8rem;
+    line-height: 40px;
+    color: #375151;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+
+}
+
+#landing_p2,
+#landing_p3,
+#landing_p4,
+#landing_p6,
+#landing_p7,
+#landing_p8 p {
+    color: #375151;
+    font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+}
+
+#landing_underoverskrift1, #landing_underoverskrift2, #landing_underoverskrift3 h2 {
+    color: #375151;
+    font-family: 'Quicksand', sans-serif;
+      font-weight: 500;
+}
+
+#andenslide,
+#fjerdslide {
+    margin-top: -400px;
+}
+
+
+
 /* DROP DOWN NAVIGATION */
 
 header {
@@ -117,7 +176,7 @@ a {
 #menu2 {
     text-align: end;
     margin-right: 100px;
-    margin-top: -25px;
+    margin-top: -20px;
 }
 
 .footermenu a {
@@ -137,10 +196,6 @@ a {
 
 
 /* SLIDESHOW LANDINGPAGE */
-
-* {
-    box-sizing: border-box
-}
 
 /* Slideshow container */
 .slideshow-container {
@@ -175,7 +230,7 @@ a {
 
 .dots {
     margin-left: 100px;
-    margin-top: -150px;
+    margin-top: 180px;
 }
 
 .dot {
@@ -199,13 +254,10 @@ a {
 
 /* SLIDESHOW FRA SKROT TIL SLOT */
 
-* {
-    box-sizing: border-box
-}
 
 .mySlides1,
 .mySlides2 {
-    display: none
+    display: none;
 }
 
 img {
@@ -253,10 +305,6 @@ img {
 
 
 /* ZOOM HOVER TIL LANDINGPAGE BLIV EN DEL AF OG TILGÆNGELIGE FORENINGER */
-
-* {
-    box-sizing: border-box;
-}
 
 #foreningerbokse {
     display: flex;
