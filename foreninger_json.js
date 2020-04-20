@@ -48,9 +48,9 @@ function visDataForeninger() {
     document.querySelector("#foreninger_p2").innerHTML = alleTekster.tekst1;
 
     document.querySelector("#foreninger_overskrift3").textContent = alleTekster.overskrift2;
-    document.querySelector("#foreninger_p3").innerHTML = alleTekster.tekst2;
+    document.querySelector("#foreninger_p3").innerHTML = alleTekster.tekst3;
 
     document.querySelector("#foreninger_overskrift4").textContent = alleTekster.overskrift3;
-    document.querySelector("#foreninger_p4").innerHTML = alleTekster.tekst3;
+    document.querySelector("#foreninger_p4").innerHTML = alleTekster.tekst5;
 
 }
