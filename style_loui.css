@@ -598,11 +598,70 @@ dk36_heading3 {
 }
 
 
-
-
-
-
 /* PRAKTISK INFORMATION SLUT */
+
+/* JOB I 21-5 */
+
+
+#job_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "job_heading"
+        "job_paragraf1"
+        "job_paragraf2"
+        "footer"
+}
+
+#job_heading {
+    grid-area: job_heading;
+}
+
+#job_paragraf1 {
+    grid-area: job_paragraf1;
+}
+
+#job_paragraf2 {
+    grid-area: job_paragraf2;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* JOB I 21-5 SLUT*/
+
+/* KONTAKT */
+
+#kontakt_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "kontakt_heading"
+        "kontakt_paragraf1"
+        "footer"
+}
+
+#kontakt_heading {
+    grid-area: kontakt_heading;
+}
+
+#kontakt_paragraf1 {
+    grid-area: kontakt_paragraf1;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* KONTAKT SLUT*/
 
 
 
@@ -869,7 +928,21 @@ dk36_heading3 {
 
     /* PRAKTISK INFORMATION SLUT */
 
+    /* JOB I 21-5 */
 
+    #job_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "job_heading job_heading"
+            "job_paragraf1 job_paragraf2"
+            "footer footer"
+    }
+
+    /* JOB I 21-5 SLUT */
 
 
 
