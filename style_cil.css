@@ -421,4 +421,73 @@ container2 p {
 
 
 
-/* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL SLUT */
+/* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL */
+
+
+summary {
+    padding: 40px;
+    background-color: #FAE3BE;
+    font-size: 1.3rem;
+}
+
+details {
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+
+#bokse {
+    width: 70%;
+}
+
+/* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL SLUT */
+
+
+/* FORM */
+
+
+
+
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 2px solid #BED2D0;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit] {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-around;
+    background-color: #BED2D0;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#form1,
+#form2,
+#form3 .knap {
+    padding-top: 15px;
+}
+
+input[type=submit]:hover {
+    opacity: 80%;
+}
+
+
+#form3
+input[type=text],
+select {
+    width: 40%;
+
+}
+
+/* FORM SLUT */
