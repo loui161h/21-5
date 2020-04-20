@@ -561,6 +561,51 @@ dk36_heading3 {
 /* DK36 GRANDE GRID SLUT */
 
 
+/* PRAKTISK INFORMATION */
+
+
+
+#information_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "splash"
+        "information_heading"
+        "information_tekst1"
+        "information_paragraf1"
+        "information_paragraf2"
+        "footer"
+}
+
+
+#information_heading {
+    grid-area: information_heading;
+}
+
+
+#information_tekst1 {
+    grid-area: information_tekst1;
+}
+
+#information_paragraf1 {
+    grid-area: information_paragraf1;
+}
+
+#information_paragraf2 {
+    grid-area: information_paragraf2;
+}
+
+
+
+
+
+
+/* PRAKTISK INFORMATION SLUT */
+
+
+
 
 
 /* MEDIA QUERIES */
@@ -806,6 +851,23 @@ dk36_heading3 {
             "footer footer"
     }
 
+
+    /* PRAKTISK INFORMATION */
+
+    #information_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash"
+            "information_heading information_heading"
+            "information_tekst1 information_tekst1"
+            "information_paragraf1 information_paragraf2"
+            "footer footer"
+    }
+
+    /* PRAKTISK INFORMATION SLUT */
 
 
 

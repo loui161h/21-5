@@ -65,6 +65,10 @@ p {
 
 }
 
+footer {
+    grid-area: footer;
+}
+
 
 /* GENERELLE INDSTILLINGER SLUT */
 
@@ -371,7 +375,7 @@ p {
 
     #omos_fullpage h1 {
         font-size: 3rem;
-      /*  margin-bottom: 1vw;*/
+        /*  margin-bottom: 1vw;*/
 
 
     }
