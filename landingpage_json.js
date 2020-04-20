@@ -57,10 +57,13 @@ function visLandingPage() {
     document.querySelector("#landing_p5").textContent = alleTekster.tekst10;
 
     document.querySelector("#landing_overskrift4").textContent = alleTekster.overskrift6;
-    document.querySelector("#landing_p6").textContent = alleTekster.tekst11;
-    document.querySelector("#landing_p7").textContent = alleTekster.tekst12;
-    document.querySelector("#landing_p8").textContent = alleTekster.tekst13;
+    document.querySelector("#landing_overskrift5").textContent = alleTekster.overskrift7;
+    document.querySelector("#landing_p6").textContent = alleTekster.tekst12;
+    document.querySelector("#landing_overskrift6").textContent = alleTekster.overskrift8;
+    document.querySelector("#landing_p7").textContent = alleTekster.tekst13;
+    document.querySelector("#landing_overskrift7").textContent = alleTekster.overskrift9;
+    document.querySelector("#landing_p8").textContent = alleTekster.tekst14;
 
-    document.querySelector("#landing_overskrift5").textContent = alleTekster.overskrift9;
-    document.querySelector("#landing_p9").textContent = alleTekster.tekst14;
+    document.querySelector("#landing_overskrift8").textContent = alleTekster.overskrift10;
+    document.querySelector("#landing_p10").textContent = alleTekster.tekst15;
 }

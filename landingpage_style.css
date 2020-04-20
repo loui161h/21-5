@@ -11,8 +11,17 @@ body {
 
 /* LANDINGPAGE */
 
+/* GRID MOBIL */
 
 
+#landingpage_fullpage img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+
+}
 
 #andenslide {
     display: grid;
@@ -42,70 +51,39 @@ body {
 }
 
 
-
-#fjerdeslide {
-    display: grid;
-    height: 100vh;
-    grid-gap: 10px;
-    grid-template-areas:
-
-        "blivendelaf"
-        "foreningerbokse"
+/* SLIDE 4 */
+.boks {
+    display: none;
 }
 
+/* SLIDE 4 SLUT */
 
-#blivendelaf {
-    grid-area: blivendelaf;
-}
+/* GRID MOBIL SLUT */
 
-#foreningerbokse {
-    grid-area: foreningerbokse;
-}
+/* SKRIFT MOBIL */
 
-#landingpage_fullpage img {
-    width: 100%;
-    margin: 0;
-    object-fit: cover;
-    background-size: cover;
-    height: 100vh;
-
-}
-
-
-#foersteslide,
-#andenslide,
-#tredjeslide,
-#fjerdeslide,
-#femteslide h1 {
+h1 {
     font-size: 1.6rem;
     color: #375151;
 
-
 }
 
-#foersteslide,
-#tredjeslide,
-#femteslide {
-    margin-top: -500px;
-    text-align: center;
-    padding: 0px 15px 0px 15px;
 
-
-
+h2 {
+    font-size: 1.6rem;
 }
 
-#andenslide,
-#fjerdeslide {
-    margin-top: -600px;
-    color: #375151;
-    padding: 0px 15px 0px 15px;
-
-
+p {
+    font-weight: 400;
 }
 
 
 
-#foersteslide,
+#foersteslide p {
+    font-size: 1.6rem;
+}
+
+
 #tredjeslide,
 #femteslide,
 p {
@@ -115,23 +93,10 @@ p {
 }
 
 
-#andenslide h2 {
-    font-size: 1.6rem;
-}
-
-
 #andenslide p {
     color: #535353;
     font-size: 1rem;
 }
-
-
-/*
-#fjerdeslide p {
-    display: none;
-
-}
-*/
 
 #tredjeslide a {
     text-decoration: none;
@@ -179,19 +144,37 @@ a:hover {
 }
 
 
+/* SKRIFT MOBIL SLUT */
 
 
+/* PLACERING AF INDHOLD */
 
-/* LANDINGPAGE SLUT */
+#foersteslide,
+#tredjeslide,
+#fjerdeslide,
+#femteslide {
+    margin-top: -500px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+
+}
+
+#andenslide {
+    margin-top: -600px;
+    color: #375151;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/* PLACERING AF INDHOLD SLUT */
+
+
+/* MEDIA QUERIES */
 
 
 @media screen and (min-device-width: 768px) {
 
-    #foersteslide,
-    #andenslide,
-    #tredjeslide,
-    #fjerdeslide,
-    #femteslide h1 {
+    h1 {
         font-size: 2rem;
     }
 
@@ -250,14 +233,21 @@ a:hover {
         display: grid;
         height: 100vh;
         grid-template-areas:
-
             "blivendelaf foreningerbokse"
     }
 
 
-    #foreningerbokse {
+    #blivendelaf {
+        grid-area: blivendelaf;
+    }
 
-        margin: -300px 20px 0px 20px;
+    #foreningerbokse {
+        grid-area: foreningerbokse;
+    }
+
+
+    #foreningerbokse {
+        margin: -350px 20px 0px 20px;
     }
 
 
@@ -265,7 +255,15 @@ a:hover {
         font-size: 1.4rem;
         color: #649087;
         text-align: center;
+        font-weight: 300;
 
+
+    }
+
+
+    #foreningerbokse h2 {
+        font-weight: 400;
+        text-align: center;
     }
 
     .boks {
@@ -273,7 +271,8 @@ a:hover {
         background-color: beige;
         transition: transform .2s;
         width: 200px;
-        height: 300px;
+        height: 325px;
+        margin: 5px;
 
 
 
@@ -311,11 +310,6 @@ a:hover {
 
     }
 
-
-
-
-
-
-
-
 }
+
+/* MEDIA QUERIES SLUT */
