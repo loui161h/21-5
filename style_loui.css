@@ -1,5 +1,15 @@
 body {
     margin: 0;
+    padding: 0;
+
+
+}
+
+
+#splash img {
+    width: 100%;
+    height: 33vh;
+    background-repeat: no-repeat;
 
 
 }
@@ -19,20 +29,25 @@ img {
 /* GENERELLE INDSTILLINER */
 
 
-h1 {
-    font-size: 1.5rem;
-    color: #375151;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: -1vw;
+.padding {
     padding: 0px 20px 0px 20px;
 }
 
-h2 {
-    font-size: 1.2rem;
+
+h1 {
+    font-size: 2rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
     margin-bottom: -1vw;
-    padding: 0px 20px 0px 20px;
+
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #649087;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: -1vw;
 
 }
 
@@ -42,28 +57,19 @@ h3 {
     color: #375151;
     font-family: 'Roboto', sans-serif;
     margin-bottom: -1vw;
-    padding: 0px 20px 0px 20px;
 
 }
 
 p {
-    font-size: 0.8rem;
-    color: #414141;
+    font-size: 1rem;
+    color: #606060;
     font-family: 'Quicksand', sans-serif;
-    padding: 0px 20px 0px 20px;
+    line-height: 25px;
 }
+
 
 
 /* ALLE SPLASH BILLEDE */
-#splash {
-    width: 100%;
-    height: 33vh;
-    background-image: url(sky.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    grid-area: splash;
-
-}
 
 /* ALLE SPLASH BILLEDE SLUT */
 
@@ -77,15 +83,14 @@ p {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "heading"
         "tekst1"
         "paragraf1"
         "paragraf2"
         "paragraf3"
-        "footer"
 
 }
 
@@ -132,19 +137,17 @@ footer {
 
 /* GIVER MENING GRID */
 
-#givermening {
+#givermening_fullpage {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    margin-top: -1vw;
     grid-template-areas:
-
-        "splash"
         "givermening_heading"
         "givermening_tekst1"
         "givermening_paragraf1"
         "givermening_paragraf2"
         "givermening_tekst2"
-        "footer"
 
 }
 
@@ -736,40 +739,32 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     /*GENERELLE INDSTILLINGER */
-    #koncept_fullpage h1 {
+
+    .padding {
+        padding: 0px 0px 0px 0px;
+    }
+
+
+    h1 {
         font-size: 3rem;
-        /*        margin-bottom: 1vw;*/
-        /*   margin: 60px;*/
+        /*     margin-left: 40px;*/
+    }
+
+    h2 {
+        font-size: 2.6;
 
     }
 
-    #koncept_fullpage h2 {
-        font-size: 1.7rem;
-        /*        margin: 60px;*/
-
-    }
-
-    #koncept_fullpage h3 {
-        font-size: 1.3rem;
-    }
-
-
-    #koncept_fullpage p {
-        font-size: 1rem;
-
-    }
 
     /* SPLASH */
 
-    #splash {
-        height: 80vh;
-    }
+
 
     #splash img {
-        height: 80vh;
+        height: 70vh;
     }
 
     /* SPLASH SLUT */
@@ -781,49 +776,43 @@ footer {
     #koncept_fullpage {
         display: grid;
         height: 100vh;
+        padding: 10px;
+        grid-template-columns: 225px 225px 225px;
+        justify-content: center;
         grid-gap: 10px;
         grid-template-areas:
 
-            "splash splash splash"
+
             "heading heading heading"
             "tekst1 tekst1 tekst1"
             "paragraf1 paragraf2 paragraf3"
-            "footer footer footer"
+    }
 
+
+    #givermening_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        margin-top: -1vw;
+        grid-template-areas:
+            "givermening_heading givermening_heading"
+            "givermening_tekst1 givermening_tekst1"
+            "givermening_paragraf1 givermening_paragraf2"
+            "givermening_tekst2 givermening_tekst2";
     }
 
 
     /* KONCEPT GRID SLUT */
 
     /* GIVER MENING GRID */
-    #givermening_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
-        grid-template-areas:
 
-            "splash splash"
-            "givermening_heading givermening_heading"
-            "givermening_tekst1 givermening_tekst1"
-            "givermening_paragraf1 givermening_paragraf2"
-            "givermening_tekst2 givermening_tekst2"
-            "footer footer"
 
-    }
-
-    /*  #givermening_tekst2 {
-        padding-bottom: 60px;
-    }
-*/
     /* GIVER MENING GRID SLUT */
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */
-
-
-
-
-
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
@@ -1036,5 +1025,42 @@ footer {
 }
 
 
+
+@media only screen and (min-width: 1024px) {
+
+
+    #koncept_fullpage {
+        display: grid;
+        height: 100vh;
+        padding: 10px;
+        grid-template-columns: 325px 325px 325px;
+        justify-content: center;
+        grid-gap: 10px;
+        grid-template-areas:
+
+
+            "heading heading heading"
+            "tekst1 tekst1 tekst1"
+            "paragraf1 paragraf2 paragraf3";
+
+
+    }
+
+    #givermening_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        margin-top: -1vw;
+        grid-template-areas:
+            "givermening_heading givermening_heading"
+            "givermening_tekst1 givermening_tekst1"
+            "givermening_paragraf1 givermening_paragraf2"
+            "givermening_tekst2 givermening_tekst2";
+    }
+
+
+}
 
 /* MEDIA QUERIES SLUT */
