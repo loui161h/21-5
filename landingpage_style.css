@@ -1,0 +1,312 @@
+/* GENERELLE INDSTILLINGER */
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* LANDINGPAGE */
+
+/* GRID MOBIL */
+
+
+#landingpage_fullpage img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+#andenslide {
+    display: grid;
+    height: 15vh;
+    grid-gap: 0px;
+    grid-template-areas:
+        "landing_overskrift2"
+        "hvad"
+        "hvor"
+        "hvorfor"
+}
+
+#landing_overskrift2 {
+    grid-area: landing_overskrift2;
+}
+
+#hvad {
+    grid-area: hvad;
+}
+
+#hvor {
+    grid-area: hvor;
+}
+
+#hvorfor {
+    grid-area: hvorfor;
+}
+
+
+/* SLIDE 4 */
+.boks {
+    visibility: hidden;
+}
+
+/* SLIDE 4 SLUT */
+
+/* GRID MOBIL SLUT */
+
+/* SKRIFT MOBIL */
+
+h1 {
+    font-size: 2rem;
+    color: #375151;
+    font-weight: 500;
+
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    color: #375151;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 400;
+    color: #375151;
+
+
+}
+
+
+#foersteslide,
+#tredjeslide,
+#femteslide,
+p {
+
+    font-size: 1.6rem;
+    line-height: 30px;
+
+}
+
+
+#andenslide p {
+    color: #535353;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+#tredjeslide a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #BED2D0;
+    padding: 14px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+
+#fjerdeslide a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #BED2D0;
+    padding: 14px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+
+#femteslide a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #BED2D0;
+    padding: 14px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+a:hover {
+    opacity: 50%;
+}
+
+
+/* SKRIFT MOBIL SLUT */
+
+
+/* PLACERING AF INDHOLD */
+
+#foersteslide,
+#tredjeslide,
+#fjerdeslide,
+#femteslide {
+    margin-top: -500px;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+
+}
+
+#andenslide {
+    margin-top: -600px;
+    color: #375151;
+    padding: 0px 16px 0px 16px;
+}
+
+
+/* PLACERING AF INDHOLD SLUT */
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-device-width: 768px) {
+
+    /* SKRIFT */
+    h1 {
+        font-size: 2.4rem;
+        line-height: 40px;
+    }
+
+    #andenslide p {
+        line-height: 20px;
+        max-width: 42ch;
+    }
+
+    #foersteslide,
+    #tredjeslide,
+    #femteslide,
+    p {
+
+        font-size: 1.8rem;
+    }
+
+
+    /* SKRIFT SLUT */
+
+    /* PLACERING AF INDHOLD */
+
+    #foersteslide,
+    #tredjeslide,
+    #femteslide,
+    #fjerdeslide {
+        margin-top: -580px;
+        /*     padding: 0px 30px 0px 30px;*/
+    }
+
+    #andenslide {
+        margin-top: -620px;
+        /*  padding: 0px 30px 0px 30px;*/
+
+    }
+
+    .boks {
+        visibility: hidden;
+    }
+
+
+    /* PLACERING AF INDHOLD SLUT */
+
+}
+
+
+@media only screen and (min-device-width: 1024px) {
+
+    /* SKRIFT */
+
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    /* PLACERING AF INDHOLD */
+    #foersteslide,
+    #tredjeslide,
+    #femteslide {
+        margin-top: -500px;
+
+
+
+    }
+
+    #andenslide,
+    #fjerdeslide {
+        margin-top: -500px;
+
+
+    }
+
+    #foreningerbokse {
+        margin: -350px 20px 0px 20px;
+
+    }
+
+    #hvad,
+    #hvor,
+    #hvorfor {
+        padding: 10px;
+        max-width: 30ch;
+    }
+
+
+
+    .boks {
+        visibility: visible;
+        background-color: beige;
+        transition: transform .2s;
+        padding: 20px;
+        width: 200px;
+        height: 325px;
+        margin: 5px;
+
+    }
+
+    .boks:hover {
+        -ms-transform: scale(1.2);
+        /* IE 9 */
+        -webkit-transform: scale(1.2);
+        /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+
+    /* PLACERING AF INDHOLD SLUT */
+    /* GRID  */
+
+    #andenslide {
+        display: grid;
+        height: 100vh;
+        grid-gap: 0px;
+        grid-template-areas:
+            "landing_overskrift2 hvad hvor hvorfor"
+
+    }
+
+    #fjerdeslide {
+        display: grid;
+        height: 100vh;
+        grid-template-areas:
+            "blivendelaf foreningerbokse"
+    }
+
+    /* GRID  */
+
+
+
+
+}
+
+/* MEDIA QUERIES SLUT */
