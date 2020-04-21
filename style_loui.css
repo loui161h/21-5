@@ -20,17 +20,19 @@ img {
 
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 1vw;
-
+    margin-bottom: -1vw;
+    padding: 0px 20px 0px 20px;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: -1vw;
+    padding: 0px 20px 0px 20px;
 
 }
 
@@ -39,14 +41,16 @@ h3 {
     font-size: 1rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: -1vw;
+    padding: 0px 20px 0px 20px;
 
 }
 
 p {
     font-size: 0.8rem;
     color: #414141;
-    line-height: 20px;
     font-family: 'Quicksand', sans-serif;
+    padding: 0px 20px 0px 20px;
 }
 
 
@@ -119,6 +123,7 @@ paragraf3 {
 footer {
     grid-area: footer;
 }
+
 
 
 
@@ -734,28 +739,28 @@ footer {
 @media screen and (min-device-width: 768px) {
 
     /*GENERELLE INDSTILLINGER */
-    h1 {
+    #koncept_fullpage h1 {
         font-size: 3rem;
         /*        margin-bottom: 1vw;*/
         /*   margin: 60px;*/
 
     }
 
-    h2 {
+    #koncept_fullpage h2 {
         font-size: 1.7rem;
         /*        margin: 60px;*/
 
     }
 
-    h3 {
+    #koncept_fullpage h3 {
         font-size: 1.3rem;
     }
 
-    /*
-    p {
+
+    #koncept_fullpage p {
         font-size: 1rem;
 
-    }*/
+    }
 
     /* SPLASH */
 
@@ -771,6 +776,21 @@ footer {
 
 
     /*GENERELLE INDSTILLINGER SLUT*/
+
+
+    #koncept_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-areas:
+
+            "splash splash splash"
+            "heading heading heading"
+            "tekst1 tekst1 tekst1"
+            "paragraf1 paragraf2 paragraf3"
+            "footer footer footer"
+
+    }
 
 
     /* KONCEPT GRID SLUT */
