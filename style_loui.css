@@ -212,15 +212,14 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "kommermed_heading"
         "kommermed_tekst1"
         "kommermed_paragraf1"
         "kommermed_paragraf2"
         "kommermed_tekst2"
-        "footer"
 
 }
 
@@ -823,6 +822,9 @@ footer {
         display: grid;
         height: 100vh;
         grid-gap: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        margin-top: -1vw;
         grid-template-areas:
 
             "splash splash"
@@ -1058,6 +1060,24 @@ footer {
             "givermening_tekst1 givermening_tekst1"
             "givermening_paragraf1 givermening_paragraf2"
             "givermening_tekst2 givermening_tekst2";
+    }
+
+    #kommermed_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        margin-top: -1vw;
+        grid-template-areas:
+
+            "splash splash"
+            "kommermed_heading kommermed_heading"
+            "kommermed_tekst1 kommermed_tekst1"
+            "kommermed_paragraf1 kommermed_paragraf2"
+            "kommermed_tekst2 kommermed_tekst2"
+            "footer footer"
+
     }
 
 
