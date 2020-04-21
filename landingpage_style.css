@@ -53,7 +53,7 @@ body {
 
 /* SLIDE 4 */
 .boks {
-    display: none;
+    visibility: hidden;
 }
 
 /* SLIDE 4 SLUT */
@@ -63,39 +63,42 @@ body {
 /* SKRIFT MOBIL */
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #375151;
+    font-weight: 500;
 
 }
 
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    color: #375151;
+    font-weight: 500;
 }
 
 p {
     font-weight: 400;
+    color: #375151;
+
+
 }
 
 
-
-#foersteslide p {
-    font-size: 1.6rem;
-}
-
-
+#foersteslide,
 #tredjeslide,
 #femteslide,
 p {
 
-    font-size: 1.2rem;
-    color: #375151;
+    font-size: 1.6rem;
+    line-height: 30px;
+
 }
 
 
 #andenslide p {
     color: #535353;
     font-size: 1rem;
+    line-height: 20px;
 }
 
 #tredjeslide a {
@@ -155,14 +158,14 @@ a:hover {
 #femteslide {
     margin-top: -500px;
     text-align: center;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 16px 0px 16px;
 
 }
 
 #andenslide {
     margin-top: -600px;
     color: #375151;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 16px 0px 16px;
 }
 
 
@@ -171,27 +174,17 @@ a:hover {
 
 /* MEDIA QUERIES */
 
+@media only screen and (min-device-width: 768px) {
 
-@media screen and (min-device-width: 768px) {
-
+    /* SKRIFT */
     h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
+        line-height: 40px;
     }
 
-    #foersteslide,
-    #tredjeslide,
-    #femteslide {
-        margin-top: -800px;
-        padding: 0px 30px 0px 30px;
-
-
-    }
-
-    #andenslide,
-    #fjerdeslide {
-        margin-top: -800px;
-        /*        padding: 0px 30px 0px 30px;*/
-
+    #andenslide p {
+        line-height: 20px;
+        max-width: 42ch;
     }
 
     #foersteslide,
@@ -199,83 +192,86 @@ a:hover {
     #femteslide,
     p {
 
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
 
-    #andenslide h2 {
-        font-size: 2rem;
+    /* SKRIFT SLUT */
+
+    /* PLACERING AF INDHOLD */
+
+    #foersteslide,
+    #tredjeslide,
+    #femteslide,
+    #fjerdeslide {
+        margin-top: -580px;
+        /*     padding: 0px 30px 0px 30px;*/
+    }
+
+    #andenslide {
+        margin-top: -620px;
+        /*  padding: 0px 30px 0px 30px;*/
+
+    }
+
+    .boks {
+        visibility: hidden;
     }
 
 
-    #andenslide p {
-        font-size: 1rem;
+    /* PLACERING AF INDHOLD SLUT */
+
+}
+
+
+@media only screen and (min-device-width: 1024px) {
+
+    /* SKRIFT */
+
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    /* PLACERING AF INDHOLD */
+    #foersteslide,
+    #tredjeslide,
+    #femteslide {
+        margin-top: -500px;
+
+
+
+    }
+
+    #andenslide,
+    #fjerdeslide {
+        margin-top: -500px;
+
+
+    }
+
+    #foreningerbokse {
+        margin: -350px 20px 0px 20px;
+
     }
 
     #hvad,
     #hvor,
     #hvorfor {
         padding: 10px;
-
+        max-width: 30ch;
     }
 
 
-    #andenslide {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
-        grid-template-areas:
-            "landing_overskrift2 hvad hvor hvorfor"
-    }
-
-
-    #fjerdeslide {
-        display: grid;
-        height: 100vh;
-        grid-template-areas:
-            "blivendelaf foreningerbokse"
-    }
-
-
-    #blivendelaf {
-        grid-area: blivendelaf;
-    }
-
-    #foreningerbokse {
-        grid-area: foreningerbokse;
-    }
-
-
-    #foreningerbokse {
-        margin: -350px 20px 0px 20px;
-    }
-
-
-    #foreningerbokse p {
-        font-size: 1.4rem;
-        color: #649087;
-        text-align: center;
-        font-weight: 300;
-
-
-    }
-
-
-    #foreningerbokse h2 {
-        font-weight: 400;
-        text-align: center;
-    }
 
     .boks {
-        padding: 30px;
+        visibility: visible;
         background-color: beige;
         transition: transform .2s;
+        padding: 20px;
         width: 200px;
         height: 325px;
         margin: 5px;
-
-
-
 
     }
 
@@ -287,28 +283,29 @@ a:hover {
         transform: scale(1.2);
     }
 
-}
+    /* PLACERING AF INDHOLD SLUT */
+    /* GRID  */
 
-
-
-@media screen and (min-device-width: 1024px) {
-
-
-    #foersteslide,
-    #tredjeslide,
-    #femteslide {
-        margin-top: -500px;
-        padding: 0px 100px 0px 100px;
-
+    #andenslide {
+        display: grid;
+        height: 100vh;
+        grid-gap: 0px;
+        grid-template-areas:
+            "landing_overskrift2 hvad hvor hvorfor"
 
     }
 
-    #andenslide,
     #fjerdeslide {
-        margin-top: -500px;
-        padding: 0px 100px 0px 100px;
-
+        display: grid;
+        height: 100vh;
+        grid-template-areas:
+            "blivendelaf foreningerbokse"
     }
+
+    /* GRID  */
+
+
+
 
 }
 
