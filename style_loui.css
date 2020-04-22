@@ -1218,6 +1218,23 @@ dk36_heading3 {
 
     /* PRAKTISK INFORMATION SLUT */
 
+    /* KONTAKT */
+
+    #kontakt_fullpage {
+        display: grid;
+        height: 30vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "kontakt_heading kontakt_heading"
+            "kontakt_paragraf1 form2"
+
+
+    }
+
+    /* KONTAKT SLUT */
+
     /* JOB I 21-5 */
 
     #job_fullpage {
@@ -1489,6 +1506,20 @@ dk36_heading3 {
     /* KAFFEMØDE SLUT */
 
     /* KONTAKT */
+    #kontakt_fullpage {
+        display: grid;
+        height: 50vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "kontakt_heading kontakt_heading"
+            "kontakt_paragraf1 form2"
+
+
+    }
+
 
     /* KONTAKT SLUT */
 
