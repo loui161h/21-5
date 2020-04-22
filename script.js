@@ -26,3 +26,9 @@ function toggleMenu() {
         document.querySelector("#menuknap").textContent = "X";
     }
 }
+
+//document.querySelector("#koncept").addEventListener("click", visMenu);
+//
+//function visMenu() {
+//    document.querySelector("#myDropdown").classList.add("hidden");
+//}
