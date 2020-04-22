@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataOmos() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#omos_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#omos_overskrift").textContent = alleTekster.title.rendered;
     document.querySelector("#omos_p1").innerHTML = alleTekster.content.rendered;
 
