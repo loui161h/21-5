@@ -40,7 +40,11 @@ async function hentData() {
 }
 
 function visLandingPage() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#slide_img1").src = alleTekster.billede1.guid;
+    document.querySelector("#slide_img2").src = alleTekster.billede2.guid;
+    document.querySelector("#slide_img3").src = alleTekster.billede3.guid;
+    document.querySelector("#slide_img4").src = alleTekster.billede4.guid;
+    document.querySelector("#slide_img5").src = alleTekster.billede5.guid;
     document.querySelector("#landing_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#landing_p1").innerHTML = alleTekster.content.rendered;
 

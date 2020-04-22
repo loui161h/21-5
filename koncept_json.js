@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataKoncept() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#koncept_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#koncept_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#koncept_p1").innerHTML = alleTekster.content.rendered;
 

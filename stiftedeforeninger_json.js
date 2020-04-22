@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataStiftedeforeninger() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#stiftedeforeninger_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#stiftedeforeninger_overskrift").textContent = alleTekster.title.rendered;
     document.querySelector("#stiftedeforeninger_p1").innerHTML = alleTekster.content.rendered;
 

@@ -15,10 +15,18 @@ body {
 }
 
 
+#orienteringsmode_paragraf1 img {
+    height: 100%;
+}
 
+
+#kaffemode_paragraf1 img {
+    height: 100%;
+}
 
 img {
     width: 100%;
+    height: 100%;
     margin: 0;
     object-fit: cover;
 
@@ -53,10 +61,10 @@ h2 {
 
 
 h3 {
-    font-size: 1rem;
-    color: #375151;
+    font-size: 1.4rem;
+    color: #649087;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: -1vw;
+
 
 }
 
@@ -364,28 +372,184 @@ footer {
 
 /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
+/* PROCESSEN GRID */
 
-/* DESTINATION */
+#process_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "process_heading"
+        "process_tekst1"
+        "process_paragraf1"
+        "process_paragraf2"
+
+}
+
+#process_heading {
+    grid-area: process_heading;
+}
 
 
+#process_tekst1 {
+    grid-area: process_tekst1;
+
+}
+
+
+
+#process_paragraf1 {
+    grid-area: process_paragraf1;
+
+
+}
+
+#process_paragraf2 {
+    grid-area: process_paragraf2;
+
+
+}
+
+/* PROCESSEN GRID SLUT */
+
+
+/* VI SKABER HJEM GRID */
+
+#skaberhjem_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "skaberhjem_heading"
+        "skaberhjem_tekst1"
+        "skaberhjem_paragraf1"
+        "skaberhjem_paragraf2"
+
+
+}
+
+#skaberhjem_heading {
+    grid-area: skaberhjem_heading;
+}
+
+
+#skaberhjem_tekst1 {
+    grid-area: skaberhjem_tekst1;
+
+}
+
+
+
+#skaberhjem_paragraf1 {
+    grid-area: skaberhjem_paragraf1;
+
+
+}
+
+#skaberhjem_paragraf2 {
+    grid-area: skaberhjem_paragraf2;
+
+
+}
+
+/* VI SKABER HJEM GRID SLUT */
+
+/* STIFTEDE FORENINGER */
+
+
+#stiftedeforeninger_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "stiftedeforeninger_heading"
+        "stiftedeforeninger_tekst1"
+        "stiftedeforeninger_paragraf1"
+        "stiftedeforeninger_paragraf2"
+
+}
+
+#stiftedeforeninger_heading {
+    grid-area: stiftedeforeninger_heading;
+}
+
+
+#stiftedeforeninger_tekst1 {
+    grid-area: stiftedeforeninger_tekst1;
+
+}
+
+
+
+#stiftedeforeninger_paragraf1 {
+    grid-area: stiftedeforeninger_paragraf1;
+
+
+}
+
+#stiftedeforeninger_paragraf2 {
+    grid-area: stiftedeforeninger_paragraf2;
+
+
+}
+
+
+
+/* STIFTEDE FORENINGER SLUT */
+
+
+
+/* DESTINATIONER GRID */
+
+#destinationer_fullpage {
+    display: grid;
+    height: 5f0vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "destinationer_heading"
+        "destinationer_tekst1"
+
+}
+
+#destinationer_heading {
+    grid-area: destinationer_heading;
+}
+
+
+#destinationer_tekst1 {
+    grid-area: destinationer_tekst1;
+
+}
 
 
 
 /* DESTINATION SLUT */
 
-/* MALLORCA */
+/* MALLORCA GRID */
 #mallorca_fullpage {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "mallorca_heading"
         "mallorca_tekst1"
         "mallorca_paragraf1"
         "mallorca_paragraf2"
-        "footer"
 }
 
 #mallorca_heading {
@@ -407,7 +571,7 @@ footer {
 
 
 
-/* MALLORCA SLUT */
+/* MALLORCA GRID SLUT */
 
 /* TILGÆNGELIGE FORENINGER */
 
@@ -415,15 +579,15 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "foreninger_heading"
         "foreninger_tekst1"
         "foreninger_paragraf1"
         "foreninger_paragraf2"
         "foreninger_paragraf3"
-        "footer"
 }
 
 
@@ -641,14 +805,14 @@ dk36_heading3 {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "information_heading"
         "information_tekst1"
         "information_paragraf1"
         "information_paragraf2"
-        "footer"
 }
 
 
@@ -672,6 +836,83 @@ dk36_heading3 {
 
 /* PRAKTISK INFORMATION SLUT */
 
+/* ORIENTERINGSMØDE */
+
+#orienteringsmode_fullpage {
+    display: grid;
+    height: 60vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+
+        "orienteringsmode_heading1"
+        "orienteringsmode_tekst1"
+        "orienteringsmode_paragraf1"
+        "orienteringsmode_paragraf2"
+
+}
+
+#orienteringsmode_heading1 {
+    grid-area: orienteringsmode_heading1;
+}
+
+
+#orienteringsmode_tekst1 {
+    grid-area: orienteringsmode_tekst1;
+}
+
+#orienteringsmode_paragraf1 {
+    grid-area: orienteringsmode_paragraf1;
+}
+
+#orienteringsmode_paragraf2 {
+    grid-area: orienteringsmode_paragraf2;
+}
+
+/* ORIENTERINGSMØDE SLUT */
+
+
+/* KAFFEMØDE */
+
+#kaffemode_fullpage {
+    display: grid;
+    height: 60vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+
+        "kaffemode_heading1"
+        "kaffemode_tekst1"
+        "kaffemode_paragraf1"
+        "kaffemode_paragraf2"
+}
+
+
+#kaffemode_heading1 {
+    grid-area: kaffemode_heading1;
+}
+
+
+#kaffemode_tekst1 {
+    grid-area: kaffemode_tekst1;
+}
+
+#kaffemode_paragraf1 {
+    grid-area: kaffemode_paragraf1;
+}
+
+#kaffemode_paragraf2 {
+    grid-area: kaffemode_paragraf2;
+}
+
+
+
+/* KAFFEMØDE SLUT */
+
 /* JOB I 21-5 */
 
 
@@ -679,13 +920,14 @@ dk36_heading3 {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "job_heading"
         "job_paragraf1"
         "job_paragraf2"
-        "footer"
+
 }
 
 #job_heading {
@@ -700,9 +942,7 @@ dk36_heading3 {
     grid-area: job_paragraf2;
 }
 
-footer {
-    grid-area: footer;
-}
+
 
 /* JOB I 21-5 SLUT*/
 
@@ -710,14 +950,17 @@ footer {
 
 #kontakt_fullpage {
     display: grid;
-    height: 100vh;
+    height: 60vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
+
         "kontakt_heading"
         "kontakt_paragraf1"
-        "footer"
+        "form2"
+
 }
 
 #kontakt_heading {
@@ -728,10 +971,9 @@ footer {
     grid-area: kontakt_paragraf1;
 }
 
-footer {
-    grid-area: footer;
+#form2 {
+    grid-area: form2;
 }
-
 
 /* KONTAKT SLUT*/
 
@@ -761,12 +1003,27 @@ footer {
     }
 
 
+    h3 {
+        font-size: 2rem;
+
+    }
+
+
     /* SPLASH */
 
 
 
     #splash img {
-        height: 70vh;
+        height: 60vh;
+    }
+
+    #orienteringsmode_paragraf1 img {
+        height: 100%;
+    }
+
+
+    #kaffemode_paragraf1 img {
+        height: 100%;
     }
 
     /* SPLASH SLUT */
@@ -820,12 +1077,11 @@ footer {
         justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "kommermed_heading kommermed_heading"
             "kommermed_tekst1 kommermed_tekst1"
             "kommermed_paragraf1 kommermed_paragraf2"
             "kommermed_tekst2 kommermed_tekst2"
-            "footer footer"
+
 
     }
 
@@ -877,26 +1133,91 @@ footer {
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
-    /* DESTINATION */
+
+    /* PROCESSEN GRID */
+
+    #process_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "process_heading process_heading"
+            "process_tekst1 process_tekst1"
+            "process_paragraf1 process_paragraf2"
+
+    }
 
 
+    /* PROCESSEN GRID SLUT */
 
 
-    /* DESTINATION SLUT */
+    /* VI SKABER HJEM GRID */
+
+    #skaberhjem_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "skaberhjem_heading skaberhjem_heading"
+            "skaberhjem_tekst1 skaberhjem_tekst1"
+            "skaberhjem_paragraf1 skaberhjem_paragraf2"
+
+
+    }
+
+    /* VI SKABER HJEM GRID SLUT */
+
+    /* STIFTEDE FORENINGER */
+
+
+    #stiftedeforeninger_fullpage {
+        display: grid;
+        height: 45vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "stiftedeforeninger_heading stiftedeforeninger_heading"
+            "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
+            "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+
+    }
+
+    /* STIFTEDE FORENINGER SLUT */
+
+    /* DESTINATIONER GRID */
+
+    #destinationer_fullpage {
+        display: grid;
+        height: 35vh;
+        padding: 10px 30px 0px 30px;
+        grid-template-columns: 600px;
+        justify-content: flex-start;
+        grid-template-areas:
+
+            "destinationer_heading"
+            "destinationer_tekst1"
+
+    }
+
+
+    /* DESTINATIONER SLUT */
 
 
     /* MALLORCA */
     #mallorca_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        height: 60vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
-
-            "splash splash"
             "mallorca_heading mallorca_heading"
             "mallorca_tekst1 mallorca_tekst1"
             "mallorca_paragraf1 mallorca_paragraf2"
-            "footer footer"
     }
 
 
@@ -906,18 +1227,16 @@ footer {
 
     #foreninger_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        height: 45vh;
+        grid-template-columns: 225px 225px 225px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash splash"
             "foreninger_heading foreninger_heading foreninger_heading"
             "foreninger_tekst1 foreninger_tekst1 foreninger_tekst1"
             "foreninger_paragraf1 foreninger_paragraf2 foreninger_paragraf3"
-            "footer footer footer"
+
     }
-
-
 
 
     /* TILGÆNGELIGE FORENINGER SLUT */
@@ -985,31 +1304,82 @@ footer {
 
     #information_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        height: 50vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "information_heading information_heading"
             "information_tekst1 information_tekst1"
             "information_paragraf1 information_paragraf2"
-            "footer footer"
+
     }
 
     /* PRAKTISK INFORMATION SLUT */
+
+    /* ORIENTERINGSMØDE */
+
+    #orienteringsmode_fullpage {
+        display: grid;
+        height: 30vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "orienteringsmode_heading1 orienteringsmode_heading1"
+            "orienteringsmode_tekst1 orienteringsmode_tekst1"
+            "orienteringsmode_paragraf1 orienteringsmode_paragraf2"
+
+    }
+
+    /* ORIENTERINGSMØDE SLUT */
+    /* KAFFEMODE */
+
+    #kaffemode_fullpage {
+        display: grid;
+        height: 30vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "kaffemode_heading1 kaffemode_heading1"
+            "kaffemode_tekst1 kaffemode_tekst1"
+            "kaffemode_paragraf1 kaffemode_paragraf2"
+    }
+
+    /* KAFFEMODE SLUT */
+
+    /* KONTAKT */
+
+    #kontakt_fullpage {
+        display: grid;
+        height: 30vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "kontakt_heading kontakt_heading"
+            "kontakt_paragraf1 form2"
+
+
+    }
+
+    /* KONTAKT SLUT */
 
     /* JOB I 21-5 */
 
     #job_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        height: 45vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "job_heading job_heading"
             "job_paragraf1 job_paragraf2"
-            "footer footer"
+
     }
 
     /* JOB I 21-5 SLUT */
@@ -1018,7 +1388,24 @@ footer {
 
 
 
+
+
+
 @media only screen and (min-width: 1024px) {
+
+    #splash img {
+        height: 70vh;
+    }
+
+
+    #orienteringsmode_paragraf1 img {
+        height: 100%;
+    }
+
+
+    #kaffemode_paragraf1 img {
+        height: 100%;
+    }
 
     /* KONCEPT GRID  */
 
@@ -1072,12 +1459,11 @@ footer {
         justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "kommermed_heading kommermed_heading"
             "kommermed_tekst1 kommermed_tekst1"
             "kommermed_paragraf1 kommermed_paragraf2"
             "kommermed_tekst2 kommermed_tekst2"
-            "footer footer"
+
 
     }
 
@@ -1121,7 +1507,215 @@ footer {
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
+    /* PROCESSEN GRID */
+
+    #process_fullpage {
+        display: grid;
+        height: 55vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+            "process_heading process_heading"
+            "process_tekst1 process_tekst1"
+            "process_paragraf1 process_paragraf2"
+
+    }
+
+    /* PROCESSEN GRID SLUT */
+
+
+
+    /* VI SKABER HJEM GRID */
+
+    #skaberhjem_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "skaberhjem_heading skaberhjem_heading"
+            "skaberhjem_tekst1 skaberhjem_tekst1"
+            "skaberhjem_paragraf1 skaberhjem_paragraf2"
+
+
+    }
+
+    /* VI SKABER HJEM GRID SLUT */
+
+
+    /* STIFTEDE FORENINGER */
+
+
+    #stiftedeforeninger_fullpage {
+        display: grid;
+        height: 50vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "stiftedeforeninger_heading stiftedeforeninger_heading"
+            "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
+            "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+
+    }
+
+    /* STIFTEDE FORENINGER SLUT */
+
+
+    /* DESTINATIONER GRID */
+
+    #destinationer_fullpage {
+        display: grid;
+        height: 40vh;
+        padding: 10px 10px 0px 0px;
+        grid-template-columns: 1000px;
+        justify-content: center;
+        grid-template-areas:
+
+            "destinationer_heading"
+            "destinationer_tekst1"
+
+    }
+
+
+    /* DESTINATIONER SLUT */
+    /* MALLORCA */
+    #mallorca_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+            "mallorca_heading mallorca_heading"
+            "mallorca_tekst1 mallorca_tekst1"
+            "mallorca_paragraf1 mallorca_paragraf2"
+    }
+
+
+    /* MALLORCA SLUT */
+
+    /* TILGÆNGELIGE FORENINGER */
+
+    #foreninger_fullpage {
+        display: grid;
+        height: 50vh;
+        grid-template-columns: 325px 325px 325px;
+        justify-content: center;
+        grid-template-areas:
+
+            "foreninger_heading foreninger_heading foreninger_heading"
+            "foreninger_tekst1 foreninger_tekst1 foreninger_tekst1"
+            "foreninger_paragraf1 foreninger_paragraf2 foreninger_paragraf3"
+
+    }
+
+
+
+
+    /* TILGÆNGELIGE FORENINGER SLUT */
+
+
+    /* FAMILIER */
+
+    /* FAMILIER SLUT */
+
+    /* LEDIE ANDELE */
+
+    /* LEDIGE ANDELE SLUT */
+
+
+    /* PRAKTISK INFORMATION */
+
+    #information_fullpage {
+        display: grid;
+        height: 55vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "information_heading information_heading"
+            "information_tekst1 information_tekst1"
+            "information_paragraf1 information_paragraf2"
+
+    }
+
+    /* PRAKTISK INFORMATION SLUT */
+
+    /* ORIENTERINGSMØDE */
+
+    #orienteringsmode_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "orienteringsmode_heading1 orienteringsmode_heading1"
+            "orienteringsmode_tekst1 orienteringsmode_tekst1"
+            "orienteringsmode_paragraf1 orienteringsmode_paragraf2"
+
+    }
+
+    /* ORIENTERINGSMØDE SLUT */
+
+
+    /* KAFFEMØDE */
+
+    #kaffemode_fullpage {
+        display: grid;
+        height: 55vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "kaffemode_heading1 kaffemode_heading1"
+            "kaffemode_tekst1 kaffemode_tekst1"
+            "kaffemode_paragraf1 kaffemode_paragraf2"
+    }
+
+    /* KAFFEMØDE SLUT */
+
+    /* KONTAKT */
+    #kontakt_fullpage {
+        display: grid;
+        height: 45vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "kontakt_heading kontakt_heading"
+            "kontakt_paragraf1 form2"
+
+
+    }
+
+
+    /* KONTAKT SLUT */
+
+    /* JOB I 21-5 */
+
+    #job_fullpage {
+        display: grid;
+        height: 50vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "job_heading job_heading"
+            "job_paragraf1 job_paragraf2"
+
+    }
+
+    /* JOB I 21-5 SLUT */
+
 
 }
+
+
+
 
 /* MEDIA QUERIES SLUT */

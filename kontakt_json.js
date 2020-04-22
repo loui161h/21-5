@@ -40,10 +40,13 @@ async function hentData() {
 }
 
 function visKontakt() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#kontakt_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#kontakt_overskrift1").textContent = alleTekster.title.rendered;
 
     document.querySelector("#kontakt_p1").textContent = alleTekster.tekst1;
+    document.querySelector("#kontakt_p2").textContent = alleTekster.tekst2;
+    document.querySelector("#kontakt_p3").textContent = alleTekster.tekst3;
+    document.querySelector("#kontakt_p4").textContent = alleTekster.tekst4;
 
 
 

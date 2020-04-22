@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataTeamet() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#teamet_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#teamet_overskrift").textContent = alleTekster.title.rendered;
     document.querySelector("#teamet_p1").innerHTML = alleTekster.content.rendered;
 
