@@ -48,4 +48,5 @@ function visDataInformation() {
     document.querySelector("#information_p2").innerHTML = alleTekster.tekst1;
 
 
+
 }

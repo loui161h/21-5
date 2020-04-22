@@ -167,7 +167,7 @@ footer {
 
 #givermening_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -218,7 +218,7 @@ footer {
 
 #voresfamilier_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -292,7 +292,7 @@ footer {
 
 #kommermed_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -336,7 +336,7 @@ footer {
 
 #bookingsystemet_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -414,7 +414,7 @@ footer {
 
 #udlejning_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -448,7 +448,7 @@ footer {
 
 #process_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -492,7 +492,7 @@ footer {
 
 #skaberhjem_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -542,7 +542,7 @@ footer {
 
 #stiftedeforeninger_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -603,7 +603,7 @@ footer {
 
 #destinationer_fullpage {
     display: grid;
-    height: 5f0vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -631,7 +631,7 @@ footer {
 /* MALLORCA GRID */
 #mallorca_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -664,11 +664,44 @@ footer {
 
 /* MALLORCA GRID SLUT */
 
+/* TOSCANA GRID */
+#toscana_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "toscana_heading"
+        "toscana_tekst1"
+        "toscana_paragraf1"
+        "toscana_paragraf2"
+}
+
+#toscana_heading {
+    grid-area: toscana_heading;
+}
+
+#toscana_tekst1 {
+    grid-area: toscana_tekst1;
+}
+
+#toscana_paragraf1 {
+    grid-area: toscana_paragraf1;
+}
+
+#toscana_paragraf2 {
+    grid-area: toscana_paragraf2;
+}
+
+/* TOSCANA GRID SLUT */
+
 /* TILGÆNGELIGE FORENINGER */
 
 #foreninger_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -708,7 +741,7 @@ footer {
 
 #dk39_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -765,20 +798,18 @@ footer {
 
 #dk38_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
         "dk38_heading1"
         "dk38_tekst1"
-        "dk39_billede1"
+        "dk38_billede1"
         "dk38_paragraf1"
         "dk38_paragraf2"
         "dk38_paragraf3"
         "dk38_paragraf4"
         "dk38_heading2"
-
-
 }
 
 
@@ -790,8 +821,8 @@ footer {
     grid-area: dk38_tekst1;
 }
 
-#dk39_billede1 {
-    grid-area: dk39_billede1;
+#dk38_billede1 {
+    grid-area: dk38_billede1;
 }
 
 #dk38_paragraf1 {
@@ -814,11 +845,6 @@ footer {
     grid-area: dk38_heading2;
 }
 
-dk38_heading3 {
-    grid-area: dk38_heading3;
-}
-
-
 
 /* DK38 LARGE GRID SLUT */
 
@@ -827,7 +853,7 @@ dk38_heading3 {
 
 #dk36_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -892,7 +918,7 @@ dk38_heading3 {
 
 #information_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -929,7 +955,7 @@ dk38_heading3 {
 
 #orienteringsmode_fullpage {
     display: grid;
-    height: 60vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -967,7 +993,7 @@ dk38_heading3 {
 
 #kaffemode_fullpage {
     display: grid;
-    height: 60vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1007,7 +1033,7 @@ dk38_heading3 {
 
 #job_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1039,7 +1065,7 @@ dk38_heading3 {
 
 #kontakt_fullpage {
     display: grid;
-    height: 60vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1066,8 +1092,139 @@ dk38_heading3 {
 
 /* KONTAKT SLUT*/
 
+/* OM OS */
+
+#omos_fullpage {
+    display: grid;
+    /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+    min-height: 100%;
+    grid-gap: 10px;
+    grid-template-areas:
 
 
+        "omos_heading"
+        "omos_tekst1"
+        "omos_paragraf1"
+        "omos_paragraf2"
+
+}
+
+#omos_heading {
+    grid-area: omos_heading;
+}
+
+
+#omos_tekst1 {
+    grid-area: omos_tekst1;
+
+}
+
+
+
+#omos_paragraf1 {
+    grid-area: omos_paragraf1;
+
+
+}
+
+#omos_paragraf2 {
+    grid-area: omos_paragraf2;
+
+
+}
+
+
+/* OM OS GRID SLUT */
+
+/* HISTORIEN */
+
+#historien_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "historien_heading"
+        "historien_paragraf1"
+        "historien_paragraf2"
+
+
+}
+
+#historien_heading {
+    grid-area: historien_heading;
+}
+
+
+
+#historien_paragraf1 {
+    grid-area: historien_paragraf1;
+
+
+}
+
+#historien_paragraf2 {
+    grid-area: historien_paragraf2;
+
+
+}
+
+/* HISTORIEN SLUT */
+
+/* TEAMET GRID */
+
+#teamet_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "teamet_heading"
+        "teamet_tekst1"
+        "teamet_paragraf2"
+        "teamet_paragraf3"
+        "teamet_paragraf4"
+        "teamet_paragraf5"
+
+}
+
+#teamet_heading {
+    grid-area: teamet_heading;
+}
+
+
+#teamet_tekst1 {
+    grid-area: teamet_tekst1;
+
+}
+
+
+
+#teamet_paragraf2 {
+    grid-area: teamet_paragraf2;
+
+
+}
+
+#teamet_paragraf3 {
+    grid-area: teamet_paragraf3;
+
+
+}
+
+#teamet_paragraf4 {
+    grid-area: teamet_paragraf4;
+
+
+}
+
+#teamet_paragraf5 {
+    grid-area: teamet_paragraf5;
+
+
+}
+
+/* 21-5 TEAMET GRID SLUT */
 
 
 /* MEDIA QUERIES */
@@ -1227,7 +1384,6 @@ dk38_heading3 {
 
     #udlejning_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1245,7 +1401,6 @@ dk38_heading3 {
 
     #process_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1264,7 +1419,6 @@ dk38_heading3 {
 
     #skaberhjem_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1284,7 +1438,6 @@ dk38_heading3 {
 
     #stiftedeforeninger_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1302,7 +1455,6 @@ dk38_heading3 {
 
     #destinationer_fullpage {
         display: grid;
-        height: 35vh;
         padding: 10px 30px 0px 30px;
         grid-template-columns: 600px;
         justify-content: flex-start;
@@ -1320,7 +1472,6 @@ dk38_heading3 {
     /* MALLORCA */
     #mallorca_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1332,11 +1483,25 @@ dk38_heading3 {
 
     /* MALLORCA SLUT */
 
+    /* TOSCANA */
+    #toscana_fullpage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+            "toscana_heading toscana_heading"
+            "toscana_tekst1 toscana_tekst1"
+            "toscana_paragraf1 toscana_paragraf2"
+    }
+
+
+    /* TOSCANA SLUT */
+
+
     /* TILGÆNGELIGE FORENINGER */
 
     #foreninger_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 225px 225px 225px;
         justify-content: center;
         grid-template-areas:
@@ -1376,7 +1541,6 @@ dk38_heading3 {
         justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "dk38_heading1 dk38_heading1"
             "dk38_tekst1 dk38_tekst1"
             "dk38_billede1 dk38_billede1"
@@ -1384,8 +1548,9 @@ dk38_heading3 {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
-            "footer footer"
+
     }
+
 
 
 
@@ -1411,7 +1576,6 @@ dk38_heading3 {
 
     #information_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1428,7 +1592,6 @@ dk38_heading3 {
 
     #orienteringsmode_fullpage {
         display: grid;
-        height: 30vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1445,7 +1608,6 @@ dk38_heading3 {
 
     #kaffemode_fullpage {
         display: grid;
-        height: 30vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1462,7 +1624,6 @@ dk38_heading3 {
 
     #kontakt_fullpage {
         display: grid;
-        height: 30vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1479,7 +1640,6 @@ dk38_heading3 {
 
     #job_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1491,6 +1651,55 @@ dk38_heading3 {
 
     /* JOB I 21-5 SLUT */
 
+    /* OM OS */
+
+    #omos_fullpage {
+        display: grid;
+        /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "omos_heading omos_heading"
+            "omos_tekst1 omos_tekst1"
+            "omos_paragraf1 omos_paragraf2"
+
+
+    }
+
+    /* OM OS SLUT */
+
+    /* HISTORIEN  */
+    #historien_fullpage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "historien_heading historien_heading"
+            "historien_paragraf1 historien_paragraf2"
+
+
+    }
+
+    /* HISTORIEN SLUT */
+
+    /* TEAMET GRID */
+
+    #teamet_fullpage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "teamet_heading teamet_heading"
+            "teamet_tekst1 teamet_tekst1"
+            "teamet_paragraf2 teamet_paragraf3"
+            "teamet_paragraf4 teamet_paragraf5"
+
+    }
+
+    /* TEAMET GRID  SLUT */
 }
 
 
@@ -1579,11 +1788,7 @@ dk38_heading3 {
 
 
     #kommermed_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "kommermed_heading kommermed_heading"
@@ -1634,7 +1839,6 @@ dk38_heading3 {
 
     #udlejning_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1651,7 +1855,6 @@ dk38_heading3 {
 
     #process_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1669,7 +1872,6 @@ dk38_heading3 {
 
     #skaberhjem_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1728,7 +1930,6 @@ dk38_heading3 {
 
     #destinationer_fullpage {
         display: grid;
-        height: 40vh;
         padding: 10px 10px 0px 0px;
         grid-template-columns: 1000px;
         justify-content: center;
@@ -1744,7 +1945,6 @@ dk38_heading3 {
     /* MALLORCA */
     #mallorca_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1756,11 +1956,26 @@ dk38_heading3 {
 
     /* MALLORCA SLUT */
 
+
+
+    /* TOSCANA */
+    #toscana_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+            "toscana_heading toscana_heading"
+            "toscana_tekst1 toscana_tekst1"
+            "toscana_paragraf1 toscana_paragraf2"
+    }
+
+
+    /* TOSCANA SLUT */
+
     /* TILGÆNGELIGE FORENINGER */
 
     #foreninger_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 325px 325px 325px;
         justify-content: center;
         grid-template-areas:
@@ -1800,7 +2015,6 @@ dk38_heading3 {
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
-            "splash splash"
             "dk38_heading1 dk38_heading1"
             "dk38_tekst1 dk38_tekst1"
             "dk38_billede1 dk38_billede1"
@@ -1808,15 +2022,9 @@ dk38_heading3 {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
-            "footer footer"
-    }
-
-
-    #dk38_paragraf3 {
-        grid-area: dk39_paragraf3;
-        height: 80vh;
 
     }
+
 
 
     #dk36_fullpage {
@@ -1851,7 +2059,6 @@ dk38_heading3 {
 
     #information_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1868,7 +2075,6 @@ dk38_heading3 {
 
     #orienteringsmode_fullpage {
         display: grid;
-        height: 100vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1887,7 +2093,6 @@ dk38_heading3 {
 
     #kaffemode_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1903,7 +2108,6 @@ dk38_heading3 {
     /* KONTAKT */
     #kontakt_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1922,7 +2126,6 @@ dk38_heading3 {
 
     #job_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1933,6 +2136,55 @@ dk38_heading3 {
     }
 
     /* JOB I 21-5 SLUT */
+
+    /* OM OS */
+    #omos_fullpage {
+        display: grid;
+        /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "omos_heading omos_heading"
+            "omos_tekst1 omos_tekst1"
+            "omos_paragraf1 omos_paragraf2"
+
+
+    }
+
+    /* OM OS SLUT */
+
+    /* HISTORIEN  */
+    #historien_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "historien_heading historien_heading"
+            "historien_paragraf1 historien_paragraf2"
+
+
+    }
+
+    /* HISTORIEN SLUT */
+
+    /* TEAMET GRID */
+
+    #teamet_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "teamet_heading teamet_heading"
+            "teamet_tekst1 teamet_tekst1"
+            "teamet_paragraf2 teamet_paragraf3"
+            "teamet_paragraf4 teamet_paragraf5"
+
+    }
+
+    /* TEAMET GRID  SLUT */
 
 
 }
