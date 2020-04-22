@@ -1590,6 +1590,20 @@ dk36_heading3 {
     }
 
 
+    #paragraf_img1 {
+        grid-area: paragraf_img1;
+        height: 50vh;
+        width: 90%;
+
+    }
+
+    #paragraf_img2 {
+        grid-area: paragraf_img2;
+        height: 50vh;
+        width: 90%;
+    }
+
+
     /* BOOKINGSYSTEMET SLUT */
 
     /* UDLEJNING BLANDT MEDLEMMER */
