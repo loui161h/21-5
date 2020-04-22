@@ -22,43 +22,54 @@ img {
 
 /***************** BURGER MENU *********************/
 
-
-/*farve på menuen*/
 header {
-    width: 100vw;
-    background-color: #fcf8f3;
-    opacity: 80%;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+
 }
+
+#logo {
+    display: flex;
+
+    width: 100%;
+    top: -10px;
+    width: 60px;
+    height: 60px;
+
+}
+
+
 
 
 
 header nav {
     display: flex;
-    flex-wrap: wrap;
+
     flex-direction: column;
-    align-items: flex-end;
+    display: inline-block;
+    align-items: flex-start;
 }
+
 
 
 
 header nav a {
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 100;
 }
 
 
 
 header a {
-    padding: 0.5rem;
     display: flex;
-    color: #817f7f;
 }
 
 
 
 header nav a:visited {
-    color: #817f7f;
+    color: #375151;
 }
 
 
@@ -79,6 +90,89 @@ header nav a:visited {
 }
 
 
+/********** Dropdown Button ******************/
+.dropbtn {
+    display: inline-block;
+    color: #375151;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: none;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #F0F0F0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/*
+.dropdown {
+    background-color: white;
+
+}
+*/
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: #375151;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.dropdown a:hover {
+    color: #649087;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    color: #375151;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #E8E7E7;
+    border-radius: 10px;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/*
+.show {
+    display: block;
+}
+*/
+
+/* DROP DOWN NAVIGATION SLUT */
+
+
+
 
 
 
@@ -88,194 +182,7 @@ header nav a:visited {
 
 /* GENERELLE INDSTILLINER */
 
-#process_fullpage,
-#skaberhjem_fullpage,
-#stiftedeforeninger_fullpage,
-
-
-#omos_fullpage,
-#historien_fullpage,
-#teamet_fullpage h1 {
-    font-size: 2rem;
-    color: #375151;
-    /* margin-bottom: 1vw;*/
-
-}
-
-
-#process_fullpage,
-#skaberhjem_fullpage,
-#stiftedeforeninger_fullpage,
-
-#omos_fullpage,
-#historien_fullpage,
-#teamet_fullpage h2 {
-    font-size: 1.4rem;
-    color: #375151;
-}
-
-p {
-    font-size: 0.8rem;
-    color: #414141;
-    line-height: 20px;
-}
-
-
-#splash {
-    width: 100%;
-    height: 33vh;
-    background-image: url(sky.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    grid-area: splash;
-
-}
-
-footer {
-    grid-area: footer;
-}
-
-
 /* GENERELLE INDSTILLINGER SLUT */
-
-
-/************  PROCESSEN GRID ************/
-
-#process_fullpage {
-    display: grid;
-    height: 100vh;
-    grid-gap: 10px;
-    grid-template-areas:
-
-        "splash"
-        "process_heading"
-        "process_tekst1"
-        "process_paragraf1"
-        "process_paragraf2"
-        "footer"
-
-}
-
-#process_heading {
-    grid-area: process_heading;
-}
-
-
-#process_tekst1 {
-    grid-area: process_tekst1;
-
-}
-
-
-
-#process_paragraf1 {
-    grid-area: process_paragraf1;
-
-
-}
-
-#process_paragraf2 {
-    grid-area: process_paragraf2;
-
-
-}
-
-
-/* PROCESSEN GRID SLUT */
-
-
-/*********** VI SKABER HJEM GRID**********/
-
-#skaberhjem_fullpage {
-    display: grid;
-    height: 100vh;
-    grid-gap: 10px;
-    grid-template-areas:
-
-        "splash"
-        "skaberhjem_heading"
-        "skaberhjem_tekst1"
-        "skaberhjem_paragraf1"
-        "skaberhjem_paragraf2"
-        "footer"
-
-}
-
-#skaberhjem_heading {
-    grid-area: skaberhjem_heading;
-}
-
-
-#skaberhjem_tekst1 {
-    grid-area: skaberhjem_tekst1;
-
-}
-
-
-
-#skaberhjem_paragraf1 {
-    grid-area: skaberhjem_paragraf1;
-
-
-}
-
-#skaberhjem_paragraf2 {
-    grid-area: skaberhjem_paragraf2;
-
-
-}
-
-/* VI SKABER HJEM GRID SLUT */
-
-
-/*********** STIFTEDE FORENINGER *************/
-
-
-#stiftedeforeninger_fullpage {
-    display: grid;
-    height: 100vh;
-    grid-gap: 10px;
-    grid-template-areas:
-
-        "splash"
-        "stiftedeforeninger_heading"
-        "stiftedeforeninger_tekst1"
-        "stiftedeforeninger_paragraf1"
-        "stiftedeforeninger_paragraf2"
-        "footer"
-
-}
-
-#stiftedeforeninger_heading {
-    grid-area: stiftedeforeninger_heading;
-}
-
-
-#stiftedeforeninger_tekst1 {
-    grid-area: stiftedeforeninger_tekst1;
-
-}
-
-
-
-#stiftedeforeninger_paragraf1 {
-    grid-area: stiftedeforeninger_paragraf1;
-
-
-}
-
-#stiftedeforeninger_paragraf2 {
-    grid-area: stiftedeforeninger_paragraf2;
-
-
-}
-
-
-/* STIFTEDE FORENINGER SLUT */
-
-
-
-
 
 
 
@@ -435,179 +342,8 @@ footer {
 @media only screen and (min-width: 1024px) {
 
     /*GENERELLE INDSTILLINGER */
-    #process_fullpage,
-    #skaberhjem_fullpage,
-    #stiftedeforeninger_fullpage,
-
-    #omos_fullpage h1 {
-        font-size: 3rem;
-        /*  margin-bottom: 1vw;*/
-
-
-    }
-
-    #process_fullpage,
-    #skaberhjem_fullpage,
-    #stiftedeforeninger_fullpage,
-
-    #omos_fullpage h2 {
-        font-size: 1.7rem;
-
-
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-
-
-    #splash {
-        height: 80vh;
-    }
-
-    #splash img {
-        height: 80vh;
-    }
-
-
 
     /*GENERELLE INDSTILLINGER SLUT*/
-
-
-    /************  PROCESSEN GRID ************/
-
-    #process_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
-        grid-template-areas:
-
-            "splash splash"
-            "process_heading process_heading"
-            "process_tekst1 process_tekst1"
-            "process_paragraf1 process_paragraf2"
-
-            "footer footer"
-
-    }
-
-    #process_heading {
-        grid-area: process_heading;
-    }
-
-
-    #process_tekst1 {
-        grid-area: process_tekst1;
-
-    }
-
-
-
-    #process_paragraf1 {
-        grid-area: process_paragraf1;
-
-
-    }
-
-    #process_paragraf2 {
-        grid-area: process_paragraf2;
-
-
-    }
-
-
-
-    /* PROCESSEN GRID SLUT */
-
-
-    /*********** VI SKABER HJEM GRID**********/
-
-    #skaberhjem_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
-        grid-template-areas:
-
-            "splash splash"
-            "skaberhjem_heading skaberhjem_heading"
-            "skaberhjem_tekst1 skaberhjem_tekst1"
-            "skaberhjem_paragraf1 skaberhjem_paragraf2"
-            "footer footer"
-
-    }
-
-    #skaberhjem_heading {
-        grid-area: skaberhjem_heading;
-    }
-
-
-    #skaberhjem_tekst1 {
-        grid-area: skaberhjem_tekst1;
-
-    }
-
-
-
-    #skaberhjem_paragraf1 {
-        grid-area: skaberhjem_paragraf1;
-
-
-    }
-
-    #skaberhjem_paragraf2 {
-        grid-area: skaberhjem_paragraf2;
-
-
-    }
-
-
-    /* VI SKABER HJEM GRID SLUT */
-
-
-    /*********** STIFTEDE FORENINGER *************/
-
-
-    #stiftedeforeninger_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
-        grid-template-areas:
-
-            "splash splash"
-            "stiftedeforeninger_heading stiftedeforeninger_heading"
-            "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
-            "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
-            "footer footer"
-
-    }
-
-    #stiftedeforeninger_heading {
-        grid-area: stiftedeforeninger_heading;
-    }
-
-
-    #stiftedeforeninger_tekst1 {
-        grid-area: stiftedeforeninger_tekst1;
-
-    }
-
-
-
-    #stiftedeforeninger_paragraf1 {
-        grid-area: stiftedeforeninger_paragraf1;
-
-
-    }
-
-    #stiftedeforeninger_paragraf2 {
-        grid-area: stiftedeforeninger_paragraf2;
-
-
-    }
-
-
-    /* STIFTEDE FORENINGER SLUT */
 
 
     /***************** OM OS GRID *************/
@@ -748,14 +484,11 @@ footer {
     }
 
 
-
-
     /* 21-5 TEAMET GRID SLUT */
 
 
 
     /*************** DROP DOWN NAVIGATION *********************/
-
     header {
         position: fixed;
         display: flex;
@@ -857,14 +590,6 @@ footer {
         margin-top: -20px;
     }
 
-
-    #menuknap {
-        display: inline-block;
-        color: black;
-        margin: 0.5rem;
-        font-size: 2rem;
-    }
-
     .footermenu a {
         color: black;
         font-size: 15px;
@@ -878,7 +603,35 @@ footer {
         color: #649087;
     }
 
+
+
+    #menuknap {
+        display: none;
+    }
+
+    .hidden {
+        transform: translateX(0);
+        opacity: 1;
+        display: inline-block;
+    }
+
+    header li {
+        display: inline-block;
+
+
+    }
+
+    header nav {
+        padding: 0.1rem;
+    }
+
+    header nav li {
+        text-decoration: none;
+
+    }
 }
+
+
 
 /* MENU2 SLUT */
 
@@ -898,7 +651,6 @@ footer {
 
 
 /*
-
 .padding {
     padding: 20px;
 }
@@ -1006,6 +758,7 @@ footer {
     color: #707070;
 }
 */
+
 
 
 
