@@ -174,7 +174,7 @@ a:hover {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     /* SKRIFT */
     h1 {
@@ -224,7 +224,7 @@ a:hover {
 }
 
 
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
     /* SKRIFT */
 

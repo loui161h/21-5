@@ -1,5 +1,15 @@
 body {
     margin: 0;
+    padding: 0;
+
+
+}
+
+
+#splash img {
+    width: 100%;
+    height: 33vh;
+    background-repeat: no-repeat;
 
 
 }
@@ -19,18 +29,25 @@ img {
 /* GENERELLE INDSTILLINER */
 
 
+.padding {
+    padding: 0px 20px 0px 20px;
+}
+
+
 h1 {
     font-size: 2rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 1vw;
+    margin-bottom: -1vw;
 
 }
 
 h2 {
-    font-size: 1.4rem;
-    color: #375151;
+    font-size: 1.6rem;
+    color: #649087;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: -1vw;
 
 }
 
@@ -39,27 +56,20 @@ h3 {
     font-size: 1rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: -1vw;
 
 }
 
 p {
-    font-size: 0.8rem;
-    color: #414141;
-    line-height: 20px;
+    font-size: 1rem;
+    color: #606060;
     font-family: 'Quicksand', sans-serif;
+    line-height: 25px;
 }
+
 
 
 /* ALLE SPLASH BILLEDE */
-#splash {
-    width: 100%;
-    height: 33vh;
-    background-image: url(sky.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    grid-area: splash;
-
-}
 
 /* ALLE SPLASH BILLEDE SLUT */
 
@@ -73,15 +83,15 @@ p {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "heading"
         "tekst1"
         "paragraf1"
         "paragraf2"
         "paragraf3"
-        "footer"
 
 }
 
@@ -123,23 +133,23 @@ footer {
 
 
 
+
 /* KONCEPT GRID SLUT */
 
 /* GIVER MENING GRID */
 
-#givermening {
+#givermening_fullpage {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
-
-        "splash"
         "givermening_heading"
         "givermening_tekst1"
         "givermening_paragraf1"
         "givermening_paragraf2"
         "givermening_tekst2"
-        "footer"
 
 }
 
@@ -204,15 +214,15 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "kommermed_heading"
         "kommermed_tekst1"
         "kommermed_paragraf1"
         "kommermed_paragraf2"
         "kommermed_tekst2"
-        "footer"
 
 }
 
@@ -248,9 +258,10 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "bookingsystemet_heading"
         "bookingsystemet_tekst1"
         "bookingsystemet_paragraf1"
@@ -262,7 +273,6 @@ footer {
         "paragraf_img1"
         "bookingsystemet_paragraf6"
         "paragraf_img2"
-        "footer"
 
 }
 
@@ -326,13 +336,13 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "udlejning_heading"
         "udlejning_paragraf1"
         "udlejning_paragraf2"
-        "footer"
 }
 
 #udlejning_heading {
@@ -731,79 +741,73 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     /*GENERELLE INDSTILLINGER */
+
+    .padding {
+        padding: 0px 0px 0px 0px;
+    }
+
+
     h1 {
         font-size: 3rem;
-        /*        margin-bottom: 1vw;*/
-        /*   margin: 60px;*/
-
+        /*     margin-left: 40px;*/
     }
 
     h2 {
-        font-size: 1.7rem;
-        /*        margin: 60px;*/
+        font-size: 2.6;
 
     }
 
-    h3 {
-        font-size: 1.3rem;
-    }
-
-    /*
-    p {
-        font-size: 1rem;
-
-    }*/
 
     /* SPLASH */
 
-    #splash {
-        height: 80vh;
-    }
+
 
     #splash img {
-        height: 80vh;
+        height: 70vh;
     }
 
     /* SPLASH SLUT */
 
 
     /*GENERELLE INDSTILLINGER SLUT*/
+    /* KONCEPT GRID */
 
-
-    /* KONCEPT GRID SLUT */
-
-    /* GIVER MENING GRID */
-    #givermening_fullpage {
+    #koncept_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        padding: 10px;
+        grid-template-columns: 225px 225px 225px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash"
+
+            "heading heading heading"
+            "tekst1 tekst1 tekst1"
+            "paragraf1 paragraf2 paragraf3"
+    }
+
+    /* KONCEPT GRID SLUT */
+    /* GIVER MENING GRID */
+
+    #givermening_fullpage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
             "givermening_heading givermening_heading"
             "givermening_tekst1 givermening_tekst1"
             "givermening_paragraf1 givermening_paragraf2"
-            "givermening_tekst2 givermening_tekst2"
-            "footer footer"
-
+            "givermening_tekst2 givermening_tekst2";
     }
 
-    /*  #givermening_tekst2 {
-        padding-bottom: 60px;
-    }
-*/
+
+
     /* GIVER MENING GRID SLUT */
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */
-
-
-
-
-
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
@@ -812,8 +816,8 @@ footer {
 
     #kommermed_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
 
             "splash splash"
@@ -837,11 +841,10 @@ footer {
 
     #bookingsystemet_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "bookingsystemet_heading bookingsystemet_heading"
             "bookingsystemet_tekst1 bookingsystemet_tekst1"
             "bookingsystemet_paragraf1 bookingsystemet_paragraf2"
@@ -849,7 +852,6 @@ footer {
             "bookingsystemet_tekst2 bookingsystemet_tekst2"
             "paragraf_img1 bookingsystemet_paragraf5"
             "bookingsystemet_paragraf6 paragraf_img2"
-            "footer footer"
 
     }
 
@@ -862,14 +864,13 @@ footer {
 
     #udlejning_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        height: 60vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "udlejning_heading udlejning_heading"
             "udlejning_paragraf1 udlejning_paragraf2"
-            "footer footer"
     }
 
 
@@ -1016,5 +1017,111 @@ footer {
 }
 
 
+
+@media only screen and (min-width: 1024px) {
+
+    /* KONCEPT GRID  */
+
+    #koncept_fullpage {
+        display: grid;
+        grid-template-columns: 325px 325px 325px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "heading heading heading"
+            "tekst1 tekst1 tekst1"
+            "paragraf1 paragraf2 paragraf3";
+
+
+    }
+
+
+    /* KONCEPT GRID SLUT */
+
+    /* GIVER MENING GRID */
+
+    #givermening_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+            "givermening_heading givermening_heading"
+            "givermening_tekst1 givermening_tekst1"
+            "givermening_paragraf1 givermening_paragraf2"
+            "givermening_tekst2 givermening_tekst2";
+    }
+
+    /* GIVER MENING GRID SLUT */
+
+
+    /* FORDELE VED AT KØBE EN ANDEL GRID */
+
+
+    /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
+
+
+    /* HVORDAN KOMMER VI MED GRID */
+
+
+    #kommermed_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-gap: 10px;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "splash splash"
+            "kommermed_heading kommermed_heading"
+            "kommermed_tekst1 kommermed_tekst1"
+            "kommermed_paragraf1 kommermed_paragraf2"
+            "kommermed_tekst2 kommermed_tekst2"
+            "footer footer"
+
+    }
+
+    /* HVORDAN KOMMER VI MED GRID SLUT */
+
+    /* BOOKINGSYSTEMET */
+
+    #bookingsystemet_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "bookingsystemet_heading bookingsystemet_heading"
+            "bookingsystemet_tekst1 bookingsystemet_tekst1"
+            "bookingsystemet_paragraf1 bookingsystemet_paragraf2"
+            "bookingsystemet_paragraf3 bookingsystemet_paragraf4"
+            "bookingsystemet_tekst2 bookingsystemet_tekst2"
+            "paragraf_img1 bookingsystemet_paragraf5"
+            "bookingsystemet_paragraf6 paragraf_img2"
+
+    }
+
+
+    /* BOOKINGSYSTEMET SLUT */
+
+    /* UDLEJNING BLANDT MEDLEMMER */
+
+    #udlejning_fullpage {
+        display: grid;
+        height: 55vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "udlejning_heading udlejning_heading"
+            "udlejning_paragraf1 udlejning_paragraf2"
+    }
+
+
+
+    /* UDLEJNING BLANDT MEDLEMMER SLUT */
+
+
+}
 
 /* MEDIA QUERIES SLUT */
