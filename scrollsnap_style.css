@@ -1,17 +1,66 @@
-
-.gallery {
-    padding: 1rem;
-    display: flex;
+.container {
+    width: 60vw;
+    height: 70vh;
+    margin: 15vh auto;
     overflow-x: scroll;
-    scroll-padding: 0 50%;
     scroll-snap-type: x mandatory;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
-li {
-    scroll-snap-align: center;
-    display: inline-block;
-    height: 60vh;
-    border-radius: 3px;
-    font-size: 0;
-    margin-right: 3rem;
+.child {
+    margin-left: 2rem;
+    height: 90%;
+    scroll-snap-align: start;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.child:nth-child(1n) {
+    background-color: darkorchid;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(2n) {
+    background-color: indigo;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(3n) {
+    background-color: navy;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(4n) {
+    background-color: palegreen;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(5n) {
+    background-color: yellow;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(6n) {
+    background-color: orange;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(7n) {
+    background-color: tomato;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(8n) {
+    background-color: orange;
+    flex: 0 0 40%;
+}
+
+.child:nth-child(9n) {
+    background-color: tomato;
+    flex: 0 0 40%;
 }
