@@ -500,27 +500,48 @@ footer {
 
 
 
-/* DESTINATION */
+/* DESTINATIONER GRID */
+
+#destinationer_fullpage {
+    display: grid;
+    height: 5f0vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "destinationer_heading"
+        "destinationer_tekst1"
+
+}
+
+#destinationer_heading {
+    grid-area: destinationer_heading;
+}
 
 
+#destinationer_tekst1 {
+    grid-area: destinationer_tekst1;
+
+}
 
 
 
 /* DESTINATION SLUT */
 
-/* MALLORCA */
+/* MALLORCA GRID */
 #mallorca_fullpage {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "mallorca_heading"
         "mallorca_tekst1"
         "mallorca_paragraf1"
         "mallorca_paragraf2"
-        "footer"
 }
 
 #mallorca_heading {
@@ -542,7 +563,7 @@ footer {
 
 
 
-/* MALLORCA SLUT */
+/* MALLORCA GRID SLUT */
 
 /* TILGÆNGELIGE FORENINGER */
 
@@ -550,15 +571,15 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "foreninger_heading"
         "foreninger_tekst1"
         "foreninger_paragraf1"
         "foreninger_paragraf2"
         "foreninger_paragraf3"
-        "footer"
 }
 
 
@@ -1068,26 +1089,35 @@ footer {
 
     /* STIFTEDE FORENINGER SLUT */
 
-    /* DESTINATION */
+    /* DESTINATIONER GRID */
+
+    #destinationer_fullpage {
+        display: grid;
+        height: 35vh;
+        padding: 10px 30px 0px 30px;
+        grid-template-columns: 600px;
+        justify-content: flex-start;
+        grid-template-areas:
+
+            "destinationer_heading"
+            "destinationer_tekst1"
+
+    }
 
 
-
-
-    /* DESTINATION SLUT */
+    /* DESTINATIONER SLUT */
 
 
     /* MALLORCA */
     #mallorca_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        height: 60vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
-
-            "splash splash"
             "mallorca_heading mallorca_heading"
             "mallorca_tekst1 mallorca_tekst1"
             "mallorca_paragraf1 mallorca_paragraf2"
-            "footer footer"
     }
 
 
@@ -1097,18 +1127,16 @@ footer {
 
     #foreninger_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        height: 45vh;
+        grid-template-columns: 225px 225px 225px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash splash"
             "foreninger_heading foreninger_heading foreninger_heading"
             "foreninger_tekst1 foreninger_tekst1 foreninger_tekst1"
             "foreninger_paragraf1 foreninger_paragraf2 foreninger_paragraf3"
-            "footer footer footer"
+
     }
-
-
 
 
     /* TILGÆNGELIGE FORENINGER SLUT */
@@ -1369,6 +1397,60 @@ footer {
     }
 
     /* STIFTEDE FORENINGER SLUT */
+
+
+    /* DESTINATIONER GRID */
+
+    #destinationer_fullpage {
+        display: grid;
+        height: 35vh;
+        padding: 10px 10px 0px 0px;
+        grid-template-columns: 1000px;
+        justify-content: center;
+        grid-template-areas:
+
+            "destinationer_heading"
+            "destinationer_tekst1"
+
+    }
+
+
+    /* DESTINATIONER SLUT */
+    /* MALLORCA */
+    #mallorca_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+            "mallorca_heading mallorca_heading"
+            "mallorca_tekst1 mallorca_tekst1"
+            "mallorca_paragraf1 mallorca_paragraf2"
+    }
+
+
+    /* MALLORCA SLUT */
+
+    /* TILGÆNGELIGE FORENINGER */
+
+    #foreninger_fullpage {
+        display: grid;
+        height: 50vh;
+        grid-template-columns: 325px 325px 325px;
+        justify-content: center;
+        grid-template-areas:
+
+            "foreninger_heading foreninger_heading foreninger_heading"
+            "foreninger_tekst1 foreninger_tekst1 foreninger_tekst1"
+            "foreninger_paragraf1 foreninger_paragraf2 foreninger_paragraf3"
+
+    }
+
+
+
+
+    /* TILGÆNGELIGE FORENINGER SLUT */
+
 
 }
 
