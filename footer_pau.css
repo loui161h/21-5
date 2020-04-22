@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+
+/* html definerer at det gælder for hele siden, så footeren sætter sig i bunden */
+html,
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
@@ -18,6 +21,8 @@ img {
     margin: 0;
     object-fit: cover;
 }
+
+
 
 
 /***************** BURGER MENU *********************/
@@ -41,12 +46,8 @@ header {
 }
 
 
-
-
-
 header nav {
     display: flex;
-
     flex-direction: column;
     display: inline-block;
     align-items: flex-start;
@@ -192,9 +193,11 @@ a {
 
 #omos_fullpage {
     display: grid;
-    height: 100vh;
+    /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
+
 
         "splash"
         "omos_heading"
@@ -238,7 +241,8 @@ a {
 
 #historien_fullpage {
     display: grid;
-    height: 100vh;
+    /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -276,7 +280,8 @@ a {
 
 #teamet_fullpage {
     display: grid;
-    height: 100vh;
+    /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -330,6 +335,79 @@ a {
 /* 21-5 TEAMET GRID SLUT */
 
 
+
+/********************* FOOTER Responsiv **********************/
+
+.footer {
+    background-color: #BED2D0;
+    color: white;
+    height: 450px;
+    position: relative;
+    bottom: 0px;
+
+
+}
+
+/* reglen gælder for hele footeren */
+.footer .footer_content .opdateret .andet .kontakt {
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer .footer_content h4 {
+    color: white;
+    font-size: 1em;
+}
+
+
+
+/* reglen gælder for sociale medier */
+.footer .footer_content .opdateret .socialemedier img {
+    padding: 5px;
+    width: 40px;
+    justify-content: space-around;
+
+}
+
+
+/* reglen gælder for vores tilmeld nyhedsbrev */
+.footer .footer_content .opdateret .knap {
+    background-color: #FDF8ED;
+    border: none;
+    color: #375151;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+
+
+
+/* reglen gælder for copy right bjælken */
+.footer .footer_bottom {
+    background-color: #F8F8F8;
+    color: #707070;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 0px;
+
+}
+
+
+
+
+/* FOOTER SLUT */
 
 
 
@@ -629,137 +707,82 @@ a {
         text-decoration: none;
 
     }
+
+
+    /********************* FOOTER Responsiv **********************/
+
+    .footer {
+        background-color: #BED2D0;
+        color: white;
+        height: 300px;
+        position: relative;
+    }
+
+
+
+    .footer .footer_content {
+        height: 250px;
+        display: flex;
+    }
+
+    .footer .footer_content h4 {
+        color: white;
+    }
+
+
+    /* reglen gælder for sociale medier */
+    .footer .footer_content .opdateret .socialemedier img {
+        padding: 5px;
+        width: 40px;
+        justify-content: space-around;
+    }
+
+    /* reglen gælder for vores tilmeld nyhedsbrev */
+    .footer .footer_content .opdateret .knap {
+        background-color: #FDF8ED;
+        border: none;
+        color: #375151;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+
+
+    /* reglen gælder for hele footeren */
+    .footer .footer_content .footer-section {
+        flex: 1;
+        padding: 25px;
+
+    }
+
+    /* reglen gælder for copy right bjælken */
+    .footer .footer_bottom {
+        background-color: #F8F8F8;
+        color: #707070;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding-top: 20px;
+
+    }
+
+
+
+
+
+
+
+    /* FOOTER SLUT */
 }
 
 
 
 /* MENU2 SLUT */
-
-
-
-
-
-
-
-
-
-
-
-
-/********************* FOOTER Responsiv **********************/
-
-
-
-/*
-.padding {
-    padding: 20px;
-}
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    bottom: 0;
-    color: white;
-    background-color: #BED2D0;
-    width: 100%;
-    font-size: 1rem;
-}
-
-
-#opdate {
-    flex-basis: 350px;
-    flex-grow: 3;
-    text-decoration: none;
-    padding-left: 20px;
-}
-
-#opdate h4 {
-    font-size: 1.2rem;
-}
-
-.nyhed_button {
-    background-color: #FDF8ED;
-    color: #375151;
-
-    border: none;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 12px;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-
-}
-
-
-#opdate.fa {
-
-    font-size: 50px;
-    width: 30px;
-    border-radius: 12px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    border-radius: 50%;
-    padding: 20px;
-    margin: 5px 2px;
-
-
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-    border-radius: 50%;
-    padding: 20px;
-    margin: 5px 2px;
-
-}
-
-
-
-
-
-.menu_footer {
-    flex-basis: 350px;
-    flex-grow: 3;
-    text-decoration: none;
-}
-
-.menu_footer a {
-    text-decoration: none;
-    color: white;
-}
-
-
-.kontakt {
-    flex-basis: 350px;
-    flex-grow: 3;
-    text-decoration: none;
-    line-height: 1.5rem;
-}
-
-
-.adresse {
-    flex-grow: 3;
-    text-align: center;
-    background-color: #F8F8F8;
-    color: #707070;
-}
-*/
-
-
-
-
-/* FOOTER SLUT */
