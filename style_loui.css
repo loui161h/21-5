@@ -831,16 +831,15 @@ dk38_heading3 {
     grid-gap: 10px;
     grid-template-areas:
 
-        "splash"
         "dk36_heading1"
         "dk36_tekst1"
+        "dk36_billede1"
         "dk36_paragraf1"
         "dk36_paragraf2"
         "dk36_paragraf3"
         "dk36_paragraf4"
         "dk36_heading2"
         "dk36_heading3"
-        "footer"
 }
 
 
@@ -852,6 +851,9 @@ dk38_heading3 {
     grid-area: dk36_tekst1;
 }
 
+#dk36_billede1 {
+    grid-area: dk36_billede1;
+}
 
 #dk36_paragraf1 {
     grid-area: dk36_paragraf1;
@@ -872,11 +874,6 @@ dk38_heading3 {
 #dk36_heading2 {
     grid-area: dk36_heading2;
 }
-
-dk36_heading3 {
-    grid-area: dk36_heading3;
-}
-
 
 /* LEDIE ANDELE */
 
@@ -1358,11 +1355,8 @@ dk36_heading3 {
 
 
     #dk39_fullpage {
-        display: grid;
-        height: 100vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
-        grid-gap: 10px;
         grid-template-areas:
 
             "dk39_heading1 dk39_heading1"
@@ -1378,14 +1372,14 @@ dk36_heading3 {
 
 
     #dk38_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
 
             "splash splash"
             "dk38_heading1 dk38_heading1"
             "dk38_tekst1 dk38_tekst1"
+            "dk38_billede1 dk38_billede1"
             "dk38_paragraf1 dk38_paragraf2"
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
@@ -1396,19 +1390,18 @@ dk36_heading3 {
 
 
     #dk36_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "dk36_heading1 dk36_heading1"
             "dk36_tekst1 dk36_tekst1"
+            "dk36_billede1 dk36_billede1"
             "dk36_paragraf1 dk36_paragraf2"
             "dk36_paragraf3 dk36_paragraf4"
             "dk36_heading2 dk36_heading2"
             "dk36_heading3 dk36_heading3"
-            "footer footer"
+
     }
 
 
@@ -1802,6 +1795,50 @@ dk36_heading3 {
         grid-area: dk39_paragraf3;
         height: 80vh;
     }
+
+    #dk38_fullpage {
+        grid-template-columns: 500px 500px;
+        grid-template-areas:
+
+            "splash splash"
+            "dk38_heading1 dk38_heading1"
+            "dk38_tekst1 dk38_tekst1"
+            "dk38_billede1 dk38_billede1"
+            "dk38_paragraf1 dk38_paragraf2"
+            "dk38_paragraf3 dk38_paragraf4"
+            "dk38_heading2 dk38_heading2"
+            "dk38_heading3 dk38_heading3"
+            "footer footer"
+    }
+
+
+    #dk38_paragraf3 {
+        grid-area: dk39_paragraf3;
+        height: 80vh;
+
+    }
+
+
+    #dk36_fullpage {
+        grid-template-columns: 500px 500px;
+        grid-template-areas:
+
+            "dk36_heading1 dk36_heading1"
+            "dk36_tekst1 dk36_tekst1"
+            "dk36_billede1 dk36_billede1"
+            "dk36_paragraf1 dk36_paragraf2"
+            "dk36_paragraf3 dk36_paragraf4"
+            "dk36_heading2 dk36_heading2"
+            "dk36_heading3 dk36_heading3"
+
+    }
+
+    #dk36_paragraf3 {
+        grid-area: dk36_paragraf3;
+        height: 80vh;
+
+    }
+
 
     /* FAMILIER SLUT */
 

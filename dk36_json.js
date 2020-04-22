@@ -44,14 +44,18 @@ function visDataDkGrande() {
     document.querySelector("#dk36_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#dk36_p1").innerHTML = alleTekster.content.rendered;
 
+    document.querySelector("#dk36_img1").src = alleTekster.billede2.guid;
+
     document.querySelector("#dk36_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#dk36_p2").innerHTML = alleTekster.tekst1;
     document.querySelector("#dk36_p3").innerHTML = alleTekster.tekst2;
+
+    document.querySelector("#dk36_img").src = alleTekster.billede3.guid;
 
     document.querySelector("#dk36_overskrift3").textContent = alleTekster.overskrift2;
     document.querySelector("#dk36_p4").innerHTML = alleTekster.tekst3;
 
 
-    document.querySelector("#dk36_overskrift5").textContent = alleTekster.overskrift3;
+    document.querySelector("#dk36_overskrift4").textContent = alleTekster.overskrift3;
     document.querySelector("#dk36_overskrift6").textContent = alleTekster.overskrift4;
 }
