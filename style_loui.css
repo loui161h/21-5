@@ -923,7 +923,7 @@ dk36_heading3 {
 
 
     #splash img {
-        height: 70vh;
+        height: 60vh;
     }
 
     /* SPLASH SLUT */
@@ -1260,6 +1260,10 @@ dk36_heading3 {
 
 @media only screen and (min-width: 1024px) {
 
+    #splash img {
+        height: 65vh;
+    }
+
     /* KONCEPT GRID  */
 
     #koncept_fullpage {
@@ -1508,7 +1512,7 @@ dk36_heading3 {
     /* KONTAKT */
     #kontakt_fullpage {
         display: grid;
-        height: 50vh;
+        height: 45vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
