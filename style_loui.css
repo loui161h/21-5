@@ -664,6 +664,39 @@ footer {
 
 /* MALLORCA GRID SLUT */
 
+/* TOSCANA GRID */
+#toscana_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "toscana_heading"
+        "toscana_tekst1"
+        "toscana_paragraf1"
+        "toscana_paragraf2"
+}
+
+#toscana_heading {
+    grid-area: toscana_heading;
+}
+
+#toscana_tekst1 {
+    grid-area: toscana_tekst1;
+}
+
+#toscana_paragraf1 {
+    grid-area: toscana_paragraf1;
+}
+
+#toscana_paragraf2 {
+    grid-area: toscana_paragraf2;
+}
+
+/* TOSCANA GRID SLUT */
+
 /* TILGÆNGELIGE FORENINGER */
 
 #foreninger_fullpage {
@@ -1320,14 +1353,14 @@ footer {
     /* MALLORCA SLUT */
 
     /* TOSCANA */
-    #mallorca_fullpage {
+    #toscana_fullpage {
         display: grid;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
-            "mallorca_heading mallorca_heading"
-            "mallorca_tekst1 mallorca_tekst1"
-            "mallorca_paragraf1 mallorca_paragraf2"
+            "toscana_heading toscana_heading"
+            "toscana_tekst1 toscana_tekst1"
+            "toscana_paragraf1 toscana_paragraf2"
     }
 
 
@@ -1742,6 +1775,22 @@ footer {
 
 
     /* MALLORCA SLUT */
+
+
+
+    /* TOSCANA */
+    #toscana_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+            "toscana_heading toscana_heading"
+            "toscana_tekst1 toscana_tekst1"
+            "toscana_paragraf1 toscana_paragraf2"
+    }
+
+
+    /* TOSCANA SLUT */
 
     /* TILGÆNGELIGE FORENINGER */
 
