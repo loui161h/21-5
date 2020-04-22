@@ -76,6 +76,20 @@ p {
 }
 
 
+#familier h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #649087;
+}
+
+#familier p {
+    font-size: 0.8rem;
+    line-height: 16px;
+    color: white;
+
+
+}
+
 
 /* ALLE SPLASH BILLEDE */
 
@@ -195,6 +209,62 @@ footer {
 
 /* DET SIGER VORES FAMILIER GRID */
 
+
+#familier {
+    flex-basis: 200px;
+}
+
+#voresfamilier_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "voresfamilier_heading"
+        "voresfamilier_tekst1"
+        "familieboks1"
+        "familieboks2"
+        "familieboks3"
+        "familieboks4"
+        "familieboks5"
+        "familieboks6"
+
+}
+
+
+#voresfamilier_heading {
+    grid-area: voresfamilier_heading;
+}
+
+#voresfamilier_tekst1 {
+    grid-area: voresfamilier_tekst1;
+}
+
+#familieboks1 {
+    grid-area: familieboks1;
+}
+
+#familieboks2 {
+    grid-area: familieboks3;
+}
+
+#familieboks3 {
+    grid-area: familieboks3;
+}
+
+#familieboks4 {
+    grid-area: familieboks4;
+}
+
+#familieboks5 {
+    grid-area: familieboks6;
+}
+
+#familieboks5 {
+    grid-area: familieboks6;
+}
 
 
 
@@ -430,6 +500,7 @@ footer {
         "skaberhjem_tekst1"
         "skaberhjem_paragraf1"
         "skaberhjem_paragraf2"
+        "skaberhjem_tekst2"
 
 
 }
@@ -458,6 +529,10 @@ footer {
 
 }
 
+#skaberhjem_tekst2 {
+    grid-area: skaberhjem_tekst2;
+}
+
 /* VI SKABER HJEM GRID SLUT */
 
 /* STIFTEDE FORENINGER */
@@ -475,6 +550,8 @@ footer {
         "stiftedeforeninger_tekst1"
         "stiftedeforeninger_paragraf1"
         "stiftedeforeninger_paragraf2"
+        "stiftedeforeninger_paragraf3"
+        "stiftedeforeninger_paragraf4"
 
 }
 
@@ -498,6 +575,18 @@ footer {
 
 #stiftedeforeninger_paragraf2 {
     grid-area: stiftedeforeninger_paragraf2;
+
+
+}
+
+#stiftedeforeninger_paragraf3 {
+    grid-area: stiftedeforeninger_paragraf3;
+
+
+}
+
+#stiftedeforeninger_paragraf4 {
+    grid-area: stiftedeforeninger_paragraf4;
 
 
 }
@@ -1035,7 +1124,7 @@ dk36_heading3 {
     #koncept_fullpage {
         display: grid;
         padding: 10px;
-        grid-template-columns: 225px 225px 225px;
+        grid-template-columns: 225px 225px;
         justify-content: center;
         grid-template-areas:
 
@@ -1063,6 +1152,26 @@ dk36_heading3 {
 
     /* GIVER MENING GRID SLUT */
 
+
+    /* DET SIGER VORES FAMILIER GRID */
+
+    #voresfamilier_fullpage {
+        display: grid;
+        padding: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "voresfamilier_heading voresfamilier_heading"
+            "voresfamilier_tekst1 voresfamilier_tekst1"
+            "familieboks1 familieboks2"
+            "familieboks3 familieboks4"
+            "familieboks5 familieboks6"
+
+
+    }
+
+    /* DET SIGER VORES FAMILIER GRID SLUT */
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */
 
@@ -1165,6 +1274,7 @@ dk36_heading3 {
             "skaberhjem_heading skaberhjem_heading"
             "skaberhjem_tekst1 skaberhjem_tekst1"
             "skaberhjem_paragraf1 skaberhjem_paragraf2"
+            "skaberhjem_tekst2 skaberhjem_tekst2"
 
 
     }
@@ -1184,6 +1294,7 @@ dk36_heading3 {
             "stiftedeforeninger_heading stiftedeforeninger_heading"
             "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
             "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+            "stiftedeforeninger_paragraf3 stiftedeforeninger_paragraf4"
 
     }
 
@@ -1441,6 +1552,12 @@ dk36_heading3 {
 
     /* GIVER MENING GRID SLUT */
 
+    /* DET SIGER VORES FAMILIER GRID */
+
+
+
+    /* DET SIGER VORES FAMILIER GRID SLUT */
+
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */
 
@@ -1487,6 +1604,19 @@ dk36_heading3 {
 
     }
 
+    #paragraf_img1 {
+        grid-area: paragraf_img1;
+        height: 40vh;
+        width: 90%;
+
+    }
+
+    #paragraf_img2 {
+        grid-area: paragraf_img2;
+        height: 40vh;
+        width: 100%;
+    }
+
 
     /* BOOKINGSYSTEMET SLUT */
 
@@ -1529,7 +1659,7 @@ dk36_heading3 {
 
     #skaberhjem_fullpage {
         display: grid;
-        height: 60vh;
+        height: 50vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1537,8 +1667,15 @@ dk36_heading3 {
             "skaberhjem_heading skaberhjem_heading"
             "skaberhjem_tekst1 skaberhjem_tekst1"
             "skaberhjem_paragraf1 skaberhjem_paragraf2"
+            "skaberhjem_tekst2 skaberhjem_tekst2"
 
 
+    }
+
+
+    #skaberhjem_tekst2 {
+        grid-area: skaberhjem_tekst2;
+        height: 45vh;
     }
 
     /* VI SKABER HJEM GRID SLUT */
@@ -1557,7 +1694,21 @@ dk36_heading3 {
             "stiftedeforeninger_heading stiftedeforeninger_heading"
             "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
             "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+            "stiftedeforeninger_paragraf3 stiftedeforeninger_paragraf4"
 
+    }
+
+    #stiftedeforeninger_paragraf1 {
+        grid-area: stiftedeforeninger_paragraf1;
+        height: 35vh;
+        width: 90%;
+
+    }
+
+    #stiftedeforeninger_paragraf4 {
+        grid-area: stiftedeforeninger_paragraf4;
+        height: 35vh;
+        width: 100%;
     }
 
     /* STIFTEDE FORENINGER SLUT */

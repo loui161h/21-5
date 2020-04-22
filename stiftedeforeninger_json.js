@@ -46,8 +46,10 @@ function visDataStiftedeforeninger() {
 
     document.querySelector("#stiftedeforeninger_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#stiftedeforeninger_p2").innerHTML = alleTekster.tekst1;
+    document.querySelector("#stiftede_img1").src = alleTekster.billede2.guid;
 
     document.querySelector("#stiftedeforeninger_overskrift3").textContent = alleTekster.overskrift2;
     document.querySelector("#stiftedeforeninger_p3").innerHTML = alleTekster.tekst3;
+    document.querySelector("#stiftede_img2").src = alleTekster.billede3.guid;
 
 }

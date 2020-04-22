@@ -62,8 +62,12 @@ function visDataBooking() {
     document.querySelector("#bookingsystemet_overskrift7").innerHTML = alleTekster.overskrift6;
     document.querySelector("#bookingsystemet_p6").innerHTML = alleTekster.tekst11;
 
+    document.querySelector("#booking_img1").src = alleTekster.billede2.guid;
+
     document.querySelector("#bookingsystemet_overskrift8").innerHTML = alleTekster.overskrift7;
     document.querySelector("#bookingsystemet_p7").innerHTML = alleTekster.tekst12;
+
+    document.querySelector("#booking_img2").src = alleTekster.billede3.guid;
 
     document.querySelector("#bookingsystemet_overskrift9").innerHTML = alleTekster.overskrift8;
     document.querySelector("#bookingsystemet_p8").innerHTML = alleTekster.tekst12;

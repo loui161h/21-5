@@ -45,4 +45,29 @@ function visDataDestinationer() {
     document.querySelector("#destinationer_p1").innerHTML = alleTekster.content.rendered;
 
 
+    document.querySelector("#mallorca").textContent = alleTekster.overskrift1;
+    document.querySelector("#mallorca_img").src = alleTekster.billede2.guid;
+
+    document.querySelector("#toscana_img").src = alleTekster.billede3.guid;
+    document.querySelector("#toscana").textContent = alleTekster.overskrift2;
+
+    document.querySelector("#sydfrankrig").textContent = alleTekster.overskrift3;
+    document.querySelector("#sydfrankrig_img").src = alleTekster.billede4.guid;
+
+    document.querySelector("#chamonix").textContent = alleTekster.overskrift4;
+    document.querySelector("#chamonix_img").src = alleTekster.billede5.guid;
+
+    document.querySelector("#newyork").textContent = alleTekster.overskrift5;
+    document.querySelector("#newyork_img").src = alleTekster.billede6.guid;
+
+    document.querySelector("#barcelona").textContent = alleTekster.overskrift6;
+    document.querySelector("#barcelona_img").src = alleTekster.billede7.guid;
+
+    document.querySelector("#paris").textContent = alleTekster.overskrift7;
+    document.querySelector("#paris_img").src = alleTekster.billede8.guid;
+
+       document.querySelector("#rom").textContent = alleTekster.overskrift8;
+    document.querySelector("#rom_img").src = alleTekster.billede9.guid;
+
+
 }
