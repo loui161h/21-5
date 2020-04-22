@@ -44,9 +44,14 @@ function visDataDkLarge() {
     document.querySelector("#dk38_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#dk38_p1").innerHTML = alleTekster.content.rendered;
 
+
+    document.querySelector("#dk38_img1").src = alleTekster.billede2.guid;
+
     document.querySelector("#dk38_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#dk38_p2").innerHTML = alleTekster.tekst1;
     document.querySelector("#dk38_p3").innerHTML = alleTekster.tekst2;
+
+    document.querySelector("#dk38_img").src = alleTekster.billede3.guid;
 
     document.querySelector("#dk38_overskrift3").textContent = alleTekster.overskrift2;
     document.querySelector("#dk38_p4").innerHTML = alleTekster.tekst3;
