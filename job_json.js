@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visJob() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#job_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#job_overskrift1").textContent = alleTekster.title.rendered;
 
     document.querySelector("#job_p1").textContent = alleTekster.tekst1;

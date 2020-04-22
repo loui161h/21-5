@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataMallorca() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#mallorca_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#mallorca_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#mallorca_p1").innerHTML = alleTekster.content.rendered;
 

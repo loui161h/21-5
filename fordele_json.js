@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataFordele() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#fordele_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#fordele_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#fordele_p1").innerHTML = alleTekster.content.rendered;
 

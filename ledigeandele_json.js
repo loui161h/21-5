@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataLedigeAndele() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#ledigeandele_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#ledigeandele_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#ledigeandele_p1").innerHTML = alleTekster.content.rendered;
 

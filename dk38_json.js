@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataDkLarge() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#dk38_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#dk38_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#dk38_p1").innerHTML = alleTekster.content.rendered;
 

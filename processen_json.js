@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataProcessen() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#process_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#process_overskrift").textContent = alleTekster.title.rendered;
     document.querySelector("#process_p1").innerHTML = alleTekster.content.rendered;
 

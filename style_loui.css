@@ -15,7 +15,11 @@ body {
 }
 
 
-#orienteringsmode_paragraf1,
+#orienteringsmode_paragraf1 img {
+    height: 100%;
+}
+
+
 #kaffemode_paragraf1 img {
     height: 100%;
 }
@@ -1013,7 +1017,11 @@ dk36_heading3 {
         height: 60vh;
     }
 
-    #orienteringsmode_paragraf1,
+    #orienteringsmode_paragraf1 img {
+        height: 100%;
+    }
+
+
     #kaffemode_paragraf1 img {
         height: 100%;
     }
@@ -1386,15 +1394,18 @@ dk36_heading3 {
 @media only screen and (min-width: 1024px) {
 
     #splash img {
-        height: 100vh;
+        height: 70vh;
     }
 
 
-    #orienteringsmode_paragraf1,
-    #kaffemode_paragraf1 img {
+    #orienteringsmode_paragraf1 img {
         height: 100%;
     }
 
+
+    #kaffemode_paragraf1 img {
+        height: 100%;
+    }
 
     /* KONCEPT GRID  */
 
@@ -1448,12 +1459,11 @@ dk36_heading3 {
         justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "kommermed_heading kommermed_heading"
             "kommermed_tekst1 kommermed_tekst1"
             "kommermed_paragraf1 kommermed_paragraf2"
             "kommermed_tekst2 kommermed_tekst2"
-            "footer footer"
+
 
     }
 
@@ -1655,7 +1665,7 @@ dk36_heading3 {
 
     #kaffemode_fullpage {
         display: grid;
-        height: 45vh;
+        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1671,7 +1681,7 @@ dk36_heading3 {
     /* KONTAKT */
     #kontakt_fullpage {
         display: grid;
-        height: 80vh;
+        height: 45vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:

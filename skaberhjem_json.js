@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataSkaberhjem() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#skaberhjem_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#skaberhjem_overskrift").textContent = alleTekster.title.rendered;
     document.querySelector("#skaberhjem_p1").innerHTML = alleTekster.content.rendered;
 

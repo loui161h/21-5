@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataHistorien() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#historien_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#historien_overskrift").textContent = alleTekster.title.rendered;
 
 
