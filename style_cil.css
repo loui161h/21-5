@@ -77,417 +77,419 @@ img {
 */
 
 
-
-/* DROP DOWN NAVIGATION */
-
-header {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: 0;
-    background-color: rgba(240, 240, 240, 0.50);
-}
-
-#logo {
-    width: 60px;
-    height: 60px;
-    margin-top: 5px;
-}
-
-/* Dropdown Button */
-.dropbtn {
-    display: inline-block;
-    color: #375151;
-    text-align: center;
-    font-size: 16px;
-    padding: 20px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    background: none;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover,
-.dropbtn:focus {
-    background-color: #F0F0F0;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    display: inline-block;
-    justify-content: center;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #F0F0F0;
-    min-width: 160px;
-    box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    border-radius: 10px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    float: none;
-    color: #375151;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    position: relative;
-    justify-content: space-evenly;
-}
-
-.dropdown a:hover {
-    color: #649087;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    color: #375151;
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    border-radius: 10px;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #E8E7E7;
-    border-radius: 10px;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-    display: block;
-}
-
-/* DROP DOWN NAVIGATION SLUT */
-
-
-/* MENU2 */
-
-#menu2 {
-    text-align: end;
-    margin-right: 100px;
-    margin-top: -20px;
-}
-
-.footermenu a {
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
-    cursor: pointer;
-    margin-right: 25px;
-    font-weight: 200;
-}
-
-.footermenu a:hover {
-    color: #649087;
-}
-
-/* MENU2 SLUT */
-
-
-/* SLIDESHOW LANDINGPAGE */
-
-/* Slideshow container */
-.slideshow-container {
-    width: 100%;
-    position: relative;
-    margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-/* The dots/bullets/indicators */
-
-.dots {
-    margin-left: 100px;
-    margin-top: 180px;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin-right: 5px;
-    border-radius: 50%;
-    border: solid 1px black;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #BED2D0;
-}
-
-/* SLIDESHOW LANDINGPAGE SLUT */
-
-
-/* SLIDESHOW FRA SKROT TIL SLOT */
-
-
-.mySlides1,
-.mySlides2 {
-    display: none;
-}
-
-img {
-    vertical-align: middle;
-}
-
-/* Slideshow container */
-.slideshow-container2 {
-    max-width: 500px;
-    position: relative;
-    margin: auto;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a grey background color */
-.prev:hover,
-.next:hover {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-/* SLIDESHOW FRA SKROT TIL SLOT SLUT */
-
-
-/* ZOOM HOVER TIL LANDINGPAGE BLIV EN DEL AF OG TILGÆNGELIGE FORENINGER */
-
-#foreningerbokse {
-    display: flex;
-    align-items: center;
-    margin: 200px;
-}
-
-#foreningerbokse div {
-    flex: 1;
-}
-
-.zoom {
-    padding: 50px;
-    background-color: beige;
-    transition: transform .2s;
-    width: 100px;
-    height: 450px;
-    margin: 0 auto;
-    margin: 20px;
-}
-
-.zoom:hover {
-    -ms-transform: scale(1.2);
-    /* IE 9 */
-    -webkit-transform: scale(1.2);
-    /* Safari 3-8 */
-    transform: scale(1.2);
-}
-
-
-/* ZOOM HOVER TIL LANDINGPAGE BLIV EN DEL AF OG TILGÆNGELIGE FORENINGER SLUT */
-
-
-/* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL */
-
-.container {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0%;
-    transition: .3s ease;
-    background-color: rgba(239, 176, 71, 0.71);
-}
-
-.container:hover .overlay {
-    opacity: 1;
-}
-
-.tekst {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    text-decoration: none;
-}
-
-
-.container2 {
-    position: relative;
-    width: 100%;
-    max-width: 300px;
-}
-
-.boks {
-    display: block;
-    width: 100%;
-    height: 300px;
-    width: 300px;
-    background-color: rgba(239, 176, 71, 0.4);
-}
-
-.tekst2 {
-    color: white;
-    font-size: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    text-decoration: none;
-}
-
-container2 p {
-    color: white;
-    font-size: 20px;
-}
-
-.container2:hover .overlay {
-    opacity: 1;
-}
-
-
-
-/* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL */
-
-
-summary {
-    padding: 40px;
-    background-color: #FAE3BE;
-    font-size: 1.3rem;
-}
-
-details {
-    padding-left: 40px;
-    margin-top: 15px;
-}
-
-
-#bokse {
-    width: 70%;
-}
-
-/* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL SLUT */
-
-
-/* FORM */
-
-
-
-
-
-input[type=text],
-select {
-    width: 50%;
-    padding: 12px 10px;
-    margin: 8px 0;
-    border: 2px solid #BED2D0;
-    border-radius: 10px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-input[type=submit] {
-    font-family: 'Quicksand', sans-serif;
-    justify-content: space-around;
-    background-color: #BED2D0;
-    font-size: 1.2rem;
-    color: #ffffff;
-    padding: 10px 60px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 600;
-}
-
-#form1,
-#form2,
-#form3 .knap {
-    padding-top: 15px;
-}
-
-input[type=submit]:hover {
-    opacity: 80%;
-}
-
-
-#form3
-input[type=text],
-select {
-    width: 40%;
-
+/****************** MEDIA QUERIES **********************/
+
+@media screen and (min-device-width: 768px) {
+    /* DROP DOWN NAVIGATION */
+
+    header {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 0;
+        background-color: rgba(240, 240, 240, 0.50);
+    }
+
+    #logo {
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        display: inline-block;
+        color: #375151;
+        text-align: center;
+        font-size: 16px;
+        padding: 20px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        background: none;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover,
+    .dropbtn:focus {
+        background-color: #F0F0F0;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #F0F0F0;
+        min-width: 160px;
+        box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        border-radius: 10px;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: #375151;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        position: relative;
+        justify-content: space-evenly;
+    }
+
+    .dropdown a:hover {
+        color: #649087;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        color: #375151;
+    }
+
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+        border-radius: 10px;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #E8E7E7;
+        border-radius: 10px;
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+        display: block;
+    }
+
+    /* DROP DOWN NAVIGATION SLUT */
+
+
+    /* MENU2 */
+
+    #menu2 {
+        text-align: end;
+        margin-right: 100px;
+        margin-top: -20px;
+    }
+
+    .footermenu a {
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        cursor: pointer;
+        margin-right: 25px;
+        font-weight: 200;
+    }
+
+    .footermenu a:hover {
+        color: #649087;
+    }
+
+    /* MENU2 SLUT */
+
+
+    /* SLIDESHOW LANDINGPAGE */
+
+    /* Slideshow container */
+    .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* The dots/bullets/indicators */
+
+    .dots {
+        margin-left: 100px;
+        margin-top: 180px;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin-right: 5px;
+        border-radius: 50%;
+        border: solid 1px black;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+        background-color: #BED2D0;
+    }
+
+    /* SLIDESHOW LANDINGPAGE SLUT */
+
+
+    /* SLIDESHOW FRA SKROT TIL SLOT */
+
+
+    .mySlides1,
+    .mySlides2 {
+        display: none;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container2 {
+        max-width: 500px;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a grey background color */
+    .prev:hover,
+    .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+    /* SLIDESHOW FRA SKROT TIL SLOT SLUT */
+
+
+    /* ZOOM HOVER TIL LANDINGPAGE BLIV EN DEL AF OG TILGÆNGELIGE FORENINGER */
+
+    #foreningerbokse {
+        display: flex;
+        align-items: center;
+        margin: 200px;
+    }
+
+    #foreningerbokse div {
+        flex: 1;
+    }
+
+    .zoom {
+        padding: 50px;
+        background-color: beige;
+        transition: transform .2s;
+        width: 100px;
+        height: 450px;
+        margin: 0 auto;
+        margin: 20px;
+    }
+
+    .zoom:hover {
+        -ms-transform: scale(1.2);
+        /* IE 9 */
+        -webkit-transform: scale(1.2);
+        /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+
+
+    /* ZOOM HOVER TIL LANDINGPAGE BLIV EN DEL AF OG TILGÆNGELIGE FORENINGER SLUT */
+
+
+    /* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL */
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0%;
+        transition: .3s ease;
+        background-color: rgba(239, 176, 71, 0.71);
+    }
+
+    .container:hover .overlay {
+        opacity: 1;
+    }
+
+    .tekst {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+    .container2 {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .boks {
+        display: block;
+        width: 100%;
+        height: 300px;
+        width: 300px;
+        background-color: rgba(239, 176, 71, 0.4);
+    }
+
+    .tekst2 {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    container2 p {
+        color: white;
+        font-size: 20px;
+    }
+
+    .container2:hover .overlay {
+        opacity: 1;
+    }
+
+
+
+    /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL */
+
+
+    summary {
+        padding: 40px;
+        background-color: #FAE3BE;
+        font-size: 1.3rem;
+    }
+
+    details {
+        padding-left: 40px;
+        margin-top: 15px;
+    }
+
+
+    #bokse {
+        width: 70%;
+    }
+
+    /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL SLUT */
+
+
+    /* FORM */
+
+
+
+
+
+    input[type=text],
+    select {
+        width: 50%;
+        padding: 12px 10px;
+        margin: 8px 0;
+        border: 2px solid #BED2D0;
+        border-radius: 10px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    input[type=submit] {
+        font-family: 'Quicksand', sans-serif;
+        justify-content: space-around;
+        background-color: #BED2D0;
+        font-size: 1.2rem;
+        color: #ffffff;
+        padding: 10px 60px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    #form1,
+    #form2,
+    #form3 .knap {
+        padding-top: 15px;
+    }
+
+    input[type=submit]:hover {
+        opacity: 80%;
+    }
+
+
+    #form3 input[type=text],
+    select {
+        width: 40%;
+
+    }
 }
 
 /* FORM SLUT */
