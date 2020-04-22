@@ -49,6 +49,7 @@ function visDataSkaberhjem() {
 
     document.querySelector("#skaberhjem_overskrift3").textContent = alleTekster.overskrift2;
     document.querySelector("#skaberhjem_p3").innerHTML = alleTekster.tekst3;
+    document.querySelector("#skaberhjem_img").src = alleTekster.billede2.guid;
 
 
 }
