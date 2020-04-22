@@ -76,6 +76,20 @@ p {
 }
 
 
+#familier h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #649087;
+}
+
+#familier p {
+    font-size: 0.8rem;
+    line-height: 16px;
+    color: white;
+
+
+}
+
 
 /* ALLE SPLASH BILLEDE */
 
@@ -195,6 +209,57 @@ footer {
 
 /* DET SIGER VORES FAMILIER GRID */
 
+#voresfamilier_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "voresfamilier_heading"
+        "voresfamilier_tekst1"
+        "familieboks1"
+        "familieboks2"
+        "familieboks3"
+        "familieboks4"
+        "familieboks5"
+        "familieboks6"
+
+}
+
+
+#voresfamilier_heading {
+    grid-area: voresfamilier_heading;
+}
+
+#voresfamilier_tekst1 {
+    grid-area: voresfamilier_tekst1;
+}
+
+#familieboks1 {
+    grid-area: familieboks1;
+}
+
+#familieboks2 {
+    grid-area: familieboks3;
+}
+
+#familieboks3 {
+    grid-area: familieboks3;
+}
+
+#familieboks4 {
+    grid-area: familieboks4;
+}
+
+#familieboks5 {
+    grid-area: familieboks6;
+}
+
+#familieboks5 {
+    grid-area: familieboks6;
+}
 
 
 
@@ -1035,7 +1100,7 @@ dk36_heading3 {
     #koncept_fullpage {
         display: grid;
         padding: 10px;
-        grid-template-columns: 225px 225px 225px;
+        grid-template-columns: 225px 225px;
         justify-content: center;
         grid-template-areas:
 
@@ -1063,6 +1128,26 @@ dk36_heading3 {
 
     /* GIVER MENING GRID SLUT */
 
+
+    /* DET SIGER VORES FAMILIER GRID */
+
+    #voresfamilier_fullpage {
+        display: grid;
+        padding: 10px;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "voresfamilier_heading voresfamilier_heading"
+            "voresfamilier_tekst1 voresfamilier_tekst1"
+            "familieboks1 familieboks2"
+            "familieboks3 familieboks4"
+            "familieboks5 familieboks6"
+
+
+    }
+
+    /* DET SIGER VORES FAMILIER GRID SLUT */
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */
 
@@ -1440,6 +1525,12 @@ dk36_heading3 {
     }
 
     /* GIVER MENING GRID SLUT */
+
+    /* DET SIGER VORES FAMILIER GRID */
+
+
+
+    /* DET SIGER VORES FAMILIER GRID SLUT */
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */

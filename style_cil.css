@@ -18,6 +18,49 @@ img {
 }
 
 
+position: relative;
+width: 100%;
+max-width: 400px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .3s ease;
+    background-color: rgba(239, 176, 71, 0.71);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.tekst {
+    color: white;
+    position: relative;
+    top: 55px;
+    left: 0px;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
 /* LANDINGPAGE PLACERING AF INDHOLD */
 
 /*
@@ -76,51 +119,51 @@ img {
 }
 */
 
- input[type=text],
-    select {
-        width: 100%;
-        padding: 12px 10px;
-        margin: 8px 0;
-        border: 2px solid #BED2D0;
-        border-radius: 10px;
-        font-family: 'Quicksand', sans-serif;
-    }
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 2px solid #BED2D0;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
 
-    input[type=submit] {
-        font-family: 'Quicksand', sans-serif;
-        justify-content: space-around;
-        background-color: #BED2D0;
-        font-size: 1.2rem;
-        color: #ffffff;
-        padding: 10px 60px;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        font-weight: 600;
-    }
-
-
-    #form3 .knap {
-        padding-top: 15px;
-    }
-
- #form1 .knap {
-        padding-top: 15px;
-    }
-
- #form2 .knap {
-        padding-top: 15px;
-    }
-
-    input[type=submit]:hover {
-        opacity: 80%;
-    }
+input[type=submit] {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-around;
+    background-color: #BED2D0;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
 
 
-    #form3 input[type=text],
-    select {
-        width: 40%;
-    }
+#form3 .knap {
+    padding-top: 15px;
+}
+
+#form1 .knap {
+    padding-top: 15px;
+}
+
+#form2 .knap {
+    padding-top: 15px;
+}
+
+input[type=submit]:hover {
+    opacity: 80%;
+}
+
+
+#form3 input[type=text],
+select {
+    width: 40%;
+}
 
 
 
@@ -422,10 +465,10 @@ img {
 
     .tekst {
         color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
+        position: relative;
+        top: 55px;
+        left: 0px;
+
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
@@ -517,15 +560,15 @@ img {
         font-weight: 600;
     }
 
-     #form3 .knap {
+    #form3 .knap {
         padding-top: 15px;
     }
 
- #form1 .knap {
+    #form1 .knap {
         padding-top: 15px;
     }
 
- #form2 .knap {
+    #form2 .knap {
         padding-top: 15px;
     }
 
