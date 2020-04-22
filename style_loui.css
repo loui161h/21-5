@@ -550,6 +550,8 @@ footer {
         "stiftedeforeninger_tekst1"
         "stiftedeforeninger_paragraf1"
         "stiftedeforeninger_paragraf2"
+        "stiftedeforeninger_paragraf3"
+        "stiftedeforeninger_paragraf4"
 
 }
 
@@ -573,6 +575,18 @@ footer {
 
 #stiftedeforeninger_paragraf2 {
     grid-area: stiftedeforeninger_paragraf2;
+
+
+}
+
+#stiftedeforeninger_paragraf3 {
+    grid-area: stiftedeforeninger_paragraf3;
+
+
+}
+
+#stiftedeforeninger_paragraf4 {
+    grid-area: stiftedeforeninger_paragraf4;
 
 
 }
@@ -1280,6 +1294,7 @@ dk36_heading3 {
             "stiftedeforeninger_heading stiftedeforeninger_heading"
             "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
             "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+            "stiftedeforeninger_paragraf3 stiftedeforeninger_paragraf4"
 
     }
 
@@ -1589,18 +1604,17 @@ dk36_heading3 {
 
     }
 
-
     #paragraf_img1 {
         grid-area: paragraf_img1;
-        height: 50vh;
+        height: 40vh;
         width: 90%;
 
     }
 
     #paragraf_img2 {
         grid-area: paragraf_img2;
-        height: 50vh;
-        width: 90%;
+        height: 40vh;
+        width: 100%;
     }
 
 
@@ -1680,7 +1694,21 @@ dk36_heading3 {
             "stiftedeforeninger_heading stiftedeforeninger_heading"
             "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
             "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+            "stiftedeforeninger_paragraf3 stiftedeforeninger_paragraf4"
 
+    }
+
+    #stiftedeforeninger_paragraf1 {
+        grid-area: stiftedeforeninger_paragraf1;
+        height: 35vh;
+        width: 90%;
+
+    }
+
+    #stiftedeforeninger_paragraf4 {
+        grid-area: stiftedeforeninger_paragraf4;
+        height: 35vh;
+        width: 100%;
     }
 
     /* STIFTEDE FORENINGER SLUT */
