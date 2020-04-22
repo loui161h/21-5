@@ -79,8 +79,6 @@ h2 {
 p {
     font-weight: 400;
     color: #375151;
-
-
 }
 
 
@@ -88,7 +86,6 @@ p {
 #tredjeslide,
 #femteslide,
 p {
-
     font-size: 1.6rem;
     line-height: 30px;
 
@@ -178,21 +175,23 @@ a:hover {
 
     /* SKRIFT */
     h1 {
-        font-size: 2.4rem;
-        line-height: 40px;
+        font-size: 2.8rem;
     }
 
     #andenslide p {
-        line-height: 20px;
+        line-height: 25px;
         max-width: 42ch;
     }
+
+
 
     #foersteslide,
     #tredjeslide,
     #femteslide,
     p {
 
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+        line-height: 35px;
     }
 
 
@@ -230,48 +229,52 @@ a:hover {
 
 
     h1 {
-        font-size: 2.6rem;
+        font-size: 3rem;
+        line-height: 50px;
     }
+
 
     /* PLACERING AF INDHOLD */
     #foersteslide,
     #tredjeslide,
     #femteslide {
-        margin-top: -500px;
-
-
-
+        margin-top: -470px;
+        padding: 0px 200px;
     }
+
+
 
     #andenslide,
     #fjerdeslide {
-        margin-top: -500px;
-
-
+        margin-top: -420px;
     }
 
+
+
+
+
     #foreningerbokse {
-        margin: -350px 20px 0px 20px;
+        margin: 0px 20px 0px 20px;
 
     }
 
     #hvad,
     #hvor,
     #hvorfor {
-        padding: 10px;
-        max-width: 30ch;
+        max-width: 15vw;
+        padding: 0;
     }
 
 
 
     .boks {
         visibility: visible;
-        background-color: beige;
+        background-color: rgba(239, 176, 71, 0.4);
         transition: transform .2s;
         padding: 20px;
-        width: 200px;
+        width: 250px;
         height: 325px;
-        margin: 5px;
+        margin-right: 25px;
 
     }
 
@@ -301,6 +304,13 @@ a:hover {
         grid-template-areas:
             "blivendelaf foreningerbokse"
     }
+
+
+    #foersteslide p {
+    font-size: 2rem;
+   }
+
+}
 
     /* GRID  */
 
