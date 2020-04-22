@@ -1,7 +1,4 @@
 /* GENERELLE INDSTILLINGER */
-* {
-    box-sizing: border-box;
-}
 
 body {
     margin: 0;
@@ -18,10 +15,11 @@ img {
 }
 
 
+/*
 position: relative;
 width: 100%;
 max-width: 400px;
-}
+*/
 
 .image {
     display: block;
@@ -51,73 +49,12 @@ max-width: 400px;
     position: relative;
     top: 55px;
     left: 0px;
-
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     text-decoration: none;
 }
 
-
-
-
-/* LANDINGPAGE PLACERING AF INDHOLD */
-
-/*
-#foersteslide,
-#tredjeslide,
-#femteslide {
-    margin-top: -600px;
-    text-align: center;
-    margin-right: 200px;
-    margin-left: 200px;
-
-
-}
-
-#landing_overskrift1,
-#landing_overskrift2,
-#landing_overskrift3,
-#landing_overskrift4,
-#landing_overskrift5 h1 {
-    font-size: 4rem;
-    color: #375151;
-    font-family: 'Roboto', sans-serif;
-}
-
-#landing_p1,
-#landing_p5,
-#landing_p9 p {
-    font-size: 1.8rem;
-    line-height: 40px;
-    color: #375151;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-
-}
-
-#landing_p2,
-#landing_p3,
-#landing_p4,
-#landing_p6,
-#landing_p7,
-#landing_p8 p {
-    color: #375151;
-    font-family: 'Quicksand', sans-serif;
-      font-weight: 400;
-}
-
-#landing_underoverskrift1, #landing_underoverskrift2, #landing_underoverskrift3 h2 {
-    color: #375151;
-    font-family: 'Quicksand', sans-serif;
-      font-weight: 500;
-}
-
-#andenslide,
-#fjerdslide {
-    margin-top: -400px;
-}
-*/
 
 input[type=text],
 select {
@@ -166,10 +103,70 @@ select {
 }
 
 
+#foreningerbokseto {
+        display: block;
+    }
+
+
+
+    .boks {
+        visibility: visible;
+        background-color: beige;
+        transition: transform .2s;
+        padding: 40px;
+        width: 70vw;
+        height: 30vh;
+        margin: 20px;
+
+    }
+
+    .boks:hover {
+        -ms-transform: scale(1.1);
+        /* IE 9 */
+        -webkit-transform: scale(1.1);
+        /* Safari 3-8 */
+        transform: scale(1.1);
+    }
+
 
 /****************** MEDIA QUERIES **********************/
 
 @media only screen and (min-width: 768px) {
+
+
+
+    /* FORENINGER BOKSE TILGÆNGELIGE FORENINGER */
+
+     #foreningerbokseto {
+        display: flex;
+        align-items: center;
+        margin: 5px 105px;
+    }
+
+    #foreningerbokseto div {
+        flex: 1;
+    }
+
+    .boks {
+        visibility: visible;
+        background-color: beige;
+        transition: transform .2s;
+        padding: 40px;
+        width: 300px;
+        height: 425px;
+        margin: 15px;
+        text-align: center;
+
+    }
+
+    .boks:hover {
+        -ms-transform: scale(1.2);
+        /* IE 9 */
+        -webkit-transform: scale(1.2);
+        /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+
     /* DROP DOWN NAVIGATION */
 
     header {
