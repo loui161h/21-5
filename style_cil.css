@@ -76,6 +76,53 @@ img {
 }
 */
 
+ input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 10px;
+        margin: 8px 0;
+        border: 2px solid #BED2D0;
+        border-radius: 10px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    input[type=submit] {
+        font-family: 'Quicksand', sans-serif;
+        justify-content: space-around;
+        background-color: #BED2D0;
+        font-size: 1.2rem;
+        color: #ffffff;
+        padding: 10px 60px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+    #form3 .knap {
+        padding-top: 15px;
+    }
+
+ #form1 .knap {
+        padding-top: 15px;
+    }
+
+ #form2 .knap {
+        padding-top: 15px;
+    }
+
+    input[type=submit]:hover {
+        opacity: 80%;
+    }
+
+
+    #form3 input[type=text],
+    select {
+        width: 40%;
+    }
+
+
 
 /****************** MEDIA QUERIES **********************/
 
@@ -447,13 +494,9 @@ img {
 
     /* FORM */
 
-
-
-
-
     input[type=text],
     select {
-        width: 50%;
+        width: 100%;
         padding: 12px 10px;
         margin: 8px 0;
         border: 2px solid #BED2D0;
@@ -474,9 +517,15 @@ img {
         font-weight: 600;
     }
 
-    #form1,
-    #form2,
-    #form3 .knap {
+     #form3 .knap {
+        padding-top: 15px;
+    }
+
+ #form1 .knap {
+        padding-top: 15px;
+    }
+
+ #form2 .knap {
         padding-top: 15px;
     }
 
@@ -488,7 +537,6 @@ img {
     #form3 input[type=text],
     select {
         width: 40%;
-
     }
 }
 
