@@ -364,6 +364,141 @@ footer {
 
 /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
+/* PROCESSEN GRID */
+
+#process_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "process_heading"
+        "process_tekst1"
+        "process_paragraf1"
+        "process_paragraf2"
+
+}
+
+#process_heading {
+    grid-area: process_heading;
+}
+
+
+#process_tekst1 {
+    grid-area: process_tekst1;
+
+}
+
+
+
+#process_paragraf1 {
+    grid-area: process_paragraf1;
+
+
+}
+
+#process_paragraf2 {
+    grid-area: process_paragraf2;
+
+
+}
+
+/* PROCESSEN GRID SLUT */
+
+
+/* VI SKABER HJEM GRID */
+
+#skaberhjem_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "skaberhjem_heading"
+        "skaberhjem_tekst1"
+        "skaberhjem_paragraf1"
+        "skaberhjem_paragraf2"
+
+
+}
+
+#skaberhjem_heading {
+    grid-area: skaberhjem_heading;
+}
+
+
+#skaberhjem_tekst1 {
+    grid-area: skaberhjem_tekst1;
+
+}
+
+
+
+#skaberhjem_paragraf1 {
+    grid-area: skaberhjem_paragraf1;
+
+
+}
+
+#skaberhjem_paragraf2 {
+    grid-area: skaberhjem_paragraf2;
+
+
+}
+
+/* VI SKABER HJEM GRID SLUT */
+
+/* STIFTEDE FORENINGER */
+
+
+#stiftedeforeninger_fullpage {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "stiftedeforeninger_heading"
+        "stiftedeforeninger_tekst1"
+        "stiftedeforeninger_paragraf1"
+        "stiftedeforeninger_paragraf2"
+
+}
+
+#stiftedeforeninger_heading {
+    grid-area: stiftedeforeninger_heading;
+}
+
+
+#stiftedeforeninger_tekst1 {
+    grid-area: stiftedeforeninger_tekst1;
+
+}
+
+
+
+#stiftedeforeninger_paragraf1 {
+    grid-area: stiftedeforeninger_paragraf1;
+
+
+}
+
+#stiftedeforeninger_paragraf2 {
+    grid-area: stiftedeforeninger_paragraf2;
+
+
+}
+
+
+
+/* STIFTEDE FORENINGER SLUT */
+
+
 
 /* DESTINATION */
 
@@ -877,6 +1012,62 @@ footer {
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
+
+    /* PROCESSEN GRID */
+
+    #process_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "process_heading process_heading"
+            "process_tekst1 process_tekst1"
+            "process_paragraf1 process_paragraf2"
+
+    }
+
+
+    /* PROCESSEN GRID SLUT */
+
+
+    /* VI SKABER HJEM GRID */
+
+    #skaberhjem_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "skaberhjem_heading skaberhjem_heading"
+            "skaberhjem_tekst1 skaberhjem_tekst1"
+            "skaberhjem_paragraf1 skaberhjem_paragraf2"
+
+
+    }
+
+    /* VI SKABER HJEM GRID SLUT */
+
+    /* STIFTEDE FORENINGER */
+
+
+    #stiftedeforeninger_fullpage {
+        display: grid;
+        height: 45vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "stiftedeforeninger_heading stiftedeforeninger_heading"
+            "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
+            "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+
+    }
+
+    /* STIFTEDE FORENINGER SLUT */
+
     /* DESTINATION */
 
 
@@ -1018,6 +1209,9 @@ footer {
 
 
 
+
+
+
 @media only screen and (min-width: 1024px) {
 
     /* KONCEPT GRID  */
@@ -1121,7 +1315,64 @@ footer {
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
+    /* PROCESSEN GRID */
+
+    #process_fullpage {
+        display: grid;
+        height: 55vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+            "process_heading process_heading"
+            "process_tekst1 process_tekst1"
+            "process_paragraf1 process_paragraf2"
+
+    }
+
+    /* PROCESSEN GRID SLUT */
+
+
+
+    /* VI SKABER HJEM GRID */
+
+    #skaberhjem_fullpage {
+        display: grid;
+        height: 60vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "skaberhjem_heading skaberhjem_heading"
+            "skaberhjem_tekst1 skaberhjem_tekst1"
+            "skaberhjem_paragraf1 skaberhjem_paragraf2"
+
+
+    }
+
+    /* VI SKABER HJEM GRID SLUT */
+
+
+    /* STIFTEDE FORENINGER */
+
+
+    #stiftedeforeninger_fullpage {
+        display: grid;
+        height: 50vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "stiftedeforeninger_heading stiftedeforeninger_heading"
+            "stiftedeforeninger_tekst1 stiftedeforeninger_tekst1"
+            "stiftedeforeninger_paragraf1 stiftedeforeninger_paragraf2"
+
+    }
+
+    /* STIFTEDE FORENINGER SLUT */
 
 }
+
+
+
 
 /* MEDIA QUERIES SLUT */

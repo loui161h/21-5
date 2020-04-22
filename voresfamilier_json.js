@@ -55,4 +55,10 @@ function visDataVoresFamilier() {
 
     document.querySelector("#voresfamilier_overskrift5").textContent = alleTekster.overskrift4;
     document.querySelector("#voresfamilier_p5").innerHTML = alleTekster.tekst7;
+
+    document.querySelector("#voresfamilier_overskrift6").textContent = alleTekster.overskrift5;
+    document.querySelector("#voresfamilier_p6").innerHTML = alleTekster.tekst10;
+
+    document.querySelector("#voresfamilier_overskrift7").textContent = alleTekster.overskrift6;
+    document.querySelector("#voresfamilier_p7").innerHTML = alleTekster.tekst11;
 }
