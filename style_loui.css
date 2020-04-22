@@ -1092,8 +1092,139 @@ footer {
 
 /* KONTAKT SLUT*/
 
+/* OM OS */
+
+#omos_fullpage {
+    display: grid;
+    /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+    min-height: 100%;
+    grid-gap: 10px;
+    grid-template-areas:
 
 
+        "omos_heading"
+        "omos_tekst1"
+        "omos_paragraf1"
+        "omos_paragraf2"
+
+}
+
+#omos_heading {
+    grid-area: omos_heading;
+}
+
+
+#omos_tekst1 {
+    grid-area: omos_tekst1;
+
+}
+
+
+
+#omos_paragraf1 {
+    grid-area: omos_paragraf1;
+
+
+}
+
+#omos_paragraf2 {
+    grid-area: omos_paragraf2;
+
+
+}
+
+
+/* OM OS GRID SLUT */
+
+/* HISTORIEN */
+
+#historien_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "historien_heading"
+        "historien_paragraf1"
+        "historien_paragraf2"
+
+
+}
+
+#historien_heading {
+    grid-area: historien_heading;
+}
+
+
+
+#historien_paragraf1 {
+    grid-area: historien_paragraf1;
+
+
+}
+
+#historien_paragraf2 {
+    grid-area: historien_paragraf2;
+
+
+}
+
+/* HISTORIEN SLUT */
+
+/* TEAMET GRID */
+
+#teamet_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    grid-template-areas:
+
+        "teamet_heading"
+        "teamet_tekst1"
+        "teamet_paragraf2"
+        "teamet_paragraf3"
+        "teamet_paragraf4"
+        "teamet_paragraf5"
+
+}
+
+#teamet_heading {
+    grid-area: teamet_heading;
+}
+
+
+#teamet_tekst1 {
+    grid-area: teamet_tekst1;
+
+}
+
+
+
+#teamet_paragraf2 {
+    grid-area: teamet_paragraf2;
+
+
+}
+
+#teamet_paragraf3 {
+    grid-area: teamet_paragraf3;
+
+
+}
+
+#teamet_paragraf4 {
+    grid-area: teamet_paragraf4;
+
+
+}
+
+#teamet_paragraf5 {
+    grid-area: teamet_paragraf5;
+
+
+}
+
+/* 21-5 TEAMET GRID SLUT */
 
 
 /* MEDIA QUERIES */
@@ -1520,6 +1651,55 @@ footer {
 
     /* JOB I 21-5 SLUT */
 
+    /* OM OS */
+
+    #omos_fullpage {
+        display: grid;
+        /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "omos_heading omos_heading"
+            "omos_tekst1 omos_tekst1"
+            "omos_paragraf1 omos_paragraf2"
+
+
+    }
+
+    /* OM OS SLUT */
+
+    /* HISTORIEN  */
+    #historien_fullpage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "historien_heading historien_heading"
+            "historien_paragraf1 historien_paragraf2"
+
+
+    }
+
+    /* HISTORIEN SLUT */
+
+    /* TEAMET GRID */
+
+    #teamet_fullpage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+            "teamet_heading teamet_heading"
+            "teamet_tekst1 teamet_tekst1"
+            "teamet_paragraf2 teamet_paragraf3"
+            "teamet_paragraf4 teamet_paragraf5"
+
+    }
+
+    /* TEAMET GRID  SLUT */
 }
 
 
@@ -1956,6 +2136,55 @@ footer {
     }
 
     /* JOB I 21-5 SLUT */
+
+    /* OM OS */
+    #omos_fullpage {
+        display: grid;
+        /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "omos_heading omos_heading"
+            "omos_tekst1 omos_tekst1"
+            "omos_paragraf1 omos_paragraf2"
+
+
+    }
+
+    /* OM OS SLUT */
+
+    /* HISTORIEN  */
+    #historien_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "historien_heading historien_heading"
+            "historien_paragraf1 historien_paragraf2"
+
+
+    }
+
+    /* HISTORIEN SLUT */
+
+    /* TEAMET GRID */
+
+    #teamet_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "teamet_heading teamet_heading"
+            "teamet_tekst1 teamet_tekst1"
+            "teamet_paragraf2 teamet_paragraf3"
+            "teamet_paragraf4 teamet_paragraf5"
+
+    }
+
+    /* TEAMET GRID  SLUT */
 
 
 }
