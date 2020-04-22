@@ -57,6 +57,6 @@ function visDataDkLarge() {
     document.querySelector("#dk38_p4").innerHTML = alleTekster.tekst3;
 
 
-    document.querySelector("#dk38_overskrift5").textContent = alleTekster.overskrift3;
+    document.querySelector("#dk38_overskrift4").textContent = alleTekster.overskrift3;
     document.querySelector("#dk38_overskrift6").textContent = alleTekster.overskrift4;
 }

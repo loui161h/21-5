@@ -448,7 +448,7 @@ footer {
 
 #process_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -492,7 +492,7 @@ footer {
 
 #skaberhjem_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -542,7 +542,7 @@ footer {
 
 #stiftedeforeninger_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -603,7 +603,7 @@ footer {
 
 #destinationer_fullpage {
     display: grid;
-    height: 5f0vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -631,7 +631,7 @@ footer {
 /* MALLORCA GRID */
 #mallorca_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -668,7 +668,7 @@ footer {
 
 #foreninger_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -820,7 +820,7 @@ footer {
 
 #dk36_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -885,7 +885,7 @@ footer {
 
 #information_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -922,7 +922,7 @@ footer {
 
 #orienteringsmode_fullpage {
     display: grid;
-    height: 60vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -960,7 +960,7 @@ footer {
 
 #kaffemode_fullpage {
     display: grid;
-    height: 60vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1000,7 +1000,7 @@ footer {
 
 #job_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1032,7 +1032,7 @@ footer {
 
 #kontakt_fullpage {
     display: grid;
-    height: 60vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1237,7 +1237,6 @@ footer {
 
     #process_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1256,7 +1255,6 @@ footer {
 
     #skaberhjem_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1276,7 +1274,6 @@ footer {
 
     #stiftedeforeninger_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1294,7 +1291,6 @@ footer {
 
     #destinationer_fullpage {
         display: grid;
-        height: 35vh;
         padding: 10px 30px 0px 30px;
         grid-template-columns: 600px;
         justify-content: flex-start;
@@ -1312,7 +1308,6 @@ footer {
     /* MALLORCA */
     #mallorca_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1328,7 +1323,6 @@ footer {
 
     #foreninger_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 225px 225px 225px;
         justify-content: center;
         grid-template-areas:
@@ -1403,7 +1397,6 @@ footer {
 
     #information_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1420,7 +1413,6 @@ footer {
 
     #orienteringsmode_fullpage {
         display: grid;
-        height: 30vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1437,7 +1429,6 @@ footer {
 
     #kaffemode_fullpage {
         display: grid;
-        height: 30vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1454,7 +1445,6 @@ footer {
 
     #kontakt_fullpage {
         display: grid;
-        height: 30vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1471,7 +1461,6 @@ footer {
 
     #job_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1638,7 +1627,6 @@ footer {
 
     #process_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1656,7 +1644,6 @@ footer {
 
     #skaberhjem_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1715,7 +1702,6 @@ footer {
 
     #destinationer_fullpage {
         display: grid;
-        height: 40vh;
         padding: 10px 10px 0px 0px;
         grid-template-columns: 1000px;
         justify-content: center;
@@ -1731,7 +1717,6 @@ footer {
     /* MALLORCA */
     #mallorca_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1747,7 +1732,6 @@ footer {
 
     #foreninger_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 325px 325px 325px;
         justify-content: center;
         grid-template-areas:
@@ -1831,7 +1815,6 @@ footer {
 
     #information_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1848,7 +1831,6 @@ footer {
 
     #orienteringsmode_fullpage {
         display: grid;
-        height: 100vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1867,7 +1849,6 @@ footer {
 
     #kaffemode_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1883,7 +1864,6 @@ footer {
     /* KONTAKT */
     #kontakt_fullpage {
         display: grid;
-        height: 45vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1902,7 +1882,6 @@ footer {
 
     #job_fullpage {
         display: grid;
-        height: 50vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
