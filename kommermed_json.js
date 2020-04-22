@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataKommerMed() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#kommermed_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#kommermed_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#kommermed_p1").innerHTML = alleTekster.content.rendered;
 

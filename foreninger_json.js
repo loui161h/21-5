@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataForeninger() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#foreninger_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#foreninger_overskrift").textContent = alleTekster.title.rendered;
     document.querySelector("#foreninger_p1").innerHTML = alleTekster.content.rendered;
 

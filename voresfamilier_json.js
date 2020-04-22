@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataVoresFamilier() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#voresfamilier_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#voresfamilier_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#voresfamilier_p1").innerHTML = alleTekster.content.rendered;
 

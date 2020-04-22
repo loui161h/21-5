@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataBooking() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#bookingsystemet_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#bookingsystemet_overskrift1").textContent = alleTekster.title.rendered;
 
 

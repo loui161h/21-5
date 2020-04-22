@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataGiverMening() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#givermening_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#givermening_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#givermening_p1").innerHTML = alleTekster.content.rendered;
 

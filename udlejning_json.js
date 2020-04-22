@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataUdlejning() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#udlejning_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#udlejning_overskrift1").textContent = alleTekster.title.rendered;
 
     document.querySelector("#udlejning_p1").textContent = alleTekster.tekst1;

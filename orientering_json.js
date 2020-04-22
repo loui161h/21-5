@@ -40,10 +40,11 @@ async function hentData() {
 }
 
 function visOrienteringsMode() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#orienteringsmode_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#orienteringsmode_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#orienteringsmode_p1").innerHTML = alleTekster.content.rendered;
 
+    document.querySelector("#orientering_img").src = alleTekster.billede2.guid;
     document.querySelector("#orienteringsmode_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#orienteringsmode_overskrift3").textContent = alleTekster.overskrift2;
 

@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataInformation() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#information_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#information_overskrift").textContent = alleTekster.title.rendered;
     document.querySelector("#information_p1").innerHTML = alleTekster.content.rendered;
 
