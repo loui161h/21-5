@@ -1319,6 +1319,21 @@ footer {
 
     /* MALLORCA SLUT */
 
+    /* TOSCANA */
+    #mallorca_fullpage {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+            "mallorca_heading mallorca_heading"
+            "mallorca_tekst1 mallorca_tekst1"
+            "mallorca_paragraf1 mallorca_paragraf2"
+    }
+
+
+    /* TOSCANA SLUT */
+
+
     /* TILGÆNGELIGE FORENINGER */
 
     #foreninger_fullpage {
