@@ -1,7 +1,7 @@
-.container {
+.snapscroll {
     width: 60vw;
     height: 70vh;
-    margin: 15vh auto;
+    margin-left: 150px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     color: white;
