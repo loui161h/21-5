@@ -44,14 +44,20 @@ function visDataDkFamily() {
     document.querySelector("#dk39_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#dk39_p1").innerHTML = alleTekster.content.rendered;
 
+    document.querySelector("#dk39_img1").src = alleTekster.billede2.guid;
+
     document.querySelector("#dk39_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#dk39_p2").innerHTML = alleTekster.tekst1;
     document.querySelector("#dk39_p3").innerHTML = alleTekster.tekst2;
 
+    document.querySelector("#dk39_img2").src = alleTekster.billede3.guid;
+
+
     document.querySelector("#dk39_overskrift3").textContent = alleTekster.overskrift2;
     document.querySelector("#dk39_p4").innerHTML = alleTekster.tekst3;
 
+    document.querySelector("#dk39_overskrift4").textContent = alleTekster.overskrift3;
 
-    document.querySelector("#dk39_overskrift5").textContent = alleTekster.overskrift3;
-    document.querySelector("#dk39_overskrift6").textContent = alleTekster.overskrift4;
+
+
 }

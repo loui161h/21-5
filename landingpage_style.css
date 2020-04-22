@@ -288,7 +288,7 @@ a:hover {
 
     #andenslide {
         display: grid;
-        height: 100vh;
+        height: 15vh;
         grid-gap: 0px;
         grid-template-areas:
             "landing_overskrift2 hvad hvor hvorfor"
@@ -297,7 +297,7 @@ a:hover {
 
     #fjerdeslide {
         display: grid;
-        height: 100vh;
+        height: 15vh;
         grid-template-areas:
             "blivendelaf foreningerbokse"
     }
