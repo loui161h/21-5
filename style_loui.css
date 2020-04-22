@@ -53,10 +53,10 @@ h2 {
 
 
 h3 {
-    font-size: 1rem;
-    color: #375151;
+    font-size: 1.4rem;
+    color: #649087;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: -1vw;
+
 
 }
 
@@ -828,6 +828,83 @@ dk36_heading3 {
 
 /* PRAKTISK INFORMATION SLUT */
 
+/* ORIENTERINGSMØDE */
+
+#orienteringsmode_fullpage {
+    display: grid;
+    height: 60vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+
+        "orienteringsmode_heading1"
+        "orienteringsmode_tekst1"
+        "orienteringsmode_paragraf1"
+        "orienteringsmode_paragraf2"
+
+}
+
+#orienteringsmode_heading1 {
+    grid-area: orienteringsmode_heading1;
+}
+
+
+#orienteringsmode_tekst1 {
+    grid-area: orienteringsmode_tekst1;
+}
+
+#orienteringsmode_paragraf1 {
+    grid-area: orienteringsmode_paragraf1;
+}
+
+#orienteringsmode_paragraf2 {
+    grid-area: orienteringsmode_paragraf2;
+}
+
+/* ORIENTERINGSMØDE SLUT */
+
+
+/* KAFFEMØDE */
+
+#kaffemode_fullpage {
+    display: grid;
+    height: 60vh;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+
+        "kaffemode_heading1"
+        "kaffemode_tekst1"
+        "kaffemode_paragraf1"
+        "kaffemode_paragraf2"
+}
+
+
+#kaffemode_heading1 {
+    grid-area: kaffemode_heading1;
+}
+
+
+#kaffemode_tekst1 {
+    grid-area: kaffemode_tekst1;
+}
+
+#kaffemode_paragraf1 {
+    grid-area: kaffemode_paragraf1;
+}
+
+#kaffemode_paragraf2 {
+    grid-area: kaffemode_paragraf2;
+}
+
+
+
+/* KAFFEMØDE SLUT */
+
 /* JOB I 21-5 */
 
 
@@ -914,6 +991,12 @@ dk36_heading3 {
 
     h2 {
         font-size: 2.6;
+
+    }
+
+
+    h3 {
+        font-size: 2rem;
 
     }
 
@@ -1218,6 +1301,40 @@ dk36_heading3 {
 
     /* PRAKTISK INFORMATION SLUT */
 
+    /* ORIENTERINGSMØDE */
+
+    #orienteringsmode_fullpage {
+        display: grid;
+        height: 30vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "orienteringsmode_heading1 orienteringsmode_heading1"
+            "orienteringsmode_tekst1 orienteringsmode_tekst1"
+            "orienteringsmode_paragraf1 orienteringsmode_paragraf2"
+
+    }
+
+    /* ORIENTERINGSMØDE SLUT */
+    /* KAFFEMODE */
+
+    #kaffemode_fullpage {
+        display: grid;
+        height: 30vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "kaffemode_heading1 kaffemode_heading1"
+            "kaffemode_tekst1 kaffemode_tekst1"
+            "kaffemode_paragraf1 kaffemode_paragraf2"
+    }
+
+    /* KAFFEMODE SLUT */
+
     /* KONTAKT */
 
     #kontakt_fullpage {
@@ -1502,17 +1619,44 @@ dk36_heading3 {
 
     /* ORIENTERINGSMØDE */
 
+    #orienteringsmode_fullpage {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "orienteringsmode_heading1 orienteringsmode_heading1"
+            "orienteringsmode_tekst1 orienteringsmode_tekst1"
+            "orienteringsmode_paragraf1 orienteringsmode_paragraf2"
+
+    }
+
     /* ORIENTERINGSMØDE SLUT */
 
 
     /* KAFFEMØDE */
+
+    #kaffemode_fullpage {
+        display: grid;
+        height: 45vh;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+
+            "kaffemode_heading1 kaffemode_heading1"
+            "kaffemode_tekst1 kaffemode_tekst1"
+            "kaffemode_paragraf1 kaffemode_paragraf2"
+    }
 
     /* KAFFEMØDE SLUT */
 
     /* KONTAKT */
     #kontakt_fullpage {
         display: grid;
-        height: 45vh;
+        height: 80vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
