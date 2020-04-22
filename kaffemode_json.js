@@ -43,7 +43,7 @@ function visKaffeMode() {
     document.querySelector("#kaffemode_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#kaffemode_overskrift1").textContent = alleTekster.title.rendered;
     document.querySelector("#kaffemode_p1").innerHTML = alleTekster.content.rendered;
-    document.querySelector("#kaffemode_img").src = alleTekster.billede1.guid;
+    document.querySelector("#kaffemode_img").src = alleTekster.billede2.guid;
     document.querySelector("#kaffemode_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#kaffemode_p2").textContent = alleTekster.tekst1;
 
