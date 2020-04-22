@@ -167,7 +167,7 @@ footer {
 
 #givermening_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -218,7 +218,7 @@ footer {
 
 #voresfamilier_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -292,7 +292,7 @@ footer {
 
 #kommermed_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -336,7 +336,7 @@ footer {
 
 #bookingsystemet_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -414,7 +414,7 @@ footer {
 
 #udlejning_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -708,7 +708,7 @@ footer {
 
 #dk39_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -765,20 +765,18 @@ footer {
 
 #dk38_fullpage {
     display: grid;
-    height: 100vh;
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
         "dk38_heading1"
         "dk38_tekst1"
-        "dk39_billede1"
+        "dk38_billede1"
         "dk38_paragraf1"
         "dk38_paragraf2"
         "dk38_paragraf3"
         "dk38_paragraf4"
         "dk38_heading2"
-
-
 }
 
 
@@ -790,8 +788,8 @@ footer {
     grid-area: dk38_tekst1;
 }
 
-#dk39_billede1 {
-    grid-area: dk39_billede1;
+#dk38_billede1 {
+    grid-area: dk38_billede1;
 }
 
 #dk38_paragraf1 {
@@ -813,11 +811,6 @@ footer {
 #dk38_heading2 {
     grid-area: dk38_heading2;
 }
-
-dk38_heading3 {
-    grid-area: dk38_heading3;
-}
-
 
 
 /* DK38 LARGE GRID SLUT */
@@ -1227,7 +1220,6 @@ dk38_heading3 {
 
     #udlejning_fullpage {
         display: grid;
-        height: 60vh;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1376,7 +1368,6 @@ dk38_heading3 {
         justify-content: center;
         grid-template-areas:
 
-            "splash splash"
             "dk38_heading1 dk38_heading1"
             "dk38_tekst1 dk38_tekst1"
             "dk38_billede1 dk38_billede1"
@@ -1384,8 +1375,9 @@ dk38_heading3 {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
-            "footer footer"
+
     }
+
 
 
 
@@ -1579,11 +1571,7 @@ dk38_heading3 {
 
 
     #kommermed_fullpage {
-        display: grid;
-        height: 100vh;
-        grid-gap: 10px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "kommermed_heading kommermed_heading"
@@ -1634,7 +1622,6 @@ dk38_heading3 {
 
     #udlejning_fullpage {
         display: grid;
-        height: 55vh;
         grid-template-columns: 500px 500px;
         justify-content: center;
         grid-template-areas:
@@ -1800,7 +1787,6 @@ dk38_heading3 {
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
-            "splash splash"
             "dk38_heading1 dk38_heading1"
             "dk38_tekst1 dk38_tekst1"
             "dk38_billede1 dk38_billede1"
@@ -1808,15 +1794,9 @@ dk38_heading3 {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
-            "footer footer"
-    }
-
-
-    #dk38_paragraf3 {
-        grid-area: dk39_paragraf3;
-        height: 80vh;
 
     }
+
 
 
     #dk36_fullpage {
