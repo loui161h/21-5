@@ -36,7 +36,7 @@ header nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 
@@ -75,6 +75,7 @@ header nav a:visited {
     display: inline-block;
     color: black;
     margin: 0.5rem;
+    font-size: 2rem;
 }
 
 
@@ -431,7 +432,7 @@ footer {
 
 /****************** MEDIA QUERIES **********************/
 
-@media screen and (min-device-width: 768px) {
+@media only screen and (min-width: 1024px) {
 
     /*GENERELLE INDSTILLINGER */
     #process_fullpage,
@@ -854,6 +855,14 @@ footer {
         text-align: end;
         margin-right: 100px;
         margin-top: -20px;
+    }
+
+
+    #menuknap {
+        display: inline-block;
+        color: black;
+        margin: 0.5rem;
+        font-size: 2rem;
     }
 
     .footermenu a {
