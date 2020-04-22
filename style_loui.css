@@ -83,6 +83,7 @@ p {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -141,6 +142,7 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
     margin-top: -1vw;
     grid-template-areas:
         "givermening_heading"
@@ -212,6 +214,7 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -255,9 +258,10 @@ footer {
     display: grid;
     height: 100vh;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
-        "splash"
         "bookingsystemet_heading"
         "bookingsystemet_tekst1"
         "bookingsystemet_paragraf1"
@@ -269,7 +273,6 @@ footer {
         "paragraf_img1"
         "bookingsystemet_paragraf6"
         "paragraf_img2"
-        "footer"
 
 }
 
@@ -774,11 +777,9 @@ footer {
 
     #koncept_fullpage {
         display: grid;
-        height: 100vh;
         padding: 10px;
         grid-template-columns: 225px 225px 225px;
         justify-content: center;
-        grid-gap: 10px;
         grid-template-areas:
 
 
@@ -790,11 +791,8 @@ footer {
 
     #givermening_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
         grid-template-columns: 350px 350px;
         justify-content: center;
-        margin-top: -1vw;
         grid-template-areas:
             "givermening_heading givermening_heading"
             "givermening_tekst1 givermening_tekst1"
@@ -849,10 +847,11 @@ footer {
     #bookingsystemet_fullpage {
         display: grid;
         height: 100vh;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
         grid-gap: 10px;
         grid-template-areas:
 
-            "splash splash"
             "bookingsystemet_heading bookingsystemet_heading"
             "bookingsystemet_tekst1 bookingsystemet_tekst1"
             "bookingsystemet_paragraf1 bookingsystemet_paragraf2"
@@ -860,7 +859,6 @@ footer {
             "bookingsystemet_tekst2 bookingsystemet_tekst2"
             "paragraf_img1 bookingsystemet_paragraf5"
             "bookingsystemet_paragraf6 paragraf_img2"
-            "footer footer"
 
     }
 
@@ -1033,11 +1031,8 @@ footer {
 
     #koncept_fullpage {
         display: grid;
-        height: 100vh;
-        padding: 10px;
         grid-template-columns: 325px 325px 325px;
         justify-content: center;
-        grid-gap: 10px;
         grid-template-areas:
 
 
@@ -1050,11 +1045,8 @@ footer {
 
     #givermening_fullpage {
         display: grid;
-        height: 100vh;
-        grid-gap: 10px;
         grid-template-columns: 500px 500px;
         justify-content: center;
-        margin-top: -1vw;
         grid-template-areas:
             "givermening_heading givermening_heading"
             "givermening_tekst1 givermening_tekst1"
@@ -1062,13 +1054,14 @@ footer {
             "givermening_tekst2 givermening_tekst2";
     }
 
+
+    /* HVORDAN KOMMER VI MED GRID */
     #kommermed_fullpage {
         display: grid;
         height: 100vh;
         grid-gap: 10px;
         grid-template-columns: 500px 500px;
         justify-content: center;
-        margin-top: -1vw;
         grid-template-areas:
 
             "splash splash"
@@ -1079,6 +1072,29 @@ footer {
             "footer footer"
 
     }
+
+    /* HVORDAN KOMMER VI MED GRID SLUT */
+
+    /* BOOKINGSYSTEMET */
+
+    #bookingsystemet_fullpage {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        grid-template-areas:
+
+            "bookingsystemet_heading bookingsystemet_heading"
+            "bookingsystemet_tekst1 bookingsystemet_tekst1"
+            "bookingsystemet_paragraf1 bookingsystemet_paragraf2"
+            "bookingsystemet_paragraf3 bookingsystemet_paragraf4"
+            "bookingsystemet_tekst2 bookingsystemet_tekst2"
+            "paragraf_img1 bookingsystemet_paragraf5"
+            "bookingsystemet_paragraf6 paragraf_img2"
+
+    }
+
+
+    /* BOOKINGSYSTEMET SLUT */
 
 
 }
