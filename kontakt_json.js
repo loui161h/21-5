@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visKontakt() {
-    /*    document.querySelector(".splash_img").src = alleTekster.billede1.guid;*/
+    document.querySelector("#kontakt_splash_img").src = alleTekster.billede1.guid;
     document.querySelector("#kontakt_overskrift1").textContent = alleTekster.title.rendered;
 
     document.querySelector("#kontakt_p1").textContent = alleTekster.tekst1;
