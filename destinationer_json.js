@@ -66,5 +66,8 @@ function visDataDestinationer() {
     document.querySelector("#paris").textContent = alleTekster.overskrift7;
     document.querySelector("#paris_img").src = alleTekster.billede8.guid;
 
+       document.querySelector("#rom").textContent = alleTekster.overskrift8;
+    document.querySelector("#rom_img").src = alleTekster.billede9.guid;
+
 
 }
