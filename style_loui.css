@@ -1403,7 +1403,7 @@ footer {
 
     #destinationer_fullpage {
         display: grid;
-        height: 35vh;
+        height: 40vh;
         padding: 10px 10px 0px 0px;
         grid-template-columns: 1000px;
         justify-content: center;
