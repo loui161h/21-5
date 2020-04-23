@@ -95,9 +95,8 @@ p {
 
 #blivendelaf p {
     text-align: start;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 10px 0px 54px;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 
@@ -186,7 +185,7 @@ a:hover {
     p {
 
         font-size: 1.4rem;
-        line-height: 35px;
+        line-height: 30px;
     }
 
 
@@ -310,13 +309,17 @@ a:hover {
         line-height: 30px;
     }
 
+
+
     #andenslide h1 {
        font-size: 3.2rem;
+          margin-left: 52px;
     }
 
 
     #fjerdeslide h1 {
        font-size: 3.2rem;
+        margin-left: 52px;
     }
 
 
