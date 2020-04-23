@@ -206,6 +206,8 @@ a {
     height: 450px;
     position: relative;
     bottom: 0px;
+    padding-left: 10px;
+
 
 
 }
@@ -215,12 +217,18 @@ a {
     /* height: 250px;*/
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+
 }
+
 
 
 .footer .footer_content h4 {
     color: #375151;
     font-size: 1.3em;
+    margin: 15px;
+
 }
 
 
@@ -229,7 +237,8 @@ a {
 .footer .footer_content .opdateret .socialemedier img {
     padding: 5px;
     width: 40px;
-    justify-content: space-around;
+    margin-left: 15px;
+    justify-content: space-between;
 
 }
 
@@ -247,8 +256,6 @@ a {
     cursor: pointer;
     border-radius: 12px;
 }
-
-
 
 
 
