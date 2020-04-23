@@ -111,19 +111,6 @@ p {
     border: none;
 }
 
-#fjerdeslide a {
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.1rem;
-    color: white;
-    background-color: #BED2D0;
-    padding: 14px 40px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: 500;
-    border: none;
-}
-
 #femteslide a {
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
@@ -307,12 +294,12 @@ a:hover {
 
 
     #foersteslide p {
-    font-size: 2rem;
-   }
+        font-size: 2rem;
+    }
 
 }
 
-    /* GRID  */
+/* GRID  */
 
 
 
