@@ -8,6 +8,21 @@ body {
 
 }
 
+/*
+
+#information_paragraf1 a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #BED2D0;
+    padding: 14px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+*/
 
 
 
@@ -1210,7 +1225,7 @@ footer {
 #omos_fullpage {
     display: grid;
     /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -1787,6 +1802,7 @@ footer {
     /* OM OS */
 
     #omos_fullpage {
+        max-height: 100%;
         display: grid;
         /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
         grid-template-columns: 350px 350px;

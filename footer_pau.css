@@ -163,11 +163,11 @@ a {
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-/*
+
 .show {
     display: block;
 }
-*/
+
 
 /* DROP DOWN NAVIGATION SLUT */
 
@@ -212,15 +212,15 @@ a {
 
 /* reglen gælder for hele footeren */
 .footer .footer_content .opdateret .andet .kontakt {
-    height: 250px;
+    /* height: 250px;*/
     display: flex;
     flex-wrap: wrap;
 }
 
 
 .footer .footer_content h4 {
-    color: white;
-    font-size: 1em;
+    color: #375151;
+    font-size: 1.3em;
 }
 
 
@@ -281,19 +281,8 @@ a {
 
 @media only screen and (min-width: 1024px) {
 
-    /*GENERELLE INDSTILLINGER */
-
-    /*GENERELLE INDSTILLINGER SLUT*/
-
-
-
-
-
-
-
-
-
     /*************** DROP DOWN NAVIGATION *********************/
+
     header {
         position: fixed;
         display: flex;
@@ -307,13 +296,13 @@ a {
     header #logo {
         width: 60px;
         height: 60px;
-
+        margin-top: 5px;
 
     }
 
 
 
-    /* Dropdown div */
+    /******** Dropdown div ********/
     .dropbtn {
         display: inline-block;
         color: #375151;
@@ -326,30 +315,30 @@ a {
         background: none;
     }
 
-    /* Dropdown div on hover & focus */
+    /******* Dropdown div on hover & focus ******/
     .dropbtn:hover,
     .dropbtn:focus {
-        background-color: #F0F0F0;
+        background-color: #FDF8ED;
     }
 
-    /* The container <div> - needed to position the dropdown content */
+    /**** The container <div> - needed to position the dropdown content *****/
     .dropdown {
         display: inline-block;
         justify-content: center;
     }
 
-    /* Dropdown Content (Hidden by Default) */
+    /***** Dropdown Content (Hidden by Default) *****/
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #F0F0F0;
+        background-color: #FDF8ED;
         min-width: 160px;
         box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.1);
         z-index: 1;
         border-radius: 10px;
     }
 
-    /* Links inside the dropdown */
+    /***** Links inside the dropdown *****/
     .dropdown-content a {
         float: none;
         color: #375151;
@@ -377,21 +366,21 @@ a {
         border-radius: 10px;
     }
 
-    /* Change color of dropdown links on hover */
+    /**** Change color of dropdown links on hover *****/
     .dropdown-content a:hover {
-        background-color: #E8E7E7;
+        background-color: #FAE4BF;
         border-radius: 10px;
     }
 
-    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    /***** Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) *****/
     .show {
         display: block;
     }
 
-    /* DROP DOWN NAVIGATION SLUT */
+    /**** DROP DOWN NAVIGATION SLUT *****/
 
 
-    /* MENU2 */
+    /*** MENU2 ****/
 
     #menu2 {
         text-align: end;
@@ -410,7 +399,7 @@ a {
     }
 
 
-
+    /* MENU 2 SLUT */
 
 
     /********************* FOOTER Responsiv **********************/
@@ -425,12 +414,12 @@ a {
 
 
     .footer .footer_content {
-        height: 250px;
+
         display: flex;
     }
 
     .footer .footer_content h4 {
-        color: white;
+        color: #375151;
     }
 
 
@@ -486,7 +475,3 @@ a {
 
     /* FOOTER SLUT */
 }
-
-
-
-/* MENU2 SLUT */
