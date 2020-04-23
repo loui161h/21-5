@@ -91,6 +91,11 @@ p {
 
 }
 
+#blivendelaf p {
+    text-align: start;
+    margin: 0px 60px 0px 60px;
+}
+
 
 #andenslide p {
     color: #535353;
@@ -215,6 +220,7 @@ a:hover {
     /* SKRIFT */
 
 
+
     h1 {
         font-size: 3rem;
         line-height: 50px;
@@ -278,7 +284,6 @@ a:hover {
 
     #andenslide {
         display: grid;
-        height: 15vh;
         grid-gap: 0px;
         grid-template-areas:
             "landing_overskrift2 hvad hvor hvorfor"
@@ -287,7 +292,6 @@ a:hover {
 
     #fjerdeslide {
         display: grid;
-        height: 15vh;
         grid-template-areas:
             "blivendelaf foreningerbokse"
     }
