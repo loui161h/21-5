@@ -203,13 +203,10 @@ a {
 .footer {
     background-color: #BED2D0;
     color: white;
-    height: 450px;
+    height: 500px;
     position: relative;
     bottom: 0px;
-    padding-left: 10px;
-
-
-
+    padding: 20px 20px 20px 10px;
 }
 
 /* reglen gælder for hele footeren */
@@ -235,9 +232,9 @@ a {
 
 /* reglen gælder for sociale medier */
 .footer .footer_content .opdateret .socialemedier img {
-    padding: 5px;
-    width: 40px;
-    margin-left: 15px;
+
+    margin: 15px 0px 0px 10px;
+    width: 30px;
     justify-content: space-between;
 
 }
@@ -248,11 +245,11 @@ a {
     background-color: #FDF8ED;
     border: none;
     color: #375151;
-    padding: 20px;
+    padding: 20px 30px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 15px 2px;
     cursor: pointer;
     border-radius: 12px;
 }
@@ -272,6 +269,12 @@ a {
     padding-top: 0px;
 
 }
+
+
+    .kontakt p {
+        color: #375151;
+        margin-left: 15px;
+    }
 
 
 
@@ -414,14 +417,14 @@ a {
     .footer {
         background-color: #BED2D0;
         color: white;
-        height: 300px;
+        height: 330px;
         position: relative;
+        padding: 5px 80px;
     }
 
 
 
     .footer .footer_content {
-
         display: flex;
     }
 
@@ -432,9 +435,9 @@ a {
 
     /* reglen gælder for sociale medier */
     .footer .footer_content .opdateret .socialemedier img {
-        padding: 5px;
-        width: 40px;
+        width: 30px;
         justify-content: space-around;
+    margin: 25px 0 0 10px;
     }
 
     /* reglen gælder for vores tilmeld nyhedsbrev */
@@ -442,21 +445,21 @@ a {
         background-color: #FDF8ED;
         border: none;
         color: #375151;
-        padding: 20px;
-        text-align: center;
+        padding: 20px 30px;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 12px;
+        margin-left: 15px;
     }
 
 
     /* reglen gælder for hele footeren */
     .footer .footer_content .footer-section {
         flex: 1;
-        padding: 25px;
+        padding: 40px;
 
     }
 
@@ -475,9 +478,10 @@ a {
     }
 
 
-
-
-
+    .kontakt p {
+        color: #375151;
+        margin-left: 15px;
+    }
 
 
     /* FOOTER SLUT */

@@ -71,7 +71,7 @@ h1 {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #375151;
     font-weight: 500;
 }
@@ -79,6 +79,7 @@ h2 {
 p {
     font-weight: 400;
     color: #375151;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -89,17 +90,20 @@ p {
     font-size: 1.6rem;
     line-height: 30px;
 
+
 }
 
 #blivendelaf p {
     text-align: start;
     margin: 0px 60px 0px 60px;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 
 #andenslide p {
     color: #535353;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 20px;
 }
 
@@ -112,7 +116,7 @@ p {
     padding: 14px 40px;
     border-radius: 30px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 900;
     border: none;
 }
 
@@ -130,9 +134,8 @@ p {
 }
 
 
-
 a:hover {
-    opacity: 50%;
+    opacity: 80%;
 }
 
 
@@ -195,12 +198,12 @@ a:hover {
     #tredjeslide,
     #femteslide,
     #fjerdeslide {
-        margin-top: -580px;
+        margin-top: -500px;
         /*     padding: 0px 30px 0px 30px;*/
     }
 
     #andenslide {
-        margin-top: -620px;
+        margin-top: -600px;
         /*  padding: 0px 30px 0px 30px;*/
 
     }
@@ -222,8 +225,9 @@ a:hover {
 
 
     h1 {
-        font-size: 3rem;
-        line-height: 50px;
+        font-size: 4rem;
+        line-height: 70px;
+        margin-bottom: 0;
     }
 
 
@@ -231,7 +235,7 @@ a:hover {
     #foersteslide,
     #tredjeslide,
     #femteslide {
-        margin-top: -470px;
+        margin-top: -530px;
         padding: 0px 200px;
     }
 
@@ -239,7 +243,7 @@ a:hover {
 
     #andenslide,
     #fjerdeslide {
-        margin-top: -420px;
+        margin-top: -500px;
     }
 
 
@@ -301,6 +305,21 @@ a:hover {
         font-size: 2rem;
     }
 
+    #fjerdeslide p {
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+
+    #andenslide h1 {
+       font-size: 3.2rem;
+    }
+
+
+    #fjerdeslide h1 {
+       font-size: 3.2rem;
+    }
+
+
 }
 
 /* GRID  */
@@ -308,6 +327,6 @@ a:hover {
 
 
 
-}
+
 
 /* MEDIA QUERIES SLUT */
