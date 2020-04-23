@@ -51,8 +51,6 @@ img {
 */
 
 
-
-
 input[type=text],
 select {
     width: 100%;
@@ -153,7 +151,6 @@ select {
         height: 425px;
         margin: 15px;
         text-align: center;
-
     }
 
     .boks:hover {
