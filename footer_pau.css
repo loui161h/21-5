@@ -212,15 +212,15 @@ a {
 
 /* reglen gælder for hele footeren */
 .footer .footer_content .opdateret .andet .kontakt {
-    height: 250px;
+    /* height: 250px;*/
     display: flex;
     flex-wrap: wrap;
 }
 
 
 .footer .footer_content h4 {
-    color: white;
-    font-size: 1em;
+    color: #375151;
+    font-size: 1.3em;
 }
 
 
@@ -399,7 +399,7 @@ a {
     }
 
 
-
+    /* MENU 2 SLUT */
 
 
     /********************* FOOTER Responsiv **********************/
@@ -414,12 +414,12 @@ a {
 
 
     .footer .footer_content {
-        height: 250px;
+
         display: flex;
     }
 
     .footer .footer_content h4 {
-        color: white;
+        color: #375151;
     }
 
 
@@ -475,7 +475,3 @@ a {
 
     /* FOOTER SLUT */
 }
-
-
-
-/* MENU2 SLUT */
