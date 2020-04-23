@@ -809,6 +809,8 @@ footer {
         "dk39_paragraf3"
         "dk39_paragraf4"
         "dk39_heading2"
+        /* her bliver videoen sat ind via class */
+        "embedly-card"
 
 }
 
@@ -845,6 +847,10 @@ footer {
 
 #dk39_heading2 {
     grid-area: dk39_heading2;
+}
+
+.embedly-card {
+    grid-area: embedly-card;
 }
 
 /* DK39 FAMILY GRID SLUT */
@@ -1679,6 +1685,8 @@ footer {
             "dk39_paragraf1 dk39_paragraf2"
             "dk39_paragraf3 dk39_paragraf4"
             "dk39_heading2 dk39_heading2"
+            /* her bliver videoen sat ind via class */
+            "embedly-card embedly-card"
 
 
     }
@@ -2165,6 +2173,7 @@ footer {
             "dk39_paragraf1 dk39_paragraf2"
             "dk39_paragraf3 dk39_paragraf4"
             "dk39_heading2 dk39_heading2"
+            "embedly-card embedly-card"
     }
 
     #dk39_paragraf3 {
