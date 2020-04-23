@@ -271,7 +271,7 @@ select {
         text-decoration: none;
         cursor: pointer;
         margin-right: 25px;
-   font-weight: 300;
+        font-weight: 300;
         font-family: Roboto;
     }
 
@@ -485,6 +485,9 @@ select {
         width: 100%;
         max-width: 300px;
     }
+
+
+
 
     .boks {
         display: block;
