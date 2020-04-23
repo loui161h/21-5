@@ -106,6 +106,11 @@ h3 {
 
 }
 
+h4 {
+    font-size: 1.2rem;
+    color: #649087;
+}
+
 p {
     font-size: 1rem;
     color: #606060;
@@ -113,6 +118,7 @@ p {
     line-height: 25px;
 }
 
+/*
 
 #familier h4 {
     font-size: 1.2rem;
@@ -127,6 +133,7 @@ p {
 
 
 }
+*/
 
 
 /* ALLE SPLASH BILLEDE */
@@ -447,7 +454,7 @@ footer {
 
 #udlejning_fullpage {
     display: grid;
-    min-height: 100%;
+    max-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -734,7 +741,7 @@ footer {
 
 #foreninger_fullpage {
     display: grid;
-    min-height: 100%;
+    max-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -776,6 +783,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
+    padding: 10px;
     grid-template-areas:
 
         "dk39_heading1"
@@ -833,6 +841,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
+    padding: 10px;
     grid-template-areas:
 
         "dk38_heading1"
@@ -888,6 +897,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
+    padding: 10px;
     grid-template-areas:
 
         "dk36_heading1"
@@ -934,7 +944,77 @@ footer {
     grid-area: dk36_heading2;
 }
 
-/* LEDIE ANDELE */
+/* LEDIGE ANDELE */
+
+#ledigeandele_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+        "ledigeandele_heading"
+        "ledigeandele_tekst1"
+        "ledigeandele_tekst2"
+        "ledigeandele_paragraf1"
+        "ledigeandele_paragraf2"
+        "ledigeandele_paragraf3"
+        "ledigeandele_paragraf4"
+        "ledigeandele_heading2"
+        "ledigeandele_form1"
+        "ledigeandele_form2"
+
+
+}
+
+#ledigeandele_heading {
+    grid-area: ledigeandele_heading;
+}
+
+#ledigeandele_tekst1 {
+    grid-area: ledigeandele_tekst1;
+}
+
+#ledigeandele_tekst2 {
+    grid-area: ledigeandele_tekst2;
+}
+
+
+#ledigeandele_paragraf1 {
+    grid-area: ledigeandele_paragraf1;
+}
+
+
+#ledigeandele_paragraf2 {
+    grid-area: ledigeandele_paragraf2;
+}
+
+
+
+#ledigeandele_paragraf3 {
+    grid-area: ledigeandele_paragraf3;
+}
+
+
+
+
+#ledigeandele_paragraf4 {
+    grid-area: ledigeandele_paragraf4;
+}
+
+#ledigeandele_heading2 {
+    grid-area: ledigeandele_heading2;
+}
+
+
+#ledigeandele_form1 {
+    grid-area: ledigeandele_form1;
+}
+
+#ledigeandele_form2 {
+    grid-area: ledigeandele_form2;
+}
+
+
 
 
 
@@ -951,7 +1031,7 @@ footer {
 
 #information_fullpage {
     display: grid;
-    min-height: 100%;
+    max-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1066,7 +1146,7 @@ footer {
 
 #job_fullpage {
     display: grid;
-    min-height: 100%;
+    max-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1098,7 +1178,7 @@ footer {
 
 #kontakt_fullpage {
     display: grid;
-    min-height: 100%;
+    max-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1130,7 +1210,7 @@ footer {
 #omos_fullpage {
     display: grid;
     /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
-    min-height: 100%;
+    max-height: 100%;
     grid-gap: 10px;
     grid-template-areas:
 
@@ -1426,10 +1506,7 @@ footer {
     }
 
 
-    #udlejning_paragraf1,
-    #udlejning_paragraf2 {
-        margin-bottom: 25vw;
-    }
+
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
@@ -1609,6 +1686,25 @@ footer {
 
     /* DK39 FAMILY, DK38 LARGE, DK36 GRANDE SLUT */
 
+    /* LEDIGE ANDELE */
+
+    #ledigeandele_fullpage {
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-template-areas:
+            "ledigeandele_heading ledigeandele_heading"
+            "ledigeandele_tekst1 ledigeandele_tekst1"
+            "ledigeandele_tekst2 ledigeandele_tekst2"
+            "ledigeandele_paragraf1 ledigeandele_paragraf2"
+            "ledigeandele_paragraf3 ledigeandele_paragraf4"
+            "ledigeandele_heading2 ledigeandele_heading2"
+            "ledigeandele_form1 ledigeandele_form2"
+
+
+    }
+
+    /* LEDIGE ANDELE SLUT */
+
     /* PRAKTISK INFORMATION */
 
     #information_fullpage {
@@ -1763,9 +1859,9 @@ footer {
     /* KONCEPT GRID  */
 
     #koncept_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 325px 325px 325px;
-        justify-content: center;
+
         grid-template-areas:
 
 
@@ -1782,9 +1878,8 @@ footer {
     /* GIVER MENING GRID */
 
     #givermening_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
             "givermening_heading givermening_heading"
             "givermening_tekst1 givermening_tekst1"
@@ -1796,10 +1891,9 @@ footer {
 
     /* DET SIGER VORES FAMILIER GRID */
     #voresfamilier_fullpage {
-        display: grid;
+        grid-gap: 30px;
         padding: 10px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "voresfamilier_heading voresfamilier_heading"
@@ -1825,6 +1919,7 @@ footer {
 
 
     #kommermed_fullpage {
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -1841,9 +1936,8 @@ footer {
     /* BOOKINGSYSTEMET */
 
     #bookingsystemet_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "bookingsystemet_heading bookingsystemet_heading"
@@ -1875,9 +1969,8 @@ footer {
     /* UDLEJNING BLANDT MEDLEMMER */
 
     #udlejning_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "udlejning_heading udlejning_heading"
@@ -1885,23 +1978,13 @@ footer {
     }
 
 
-    #udlejning_paragraf1,
-    #udlejning_paragraf2 {
-        margin-bottom: 8vw;
-    }
-
-
-
-
-
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
     /* PROCESSEN GRID */
 
     #process_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
             "process_heading process_heading"
             "process_tekst1 process_tekst1"
@@ -1916,9 +1999,8 @@ footer {
     /* VI SKABER HJEM GRID */
 
     #skaberhjem_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "skaberhjem_heading skaberhjem_heading"
@@ -1942,10 +2024,8 @@ footer {
 
 
     #stiftedeforeninger_fullpage {
-        display: grid;
-        height: 50vh;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "stiftedeforeninger_heading stiftedeforeninger_heading"
@@ -1974,10 +2054,9 @@ footer {
     /* DESTINATIONER GRID */
 
     #destinationer_fullpage {
-        display: grid;
+        grid-gap: 30px;
         padding: 10px 10px 0px 0px;
         grid-template-columns: 1000px;
-        justify-content: center;
         grid-template-areas:
 
             "destinationer_heading"
@@ -1989,9 +2068,8 @@ footer {
     /* DESTINATIONER SLUT */
     /* MALLORCA */
     #mallorca_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
             "mallorca_heading mallorca_heading"
             "mallorca_tekst1 mallorca_tekst1"
@@ -2005,9 +2083,8 @@ footer {
 
     /* TOSCANA */
     #toscana_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
             "toscana_heading toscana_heading"
             "toscana_tekst1 toscana_tekst1"
@@ -2020,9 +2097,8 @@ footer {
     /* TILGÆNGELIGE FORENINGER */
 
     #foreninger_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 325px 325px 325px;
-        justify-content: center;
         grid-template-areas:
 
             "foreninger_heading foreninger_heading foreninger_heading"
@@ -2040,6 +2116,7 @@ footer {
     /* FAMILIER */
 
     #dk39_fullpage {
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2052,11 +2129,13 @@ footer {
     }
 
     #dk39_paragraf3 {
+        grid-gap: 30px;
         grid-area: dk39_paragraf3;
         height: 80vh;
     }
 
     #dk38_fullpage {
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2073,6 +2152,7 @@ footer {
 
 
     #dk36_fullpage {
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2095,7 +2175,22 @@ footer {
 
     /* FAMILIER SLUT */
 
-    /* LEDIE ANDELE */
+    /* LEDIGE ANDELE */
+
+    #ledigeandele_fullpage {
+        grid-gap: 30px;
+        grid-template-columns: 500px 500px;
+        grid-template-areas:
+            "ledigeandele_heading ledigeandele_heading"
+            "ledigeandele_tekst1 ledigeandele_tekst1"
+            "ledigeandele_tekst2 ledigeandele_tekst2"
+            "ledigeandele_paragraf1 ledigeandele_paragraf2"
+            "ledigeandele_paragraf3 ledigeandele_paragraf4"
+            "ledigeandele_heading2 ledigeandele_heading2"
+            "ledigeandele_form1 ledigeandele_form2"
+
+
+    }
 
     /* LEDIGE ANDELE SLUT */
 
@@ -2103,9 +2198,8 @@ footer {
     /* PRAKTISK INFORMATION */
 
     #information_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "information_heading information_heading"
@@ -2119,9 +2213,8 @@ footer {
     /* ORIENTERINGSMØDE */
 
     #orienteringsmode_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
 
@@ -2137,9 +2230,8 @@ footer {
     /* KAFFEMØDE */
 
     #kaffemode_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
 
@@ -2152,9 +2244,8 @@ footer {
 
     /* KONTAKT */
     #kontakt_fullpage {
-        display: grid;
         grid-template-columns: 500px 500px;
-        justify-content: center;
+        grid-gap: 30px;
         grid-template-areas:
 
 
@@ -2170,9 +2261,8 @@ footer {
     /* JOB I 21-5 */
 
     #job_fullpage {
-        display: grid;
         grid-template-columns: 500px 500px;
-        justify-content: center;
+        grid-gap: 30px;
         grid-template-areas:
 
             "job_heading job_heading"
@@ -2184,10 +2274,9 @@ footer {
 
     /* OM OS */
     #omos_fullpage {
-        display: grid;
+        grid-gap: 30px;
         /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "omos_heading omos_heading"
@@ -2201,9 +2290,8 @@ footer {
 
     /* HISTORIEN  */
     #historien_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "historien_heading historien_heading"
@@ -2217,9 +2305,8 @@ footer {
     /* TEAMET GRID */
 
     #teamet_fullpage {
-        display: grid;
+        grid-gap: 30px;
         grid-template-columns: 500px 500px;
-        justify-content: center;
         grid-template-areas:
 
             "teamet_heading teamet_heading"
