@@ -56,7 +56,11 @@ function visDataDkFamily() {
     document.querySelector("#dk39_overskrift3").textContent = alleTekster.overskrift2;
     document.querySelector("#dk39_p4").innerHTML = alleTekster.tekst3;
 
+
+
     document.querySelector("#dk39_overskrift4").textContent = alleTekster.overskrift3;
+    document.querySelector("#dk39_formimg").src = alleTekster.billede4.guid;
+    document.querySelector("#dk39_overskrift6").textContent = alleTekster.overskrift5;
 
 
 
