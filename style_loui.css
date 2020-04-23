@@ -19,6 +19,40 @@ body {
 
 }
 
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #375151;
+}
+
+ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: ;
+    content: "/\00a0";
+    color: #375151;
+
+}
+
+ul.breadcrumb li a {
+    color: #649087;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+
+    text-decoration: underline;
+
+}
+
 
 #orienteringsmode_paragraf1 img {
     height: 100%;
@@ -36,7 +70,6 @@ img {
     object-fit: cover;
 
 }
-
 
 
 /* GENERELLE INDSTILLINER */
