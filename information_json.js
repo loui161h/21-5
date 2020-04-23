@@ -46,6 +46,7 @@ function visDataInformation() {
 
     document.querySelector("#information_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#information_p2").innerHTML = alleTekster.tekst1;
+    document.querySelector("#information_img").src = alleTekster.billede2.guid;
 
 
 

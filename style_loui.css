@@ -1080,6 +1080,7 @@ footer {
 
 #information_paragraf2 {
     grid-area: information_paragraf2;
+    height: 50vh;
 
 }
 
