@@ -301,15 +301,19 @@ a {
         width: 100%;
         top: 0;
         background-color: rgba(240, 240, 240, 0.50);
+        padding: 15px;
     }
 
-    #logo {
+    header #logo {
         width: 60px;
         height: 60px;
-        margin-top: 5px;
+
+
     }
 
-    /* Dropdown Button */
+
+
+    /* Dropdown div */
     .dropbtn {
         display: inline-block;
         color: #375151;
@@ -322,7 +326,7 @@ a {
         background: none;
     }
 
-    /* Dropdown button on hover & focus */
+    /* Dropdown div on hover & focus */
     .dropbtn:hover,
     .dropbtn:focus {
         background-color: #F0F0F0;
@@ -395,21 +399,6 @@ a {
         margin-top: -20px;
     }
 
-    .footermenu a {
-        color: black;
-        font-size: 15px;
-        text-decoration: none;
-        cursor: pointer;
-        margin-right: 25px;
-        font-weight: 200;
-    }
-
-    .footermenu a:hover {
-        color: #649087;
-    }
-
-
-
     #menuknap {
         display: none;
     }
@@ -420,20 +409,8 @@ a {
         display: inline-block;
     }
 
-    header li {
-        display: inline-block;
 
 
-    }
-
-    header nav {
-        padding: 0.1rem;
-    }
-
-    header nav li {
-        text-decoration: none;
-
-    }
 
 
     /********************* FOOTER Responsiv **********************/
