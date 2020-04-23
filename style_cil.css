@@ -88,7 +88,7 @@ input[type=submit] {
     padding-top: 15px;
 }
 
-#form2 .knap {
+.form2 .knap {
     padding-top: 15px;
 }
 
@@ -583,9 +583,14 @@ select {
     }
 
 
+    #form3 {
+        justify-content: center;
+    }
+
     #form3 input[type=text],
     select {
         width: 40%;
+
     }
 }
 
