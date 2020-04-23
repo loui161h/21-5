@@ -1288,6 +1288,7 @@ footer {
         "historien_heading"
         "historien_paragraf1"
         "historien_paragraf2"
+        "embedly-card"
 
 
 }
@@ -1309,6 +1310,12 @@ footer {
 
 
 }
+
+/* her er videoen sat ind i grid, med den class den har */
+.embedly-card {
+    grid-area: embedly-card;
+}
+
 
 /* HISTORIEN SLUT */
 
@@ -1840,6 +1847,8 @@ footer {
 
             "historien_heading historien_heading"
             "historien_paragraf1 historien_paragraf2"
+            /* her er videoen sat ind i grid, med den class den har */
+            "embedly-card embedly-card"
 
 
     }
@@ -2326,6 +2335,9 @@ footer {
 
             "historien_heading historien_heading"
             "historien_paragraf1 historien_paragraf2"
+            /* her er videoen sat ind i grid, med den class den har */
+            "embedly-card embedly-card"
+
 
 
     }
