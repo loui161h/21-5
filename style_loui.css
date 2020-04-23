@@ -1306,6 +1306,8 @@ footer {
         "historien_heading"
         "historien_paragraf1"
         "historien_paragraf2"
+        "billede1"
+        "billede2"
         "embedly-card"
 
 
@@ -1332,6 +1334,15 @@ footer {
 /* her er videoen sat ind i grid, med den class den har */
 .embedly-card {
     grid-area: embedly-card;
+
+}
+
+#billede1 {
+    grid-area: billede1;
+}
+
+#billede2 {
+    grid-area: billede2;
 }
 
 
@@ -1351,6 +1362,7 @@ footer {
         "teamet_paragraf3"
         "teamet_paragraf4"
         "teamet_paragraf5"
+        "teamet_paragraf6"
 
 }
 
@@ -1361,6 +1373,7 @@ footer {
 
 #teamet_tekst1 {
     grid-area: teamet_tekst1;
+
 
 }
 
@@ -1389,6 +1402,14 @@ footer {
 
 
 }
+
+#teamet_paragraf6 {
+    grid-area: teamet_paragraf6;
+
+
+}
+
+
 
 /* 21-5 TEAMET GRID SLUT */
 
@@ -1871,10 +1892,12 @@ footer {
             "historien_heading historien_heading"
             "historien_paragraf1 historien_paragraf2"
             /* her er videoen sat ind i grid, med den class den har */
-            "embedly-card embedly-card"
-
+            "billede1 billede2"
+            "embedly-card embedly-card "
 
     }
+
+
 
     /* HISTORIEN SLUT */
 
@@ -1888,8 +1911,9 @@ footer {
 
             "teamet_heading teamet_heading"
             "teamet_tekst1 teamet_tekst1"
-            "teamet_paragraf2 teamet_paragraf3"
-            "teamet_paragraf4 teamet_paragraf5"
+            "teamet_paragraf1 teamet_paragraf2"
+            "teamet_paragraf3 teamet_paragraf4"
+            "teamet_paragraf5 teamet_paragraf6"
 
     }
 
@@ -2117,6 +2141,7 @@ footer {
 
     #destinationer_fullpage {
         grid-gap: 30px;
+        justify-content: center;
         padding: 10px 10px 0px 0px;
         grid-template-columns: 1000px;
         grid-template-areas:
@@ -2131,11 +2156,14 @@ footer {
     /* MALLORCA */
     #mallorca_fullpage {
         grid-gap: 30px;
+
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "mallorca_heading mallorca_heading"
             "mallorca_tekst1 mallorca_tekst1"
             "mallorca_paragraf1 mallorca_paragraf2"
+
+
     }
 
 
@@ -2362,6 +2390,7 @@ footer {
 
             "historien_heading historien_heading"
             "historien_paragraf1 historien_paragraf2"
+            "billede1 billede2"
             /* her er videoen sat ind i grid, med den class den har */
             "embedly-card embedly-card"
 
@@ -2380,8 +2409,9 @@ footer {
 
             "teamet_heading teamet_heading"
             "teamet_tekst1 teamet_tekst1"
-            "teamet_paragraf2 teamet_paragraf3"
-            "teamet_paragraf4 teamet_paragraf5"
+            "teamet_paragraf1 teamet_paragraf2"
+            "teamet_paragraf3 teamet_paragraf4"
+            "teamet_paragraf5 teamet_paragraf6"
 
     }
 

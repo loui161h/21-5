@@ -40,7 +40,7 @@ async function hentData() {
 }
 
 function visDataHistorien() {
-    document.querySelector("#historien_splash_img").src = alleTekster.billede1.guid;
+    document.querySelector("#historien_splash_img").src = alleTekster.billede4.guid;
     document.querySelector("#historien_overskrift").textContent = alleTekster.title.rendered;
 
 
@@ -48,6 +48,11 @@ function visDataHistorien() {
 
 
     document.querySelector("#historien_p3").innerHTML = alleTekster.tekst2;
+
+    document.querySelector("#historie_img1").src = alleTekster.billede1.guid;
+    document.querySelector("#historie_img2").src = alleTekster.billede3.guid;
+/*    document.querySelector("#historie_img3").src = alleTekster.billede2.guid;*/
+
 
 
 }
