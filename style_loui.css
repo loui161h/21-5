@@ -1074,8 +1074,21 @@ footer {
 
 #information_paragraf2 {
     grid-area: information_paragraf2;
+
 }
 
+.knap {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-around;
+    background-color: #BED2D0;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 10px 60px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
 
 /* PRAKTISK INFORMATION SLUT */
 
@@ -1909,6 +1922,7 @@ footer {
     #voresfamilier_fullpage {
         grid-gap: 30px;
         padding: 10px;
+        justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
