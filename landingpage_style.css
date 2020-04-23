@@ -87,7 +87,7 @@ p {
 #tredjeslide,
 #femteslide,
 p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 30px;
 
 
@@ -95,7 +95,7 @@ p {
 
 #blivendelaf p {
     text-align: start;
-    margin: 0px 10px 0px 54px;
+    margin: 10px 10px 0px 72px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -170,6 +170,7 @@ a:hover {
     /* SKRIFT */
     h1 {
         font-size: 2.8rem;
+        line-height: 40px;
     }
 
     #andenslide p {
@@ -267,7 +268,7 @@ a:hover {
         visibility: visible;
         background-color: rgba(239, 176, 71, 0.4);
         transition: transform .2s;
-        padding: 20px;
+       padding: 30px;
         width: 250px;
         height: 325px;
         margin-right: 25px;

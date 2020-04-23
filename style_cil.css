@@ -192,6 +192,8 @@ select {
         cursor: pointer;
         border-radius: 10px;
         background: none;
+        font-family: quicksand;
+
     }
 
     /* Dropdown button on hover & focus */
@@ -272,7 +274,8 @@ select {
         text-decoration: none;
         cursor: pointer;
         margin-right: 25px;
-        font-weight: 200;
+   font-weight: 300;
+        font-family: Roboto;
     }
 
     .footermenu a:hover {
