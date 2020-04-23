@@ -1113,6 +1113,9 @@ footer {
         "orienteringsmode_tekst1"
         "orienteringsmode_paragraf1"
         "orienteringsmode_paragraf2"
+        "orienteringsmode_overskrift3"
+        /* her bliver videoen sat ind */
+        "embedly-card"
 
 }
 
@@ -1131,6 +1134,15 @@ footer {
 
 #orienteringsmode_paragraf2 {
     grid-area: orienteringsmode_paragraf2;
+}
+
+#orienteringsmode_overskrift3 {
+    grid-area: orienteringsmode_overskrift3;
+}
+
+
+.embedly-card {
+    grid-area: embedly-card;
 }
 
 /* ORIENTERINGSMØDE SLUT */
@@ -1775,7 +1787,10 @@ footer {
 
             "orienteringsmode_heading1 orienteringsmode_heading1"
             "orienteringsmode_tekst1 orienteringsmode_tekst1"
-            "orienteringsmode_paragraf1 orienteringsmode_paragraf2"
+            "orienteringsmode_paragraf1""orienteringsmode_paragraf2"
+            "orienteringsmode_overskrift3"
+            /* her bliver videoen sat ind */
+            "embedly-card"
 
     }
 
@@ -2269,6 +2284,9 @@ footer {
             "orienteringsmode_heading1 orienteringsmode_heading1"
             "orienteringsmode_tekst1 orienteringsmode_tekst1"
             "orienteringsmode_paragraf1 orienteringsmode_paragraf2"
+            "orienteringsmode_overskrift3 orienteringsmode_overskrift3"
+            /* her bliver videoen sat ind */
+            "embedly-card embedly-card"
 
     }
 
