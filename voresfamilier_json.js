@@ -67,8 +67,8 @@ function visDataVoresFamilier() {
     document.querySelector("#voresfamilier_overskrift6").textContent = alleTekster.overskrift5;
 
     document.querySelector("#familie6").src = alleTekster.billede7.guid;
-    document.querySelector("#voresfamilier_p7").innerHTML = alleTekster.tekst10;
-    document.querySelector("#voresfamilier_overskrift7").textContent = alleTekster.overskrift5;
+    document.querySelector("#voresfamilier_p7").innerHTML = alleTekster.tekst11;
+    document.querySelector("#voresfamilier_overskrift7").textContent = alleTekster.overskrift6;
 
 
 }

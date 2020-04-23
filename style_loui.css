@@ -1893,6 +1893,7 @@ footer {
     #voresfamilier_fullpage {
         grid-gap: 30px;
         padding: 10px;
+        justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
