@@ -1090,11 +1090,12 @@ footer {
     background-color: #BED2D0;
     font-size: 1.2rem;
     color: #ffffff;
-    padding: 10px 60px 10px;
+    padding: 10px 50px 10px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
+    width: 50%;
 }
 
 /* PRAKTISK INFORMATION SLUT */
@@ -2437,7 +2438,7 @@ footer {
 
 
     #bokse {
-        margin: -50px 120px 50px 220px;
+        margin: -50px 120px 50px 240px;
 
     }
 

@@ -276,13 +276,35 @@ a {
         margin-left: 15px;
     }
 
+.email {
+    display: inline-block;
+    width: 40px;
+    height: 70px;
+    margin-left: 15px;
+    padding-top: 50px;
+    margin-top: -80px;
+    margin-bottom: -5px;
+}
+
 
 
 
 /* FOOTER SLUT */
 
 
+@media only screen and (min-width: 768px) {
+    .email {
+    display: inline-block;
+    width: 40px;
+    height: 70px;
+    margin-left: 15px;
+    padding-top: 50px;
+    margin-top: -55px;
+    margin-bottom: -5px;
+}
 
+
+}
 
 
 
@@ -482,6 +504,14 @@ a {
         color: #375151;
         margin-left: 15px;
     }
+
+    .email {
+    display: inline-block;
+   margin-top: 0px;
+        width: 40px;
+        height: 35px;
+    padding: 0px 0px 2px 5px;
+}
 
 
     /* FOOTER SLUT */
