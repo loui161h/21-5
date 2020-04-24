@@ -50,21 +50,34 @@ img {
 }
 */
 
+#spoergsmaal_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "spoergsmaal_heading"
+        "spoergsmaal_tekst1"
+
+}
+
 summary {
-        padding: 30px;
-        background-color: #FAE3BE;
-        font-size: 1.3rem;
-        color: #649087;
-    }
+    padding: 30px;
+    background-color: #FAE3BE;
+    font-size: 1.3rem;
+    color: #649087;
+}
 
-    details {
-        padding-left: 40px;
-    }
+details {
+    padding-left: 40px;
+}
 
 
-    #boksespoergsmaal {
-        width: 460px;
-    }
+#boksespoergsmaal {
+    width: 460px;
+}
 
 input[type=text],
 select {
@@ -143,7 +156,15 @@ select {
 
 @media only screen and (min-width: 768px) {
 
-
+    #spoergsmaal_fullpage {
+        display: grid;
+        padding: 10px 30px 0px 30px;
+        grid-template-columns: 600px;
+        justify-content: flex-start;
+        grid-template-areas:
+            "spoergsmaal_heading"
+            "spoergsmaal_tekst1"
+    }
 
     /* FORENINGER BOKSE TILGÆNGELIGE FORENINGER */
 
@@ -679,7 +700,7 @@ select {
 
         "spoergsmaal_heading"
         "spoergsmaal_tekst1"
-    }
+}
 
 
 #spoergsmaal_heading_heading {
@@ -691,7 +712,19 @@ select {
 
 }
 
-#spoergsmaal_fullpage {
+
+
+
+
+/* OFTE STILLEDE SPØRGSMÅL GRID SLUT */
+
+
+@media only screen and (min-width: 1024px) {
+    #boksespoergsmaal {
+        width: 900px;
+    }
+
+    #spoergsmaal_fullpage {
     grid-gap: 30px;
     justify-content: center;
     padding: 10px 10px 0px 0px;
@@ -700,13 +733,5 @@ select {
         "spoergsmaal_heading"
         "spoergsmaal_tekst1"
 }
-
-/* OFTE STILLEDE SPØRGSMÅL GRID SLUT */
-
-
-@media only screen and (min-width: 1024px) {
-     #boksespoergsmaal {
-        width: 900px;
-    }
 
 }
