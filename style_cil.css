@@ -177,7 +177,6 @@ select {
 
     .boks {
         visibility: visible;
-        background-color: beige;
         transition: transform .2s;
         padding: 40px;
         width: 300px;
