@@ -75,7 +75,7 @@ details {
 
 
 #boksespoergsmaal {
-    width: 450px;
+    width: 100%;
 }
 
 input[type=text],
@@ -157,7 +157,8 @@ select {
 
     #spoergsmaal_fullpage {
         display: grid;
-        grid-template-columns: 600px;
+        justify-content: center;
+
         grid-template-areas:
             "spoergsmaal_heading"
             "spoergsmaal_tekst1"
@@ -568,7 +569,7 @@ select {
 
 
     #boksespoergsmaal {
-        width: 700px;
+        width: 80%;
     }
 
     /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL SLUT */
@@ -721,13 +722,13 @@ select {
     }
 
     #spoergsmaal_fullpage {
-    grid-gap: 30px;
-    justify-content: center;
-    padding: 10px 10px 100px 0px;
-    grid-template-columns: 1000px;
-    grid-template-areas:
-        "spoergsmaal_heading"
-        "spoergsmaal_tekst1"
-}
+        grid-gap: 30px;
+        justify-content: center;
+        padding: 10px 10px 100px 0px;
+        grid-template-columns: 1000px;
+        grid-template-areas:
+            "spoergsmaal_heading"
+            "spoergsmaal_tekst1"
+    }
 
 }
