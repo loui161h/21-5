@@ -1,4 +1,65 @@
-.snapscroll {
+ .snapscroll {
+
+
+    margin-left: 90px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.child {
+
+    height: 90%;
+    scroll-snap-align: start;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.child:nth-child(1n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(2n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(3n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(4n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(5n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(6n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(7n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(8n) {
+    flex: 0 0 60%;
+}
+
+.child:nth-child(9n) {
+    flex: 0 0 60%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .snapscroll {
     width: 60vw;
     height: 70vh;
     margin-left: 150px;
@@ -20,10 +81,7 @@
     text-align: center;
 }
 
-h4 {
-    text-align: center;
-    color: black;
-}
+
 
 .child:nth-child(1n) {
     flex: 0 0 40%;
@@ -60,3 +118,7 @@ h4 {
 .child:nth-child(9n) {
     flex: 0 0 40%;
 }
+}
+
+
+
