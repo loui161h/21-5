@@ -455,7 +455,7 @@ select {
 
     /* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL */
 
-    .container {
+    /*   .container {
         position: relative;
         width: 100%;
         max-width: 400px;
@@ -532,7 +532,7 @@ select {
 
     .container2:hover .overlay {
         opacity: 1;
-    }
+    }*/
 
 
     /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL */
