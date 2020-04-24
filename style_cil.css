@@ -50,6 +50,22 @@ img {
 }
 */
 
+summary {
+        padding: 30px;
+        background-color: #FAE3BE;
+        font-size: 1.3rem;
+        color: #649087;
+    }
+
+    details {
+        padding-left: 40px;
+
+    }
+
+
+    #bokse {
+        width: 460px;
+    }
 
 input[type=text],
 select {
@@ -526,6 +542,7 @@ select {
         padding: 40px;
         background-color: #FAE3BE;
         font-size: 1.3rem;
+        color: #649087;
     }
 
     details {
@@ -535,7 +552,7 @@ select {
 
 
     #bokse {
-        width: 70%;
+        width: 700px;
     }
 
     /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL SLUT */
@@ -647,3 +664,30 @@ select {
 }
 
 /* HOVER PÅ DESTINATIONER SLUT */
+
+
+
+
+/* OFTE STILLEDE SPØRGSMÅL GRID */
+
+#spoergsmaal_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "spoergsmaal_heading"
+        "spoergsmaal_tekst1"
+    }
+
+/* OFTE STILLEDE SPØRGSMÅL GRID SLUT */
+
+
+@media only screen and (min-width: 1024px) {
+     #bokse {
+        width: 900px;
+    }
+
+}
