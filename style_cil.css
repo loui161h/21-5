@@ -57,7 +57,6 @@ img {
     padding: 10px;
     margin-top: -1vw;
     grid-template-areas:
-
         "spoergsmaal_heading"
         "spoergsmaal_tekst1"
 
@@ -76,7 +75,7 @@ details {
 
 
 #boksespoergsmaal {
-    width: 460px;
+    width: 400px;
 }
 
 input[type=text],
@@ -158,9 +157,7 @@ select {
 
     #spoergsmaal_fullpage {
         display: grid;
-        padding: 10px 30px 0px 30px;
         grid-template-columns: 600px;
-        justify-content: flex-start;
         grid-template-areas:
             "spoergsmaal_heading"
             "spoergsmaal_tekst1"
@@ -727,7 +724,7 @@ select {
     #spoergsmaal_fullpage {
     grid-gap: 30px;
     justify-content: center;
-    padding: 10px 10px 0px 0px;
+    padding: 10px 10px 100px 0px;
     grid-template-columns: 1000px;
     grid-template-areas:
         "spoergsmaal_heading"
