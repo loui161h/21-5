@@ -8,21 +8,14 @@ body {
 
 }
 
-/*
 
-#information_paragraf1 a {
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.1rem;
-    color: white;
-    background-color: #BED2D0;
-    padding: 14px 40px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: 500;
-    border: none;
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+
 }
-*/
 
 
 
@@ -77,14 +70,6 @@ ul.breadcrumb li a:hover {
     height: 100%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    object-fit: cover;
-
-}
-
 
 /* GENERELLE INDSTILLINER */
 
@@ -93,6 +78,9 @@ img {
     padding: 0px 20px 0px 20px;
 }
 
+.paddingbottom {
+    padding: 0px 20px 50px 20px;
+}
 
 h1 {
     font-size: 2rem;
@@ -117,6 +105,7 @@ h3 {
     color: #649087;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    margin-bottom: -1vw;
 
 
 }
@@ -124,6 +113,10 @@ h3 {
 h4 {
     font-size: 1.2rem;
     color: #649087;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -1vw;
+
+
 }
 
 p {
@@ -332,11 +325,92 @@ footer {
 
 /* FORDELE VED AT KØBE EN ANDEL GRID */
 
+#fordele_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+
+        "fordele_heading"
+        "fordele_tekst1"
+        "fordele1"
+        "fordele2"
+        "fordele3"
+        "fordele4"
+        "fordele5"
+        "fordele6"
+        "fordele7"
+        "fordele8"
+        "fordele9"
+        "fordele_tekst2"
+
+}
+
+#fordele_heading {
+    grid-area: fordele_heading;
+}
+
+#fordele_tekst1 {
+    grid-area: fordele_tekst1;
+}
+
+#fordele1 {
+    grid-area: fordele1;
+
+}
+
+#fordele2 {
+    grid-area: fordele2;
+
+}
+
+#fordele3 {
+    grid-area: fordele3;
+
+}
+
+#fordele4 {
+    grid-area: fordele4;
+
+}
+
+#fordele5 {
+    grid-area: fordele5;
+
+}
+
+#fordele6 {
+    grid-area: fordele6;
+
+}
+
+#fordele7 {
+    grid-area: fordele7;
+
+}
+
+#fordele8 {
+    grid-area: fordele8;
+
+}
+
+#fordele9 {
+    grid-area: fordele9;
+
+}
+
+#fordele_tekst2 {
+    grid-area: fordele_tekst2;
+
+}
 
 
-
-
-
+#fordele_fullpage h4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
 
 /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
 
@@ -469,7 +543,7 @@ footer {
 
 #udlejning_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -756,7 +830,7 @@ footer {
 
 #foreninger_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1052,7 +1126,7 @@ footer {
 
 #information_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1084,17 +1158,34 @@ footer {
 
 }
 
-.knap {
+/*.knap {
     font-family: 'Quicksand', sans-serif;
     justify-content: space-around;
     background-color: #BED2D0;
     font-size: 1.2rem;
     color: #ffffff;
-    padding: 10px 60px 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
+    width: 50%;
+}*/
+
+
+#information_fullpage .knap {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-around;
+    background-color: #BED2D0;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 10px 50px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 50%;
 }
 
 /* PRAKTISK INFORMATION SLUT */
@@ -1193,7 +1284,7 @@ footer {
 
 #job_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1251,6 +1342,39 @@ footer {
 }
 
 /* KONTAKT SLUT*/
+
+/* OFTE STILLEDE SPØRGSMÅL */
+#spoergsmaal_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+        "spoergsmaal_heading"
+        "spoergsmaal_tekst1"
+
+}
+
+
+#spoergsmaal_heading_heading {
+    grid-area: spoergsmaal_heading_heading;
+}
+
+#spoergsmaal_tekst1 {
+    grid-area: spoergsmaal_tekst1;
+
+}
+
+
+#boksespoergsmaal {
+    width: 100%;
+}
+
+
+
+
+/* OFTE STILLEDE SPØRGSMÅL SLUT */
 
 /* OM OS */
 
@@ -1392,11 +1516,13 @@ footer {
 
         "teamet_heading"
         "teamet_tekst1"
+        "teamet_paragraf1"
         "teamet_paragraf2"
         "teamet_paragraf3"
         "teamet_paragraf4"
         "teamet_paragraf5"
         "teamet_paragraf6"
+
 
 }
 
@@ -1454,14 +1580,19 @@ footer {
 
     /*GENERELLE INDSTILLINGER */
 
+    .paddingbottom {
+        padding: 0px 0px 50px 0px;
+    }
+
     .padding {
         padding: 0px 0px 0px 0px;
     }
 
 
+
     h1 {
         font-size: 3rem;
-        /*     margin-left: 40px;*/
+
     }
 
     h2 {
@@ -1534,7 +1665,8 @@ footer {
     /* DET SIGER VORES FAMILIER GRID */
 
     #voresfamilier_fullpage {
-        padding: 10px;
+        justify-content: center;
+        grid-gap: 30px;
         grid-template-columns: 350px 350px;
         grid-template-areas:
 
@@ -1550,6 +1682,22 @@ footer {
     /* DET SIGER VORES FAMILIER GRID SLUT */
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */
+    #fordele_fullpage {
+        justify-content: center;
+        grid-gap: 30px;
+        grid-template-columns: 350px 350px;
+        grid-template-areas:
+
+            "fordele_heading fordele_heading"
+            "fordele_tekst1 fordele_tekst1"
+            "fordele1 fordele2"
+            "fordele3 fordele4"
+            "fordele5 fordele6"
+            "fordele7 fordele8"
+            "fordele9 fordele9"
+            "fordele_tekst2 fordele_tekst2"
+
+    }
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
@@ -1897,6 +2045,23 @@ footer {
 
     /* JOB I 21-5 SLUT */
 
+
+    /* OFTE STILLEDE SPØRGSMÅL */
+
+
+    #spoergsmaal_fullpage {
+        display: grid;
+        grid-template-columns: 700px;
+        justify-content: center;
+
+        grid-template-areas:
+            "spoergsmaal_heading"
+            "spoergsmaal_tekst1"
+    }
+
+
+    /* OFTE STILLEDE SPØRGSMÅL SLUT */
+
     /* OM OS */
 
     #omos_fullpage {
@@ -2029,7 +2194,6 @@ footer {
     /* DET SIGER VORES FAMILIER GRID */
     #voresfamilier_fullpage {
         grid-gap: 30px;
-        padding: 10px;
         justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2044,11 +2208,142 @@ footer {
     }
 
 
+    #voresfamilier_fullpage h4 {
+        text-align: center;
+    }
+
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 86%;
+        width: 100%;
+        opacity: 0%;
+        transition: .3s ease;
+        background-color: rgba(239, 176, 71, 0.71);
+    }
+
+    .container:hover .overlay {
+        opacity: 1;
+    }
+
+    .tekst {
+        color: white;
+        position: relative;
+        top: 55px;
+        left: 0px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        text-decoration: none;
+    }
+
     /* DET SIGER VORES FAMILIER GRID SLUT */
 
 
     /* FORDELE VED AT KØBE EN ANDEL GRID */
 
+    #fordele_fullpage {
+        justify-content: center;
+        grid-gap: 30px;
+        padding: 10px;
+        grid-template-columns: 333px 333px 333px;
+        grid-template-areas:
+
+            "fordele_heading fordele_heading fordele_heading"
+            "fordele_tekst1 fordele_tekst1 fordele_tekst1"
+            "fordele1 fordele2 fordele3"
+            "fordele4 fordele5 fordele6"
+            "fordele7 fordele8 fordele9"
+            "fordele_tekst2 fordele_tekst2 fordele_tekst2"
+
+    }
+
+    #fordele_fullpage h4 {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    .tekst {
+        color: white;
+        position: relative;
+        top: 55px;
+        left: 0px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+
+    .container2 {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0%;
+        transition: .3s ease;
+        background-color: rgba(239, 176, 71, 0.71);
+    }
+
+
+    .fordele_boks {
+        display: block;
+        width: 100%;
+        height: 300px;
+        width: 300px;
+        background-color: rgba(239, 176, 71, 0.4);
+        text-align: center;
+        padding: 80px;
+
+    }
+
+
+    .tekst2 {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    container2 p {
+        color: white;
+        font-size: 20px;
+    }
+
+    .container2:hover .overlay2 {
+        opacity: 1;
+    }
 
     /* FORDELE VED AT KØBE EN ANDEL GRID SLUT */
 
@@ -2259,6 +2554,7 @@ footer {
 
     #dk39_fullpage {
         grid-gap: 30px;
+        justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2418,6 +2714,27 @@ footer {
 
     /* JOB I 21-5 SLUT */
 
+    /* OFTE STILLEDE SPØRGSMÅL GRID */
+
+    #spoergsmaal_fullpage {
+        display: grid;
+        grid-template-columns: 1000px;
+        justify-content: center;
+        grid-template-areas:
+
+            "spoergsmaal_heading"
+            "spoergsmaal_tekst1"
+    }
+
+
+    #boksespoergsmaal {
+        width: 1000px;
+    }
+
+
+
+    /* OFTE STILLEDE SPØRGSMÅL GRID SLUT */
+
     /* OM OS */
     #omos_fullpage {
 
@@ -2437,7 +2754,7 @@ footer {
 
 
     #bokse {
-        margin: -50px 120px 50px 220px;
+        margin: -50px 120px 50px 240px;
 
     }
 
@@ -2492,6 +2809,8 @@ footer {
     }
 
     /* TEAMET GRID  SLUT */
+
+
 
 
 }

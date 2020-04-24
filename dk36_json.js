@@ -57,5 +57,6 @@ function visDataDkGrande() {
 
 
     document.querySelector("#dk36_overskrift4").textContent = alleTekster.overskrift3;
-    document.querySelector("#dk36_overskrift6").textContent = alleTekster.overskrift4;
+    document.querySelector("#dk36_formimg").src = alleTekster.billede4.guid;
+    document.querySelector("#dk36_overskrift6").textContent = alleTekster.overskrift5;
 }

@@ -1,19 +1,4 @@
 /* GENERELLE INDSTILLINGER */
-
-body {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0px;
-}
-
-
-img {
-    width: 100%;
-}
-
 /*
 .image {
     display: block;
@@ -51,6 +36,20 @@ img {
 */
 
 
+
+summary {
+    padding: 30px;
+    background-color: #FAE3BE;
+    font-size: 1.3rem;
+    color: #649087;
+}
+
+details {
+    padding-left: 40px;
+}
+
+
+
 input[type=text],
 select {
     width: 100%;
@@ -63,11 +62,11 @@ select {
 
 input[type=submit] {
     font-family: 'Quicksand', sans-serif;
-    justify-content: space-around;
+    text-align: center;
     background-color: #BED2D0;
     font-size: 1.2rem;
     color: #ffffff;
-    padding: 10px 60px;
+    padding: 2¢0px 100px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -75,17 +74,6 @@ input[type=submit] {
 }
 
 
-#form3 .knap {
-    padding-top: 15px;
-}
-
-#form1 .knap {
-    padding-top: 15px;
-}
-
-.form2 .knap {
-    padding-top: 15px;
-}
 
 input[type=submit]:hover {
     opacity: 80%;
@@ -128,8 +116,6 @@ select {
 
 @media only screen and (min-width: 768px) {
 
-
-
     /* FORENINGER BOKSE TILGÆNGELIGE FORENINGER */
 
     #foreningerbokseto {
@@ -144,7 +130,6 @@ select {
 
     .boks {
         visibility: visible;
-        background-color: beige;
         transition: transform .2s;
         padding: 40px;
         width: 300px;
@@ -439,7 +424,7 @@ select {
 
     /* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL */
 
-    .container {
+    /*   .container {
         position: relative;
         width: 100%;
         max-width: 400px;
@@ -516,7 +501,7 @@ select {
 
     .container2:hover .overlay {
         opacity: 1;
-    }
+    }*/
 
 
     /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL */
@@ -526,6 +511,7 @@ select {
         padding: 40px;
         background-color: #FAE3BE;
         font-size: 1.3rem;
+        color: #649087;
     }
 
     details {
@@ -534,8 +520,8 @@ select {
     }
 
 
-    #bokse {
-        width: 70%;
+    #boksespoergsmaal {
+        width: 80%;
     }
 
     /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL SLUT */
@@ -555,28 +541,17 @@ select {
 
     input[type=submit] {
         font-family: 'Quicksand', sans-serif;
-        justify-content: space-around;
+        text-align: center;
         background-color: #BED2D0;
         font-size: 1.2rem;
         color: #ffffff;
-        padding: 10px 60px;
+        padding: 10px 100px;
         border: none;
         border-radius: 10px;
         cursor: pointer;
         font-weight: 600;
     }
 
-    #form3 .knap {
-        padding-top: 15px;
-    }
-
-    #form1 .knap {
-        padding-top: 15px;
-    }
-
-    #form2 .knap {
-        padding-top: 15px;
-    }
 
     input[type=submit]:hover {
         opacity: 80%;
