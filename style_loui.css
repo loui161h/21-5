@@ -9,6 +9,14 @@ body {
 }
 
 
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+
+}
+
 
 
 #splash img {
@@ -62,14 +70,6 @@ ul.breadcrumb li a:hover {
     height: 100%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    object-fit: cover;
-
-}
-
 
 /* GENERELLE INDSTILLINER */
 
@@ -78,6 +78,9 @@ img {
     padding: 0px 20px 0px 20px;
 }
 
+.paddingbottom {
+    padding: 0px 20px 50px 20px;
+}
 
 h1 {
     font-size: 2rem;
@@ -540,7 +543,7 @@ footer {
 
 #udlejning_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1123,7 +1126,7 @@ footer {
 
 #information_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1155,18 +1158,20 @@ footer {
 
 }
 
-.knap {
+/*.knap {
     font-family: 'Quicksand', sans-serif;
     justify-content: space-around;
     background-color: #BED2D0;
     font-size: 1.2rem;
     color: #ffffff;
-    padding: 10px 60px 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
-}
+    width: 50%;
+}*/
 
 
 #information_fullpage .knap {
@@ -1279,7 +1284,7 @@ footer {
 
 #job_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
@@ -1337,6 +1342,39 @@ footer {
 }
 
 /* KONTAKT SLUT*/
+
+/* OFTE STILLEDE SPØRGSMÅL */
+#spoergsmaal_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+        "spoergsmaal_heading"
+        "spoergsmaal_tekst1"
+
+}
+
+
+#spoergsmaal_heading_heading {
+    grid-area: spoergsmaal_heading_heading;
+}
+
+#spoergsmaal_tekst1 {
+    grid-area: spoergsmaal_tekst1;
+
+}
+
+
+#boksespoergsmaal {
+    width: 100%;
+}
+
+
+
+
+/* OFTE STILLEDE SPØRGSMÅL SLUT */
 
 /* OM OS */
 
@@ -1478,11 +1516,13 @@ footer {
 
         "teamet_heading"
         "teamet_tekst1"
+        "teamet_paragraf1"
         "teamet_paragraf2"
         "teamet_paragraf3"
         "teamet_paragraf4"
         "teamet_paragraf5"
         "teamet_paragraf6"
+
 
 }
 
@@ -1540,14 +1580,19 @@ footer {
 
     /*GENERELLE INDSTILLINGER */
 
+    .paddingbottom {
+        padding: 0px 0px 50px 0px;
+    }
+
     .padding {
         padding: 0px 0px 0px 0px;
     }
 
 
+
     h1 {
         font-size: 3rem;
-        /*     margin-left: 40px;*/
+
     }
 
     h2 {
@@ -1999,6 +2044,23 @@ footer {
     }
 
     /* JOB I 21-5 SLUT */
+
+
+    /* OFTE STILLEDE SPØRGSMÅL */
+
+
+    #spoergsmaal_fullpage {
+        display: grid;
+        grid-template-columns: 700px;
+        justify-content: center;
+
+        grid-template-areas:
+            "spoergsmaal_heading"
+            "spoergsmaal_tekst1"
+    }
+
+
+    /* OFTE STILLEDE SPØRGSMÅL SLUT */
 
     /* OM OS */
 
@@ -2492,6 +2554,7 @@ footer {
 
     #dk39_fullpage {
         grid-gap: 30px;
+        justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2650,6 +2713,27 @@ footer {
     }
 
     /* JOB I 21-5 SLUT */
+
+    /* OFTE STILLEDE SPØRGSMÅL GRID */
+
+    #spoergsmaal_fullpage {
+        display: grid;
+        grid-template-columns: 1000px;
+        justify-content: center;
+        grid-template-areas:
+
+            "spoergsmaal_heading"
+            "spoergsmaal_tekst1"
+    }
+
+
+    #boksespoergsmaal {
+        width: 1000px;
+    }
+
+
+
+    /* OFTE STILLEDE SPØRGSMÅL GRID SLUT */
 
     /* OM OS */
     #omos_fullpage {

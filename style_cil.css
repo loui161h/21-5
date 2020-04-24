@@ -1,19 +1,4 @@
 /* GENERELLE INDSTILLINGER */
-
-body {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0px;
-}
-
-
-img {
-    width: 100%;
-}
-
 /*
 .image {
     display: block;
@@ -50,17 +35,7 @@ img {
 }
 */
 
-#spoergsmaal_fullpage {
-    display: grid;
-    min-height: 100%;
-    grid-gap: 10px;
-    padding: 10px;
-    margin-top: -1vw;
-    grid-template-areas:
-        "spoergsmaal_heading"
-        "spoergsmaal_tekst1"
 
-}
 
 summary {
     padding: 30px;
@@ -74,9 +49,6 @@ details {
 }
 
 
-#boksespoergsmaal {
-    width: 100%;
-}
 
 input[type=text],
 select {
@@ -90,11 +62,11 @@ select {
 
 input[type=submit] {
     font-family: 'Quicksand', sans-serif;
-    justify-content: space-around;
+    text-align: center;
     background-color: #BED2D0;
     font-size: 1.2rem;
     color: #ffffff;
-    padding: 10px 60px;
+    padding: 2¢0px 100px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -102,17 +74,6 @@ input[type=submit] {
 }
 
 
-#form3 .knap {
-    padding-top: 15px;
-}
-
-#form1 .knap {
-    padding-top: 15px;
-}
-
-.form2 .knap {
-    padding-top: 15px;
-}
 
 input[type=submit]:hover {
     opacity: 80%;
@@ -154,15 +115,6 @@ select {
 /****************** MEDIA QUERIES **********************/
 
 @media only screen and (min-width: 768px) {
-
-    #spoergsmaal_fullpage {
-        display: grid;
-        justify-content: center;
-
-        grid-template-areas:
-            "spoergsmaal_heading"
-            "spoergsmaal_tekst1"
-    }
 
     /* FORENINGER BOKSE TILGÆNGELIGE FORENINGER */
 
@@ -589,28 +541,17 @@ select {
 
     input[type=submit] {
         font-family: 'Quicksand', sans-serif;
-        justify-content: space-around;
+        text-align: center;
         background-color: #BED2D0;
         font-size: 1.2rem;
         color: #ffffff;
-        padding: 10px 60px;
+        padding: 10px 100px;
         border: none;
         border-radius: 10px;
         cursor: pointer;
         font-weight: 600;
     }
 
-    #form3 .knap {
-        padding-top: 15px;
-    }
-
-    #form1 .knap {
-        padding-top: 15px;
-    }
-
-    #form2 .knap {
-        padding-top: 15px;
-    }
 
     input[type=submit]:hover {
         opacity: 80%;
@@ -681,54 +622,3 @@ select {
 }
 
 /* HOVER PÅ DESTINATIONER SLUT */
-
-
-
-
-/* OFTE STILLEDE SPØRGSMÅL GRID */
-
-#spoergsmaal_fullpage {
-    display: grid;
-    min-height: 100%;
-    grid-gap: 10px;
-    padding: 10px;
-    margin-top: -1vw;
-    grid-template-areas:
-
-        "spoergsmaal_heading"
-        "spoergsmaal_tekst1"
-}
-
-
-#spoergsmaal_heading_heading {
-    grid-area: spoergsmaal_heading_heading;
-}
-
-#spoergsmaal_tekst1 {
-    grid-area: spoergsmaal_tekst1;
-
-}
-
-
-
-
-
-/* OFTE STILLEDE SPØRGSMÅL GRID SLUT */
-
-
-@media only screen and (min-width: 1024px) {
-    #boksespoergsmaal {
-        width: 900px;
-    }
-
-    #spoergsmaal_fullpage {
-        grid-gap: 30px;
-        justify-content: center;
-        padding: 10px 10px 100px 0px;
-        grid-template-columns: 1000px;
-        grid-template-areas:
-            "spoergsmaal_heading"
-            "spoergsmaal_tekst1"
-    }
-
-}
