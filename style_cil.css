@@ -725,13 +725,13 @@ select {
     }
 
     #spoergsmaal_fullpage {
-    grid-gap: 30px;
-    justify-content: center;
-    padding: 10px 10px 0px 0px;
-    grid-template-columns: 1000px;
-    grid-template-areas:
-        "spoergsmaal_heading"
-        "spoergsmaal_tekst1"
-}
+        grid-gap: 30px;
+        justify-content: center;
+        padding: 10px 10px 0px 0px;
+        grid-template-columns: 1000px;
+        grid-template-areas:
+            "spoergsmaal_heading"
+            "spoergsmaal_tekst1"
+    }
 
 }
