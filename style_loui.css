@@ -756,7 +756,7 @@ footer {
 
 #foreninger_fullpage {
     display: grid;
-    max-height: 100%;
+    min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
     margin-top: -1vw;
