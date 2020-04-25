@@ -97,8 +97,7 @@ select {
     visibility: visible;
     background-color: rgba(239, 176, 71, 0.4);
     transition: transform .2s;
-    padding: 40px;
-    width: 70vw;
+    padding: 0px 35px;
     height: 30vh;
     margin: 20px;
 
@@ -218,9 +217,9 @@ select {
         color: #649087;
     }
 
-    a {
+   a {
         text-decoration: none;
-        color: #ffffff;
+        color: #375151;
     }
 
 
