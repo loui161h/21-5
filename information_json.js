@@ -47,12 +47,35 @@ function visDataInformation() {
     document.querySelector("#information_overskrift2").textContent = alleTekster.overskrift1;
     document.querySelector("#information_p2").innerHTML = alleTekster.tekst1;
     document.querySelector("#information_p3").innerHTML = alleTekster.tekst2;
-     document.querySelector("#information_p4").innerHTML = alleTekster.tekst3;
-     document.querySelector("#information_p5").innerHTML = alleTekster.tekst4;
-        document.querySelector("#information_p6").innerHTML = alleTekster.tekst5;
-        document.querySelector("#information_p7").innerHTML = alleTekster.tekst6;
+    document.querySelector("#information_p4").innerHTML = alleTekster.tekst3;
+    document.querySelector("#information_p5").innerHTML = alleTekster.tekst4;
+    document.querySelector("#information_p6").innerHTML = alleTekster.tekst5;
+    document.querySelector("#information_p7").innerHTML = alleTekster.tekst6;
     document.querySelector("#information_img").src = alleTekster.billede2.guid;
 
 
 
+}
+
+//TOP KNAP//
+
+var mybutton = document.getElementById("myBtn");
+
+// Når brugeren scroller 20 px ned fra toppen, vises knappen//
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// Når man klikker på knappen, kommer man til toppen//
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
