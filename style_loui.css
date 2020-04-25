@@ -1174,20 +1174,27 @@ footer {
 }*/
 
 
-#information_fullpage .knap {
+#information_fullpage .knap{
     font-family: 'Quicksand', sans-serif;
     justify-content: space-around;
     background-color: #BED2D0;
     font-size: 1.2rem;
-    color: #ffffff;
-    padding: 10px 50px 10px;
+    padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
-    width: 50%;
+    width: 40%;
+}
+#information_fullpage a {
+    text-decoration: none;
+       color: #ffffff;
 }
 
+#information_img {
+    width: 500px;
+    height: 350px;
+}
 /* PRAKTISK INFORMATION SLUT */
 
 /* ORIENTERINGSMØDE */
@@ -1580,6 +1587,20 @@ footer {
 
     /*GENERELLE INDSTILLINGER */
 
+    #information_fullpage .knap {
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-around;
+    background-color: #BED2D0;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 10px 50px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 50%;
+}
+
     .paddingbottom {
         padding: 0px 0px 50px 0px;
     }
@@ -1825,7 +1846,7 @@ footer {
 
     #destinationer_fullpage {
         display: grid;
-        padding: 10px 30px 0px 30px;
+        padding: 10px 30px 50px 30px;
         grid-template-columns: 600px;
         justify-content: flex-start;
         grid-template-areas:
@@ -2489,7 +2510,7 @@ footer {
     #destinationer_fullpage {
         grid-gap: 30px;
         justify-content: center;
-        padding: 10px 10px 0px 0px;
+        padding: 10px 10px 50px 0px;
         grid-template-columns: 1000px;
         grid-template-areas:
 

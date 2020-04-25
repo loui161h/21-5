@@ -83,7 +83,7 @@ header nav a:visited {
 
 #menuknap {
     display: inline-block;
-    color: black;
+   color: #375151;
     margin: 0.5rem;
     font-size: 2rem;
 }
@@ -144,9 +144,8 @@ header nav a:visited {
     color: #649087;
 }
 
-a {
+.dropdown a {
     text-decoration: none;
-    color: black;
     color: #375151;
 }
 
@@ -173,6 +172,10 @@ a {
 
 
 
+.andet a {
+    text-decoration: none;
+    color: #375151;
+}
 
 
 
