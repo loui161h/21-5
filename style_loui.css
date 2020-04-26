@@ -1174,7 +1174,7 @@ footer {
 }*/
 
 
-#information_fullpage .knap{
+#information_fullpage .knap {
     font-family: 'Quicksand', sans-serif;
     justify-content: space-around;
     background-color: #BED2D0;
@@ -1187,15 +1187,17 @@ footer {
     width: 40%;
     text-align: center;
 }
+
 #information_fullpage a {
     text-decoration: none;
-       color: #ffffff;
+    color: #ffffff;
 }
 
 #information_img {
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 280px;
 }
+
 /* PRAKTISK INFORMATION SLUT */
 
 /* ORIENTERINGSMØDE */
@@ -1589,18 +1591,18 @@ footer {
     /*GENERELLE INDSTILLINGER */
 
     #information_fullpage .knap {
-    font-family: 'Quicksand', sans-serif;
-    justify-content: space-around;
-    background-color: #BED2D0;
-    font-size: 1.2rem;
-    color: #ffffff;
-    padding: 10px 50px 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 600;
-    width: 50%;
-}
+        font-family: 'Quicksand', sans-serif;
+        justify-content: space-around;
+        background-color: #BED2D0;
+        font-size: 1.2rem;
+        color: #ffffff;
+        padding: 10px 50px 10px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        width: 50%;
+    }
 
     .paddingbottom {
         padding: 0px 0px 50px 0px;
@@ -1997,6 +1999,11 @@ footer {
             "information_tekst1 information_tekst1"
             "information_paragraf1 information_paragraf2"
 
+    }
+
+    #information_img {
+        width: 380px;
+        height: 280px;
     }
 
     /* PRAKTISK INFORMATION SLUT */
@@ -2668,6 +2675,12 @@ footer {
             "information_paragraf1 information_paragraf2"
 
     }
+
+    #information_img {
+        width: 500px;
+        height: 350px;
+    }
+
 
     /* PRAKTISK INFORMATION SLUT */
 
