@@ -44,9 +44,11 @@ summary {
     color: #649087;
 }
 
+/*
 details {
     padding-left: 40px;
 }
+*/
 
 
 
@@ -217,7 +219,7 @@ select {
         color: #649087;
     }
 
-   a {
+    a {
         text-decoration: none;
         color: #375151;
     }
