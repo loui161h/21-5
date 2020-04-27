@@ -255,6 +255,8 @@ header nav a:visited {
     margin: 4px 15px 2px;
     cursor: pointer;
     border-radius: 12px;
+      font-family: Quicksand;
+        font-weight: 500;
 }
 
 
@@ -273,6 +275,10 @@ header nav a:visited {
 
 }
 
+ .footer a {
+        font-weight: 500;
+        line-height: 25px;
+    }
 
 .kontakt p {
     color: #375151;
@@ -475,11 +481,13 @@ header nav a:visited {
         padding: 20px 30px;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 17px;
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 12px;
         margin-left: 15px;
+        font-family: Quicksand;
+        font-weight: 500;
     }
 
 
@@ -504,6 +512,10 @@ header nav a:visited {
 
     }
 
+    .footer a {
+        font-weight: 500;
+        line-height: 25px;
+    }
 
     .kontakt p {
         color: #375151;

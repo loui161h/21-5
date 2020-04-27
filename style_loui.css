@@ -120,6 +120,7 @@ h4 {
 }
 
 p {
+    font-weight: 500;
     font-size: 1rem;
     color: #606060;
     font-family: 'Quicksand', sans-serif;
