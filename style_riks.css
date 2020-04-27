@@ -19,3 +19,138 @@
 #myBtn:hover {
     background-color: #555;
 }
+
+
+/*********** BURGER MENU ************/
+
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    /* background-color: red; */
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+/***** STYLE PÅ SELVE TEKSTEN ******/
+details {
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    color: #375151;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    color: #649087;
+}
+
+ul,
+li {
+    text-decoration: none;
+}
+
+
+/**** STYLE PÅ MENU KNAP *****/
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+    display: none;
+}
+
+
+#menuknap {
+    display: inline-block;
+    color: #EFB047;
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    header {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 0;
+        background-color: rgba(240, 240, 240, 0.50);
+        padding: 15px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        background-image: url(logo.svg);
+        background-repeat: no-repeat;
+    }
+
+
+    /*** MENU2 ****/
+
+    details {
+        display: inline-block;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    .hidden {
+        transform: translateX(0);
+        opacity: 1;
+        display: inline-block;
+    }
+
+
+    a {
+        text-decoration: none;
+        font-weight: 100;
+        font-family: 'Quicksand', sans-serif;
+        color: #649087;
+    }
+
+
+    details > summary {
+        padding: 2px 6px;
+        width: 15em;
+        border: none;
+        cursor: pointer;
+    }
+
+    .hidden {
+        transform: translateX(0);
+        opacity: 1;
+        display: inline-block;
+    }
+
+
+    /* MENU 2 SLUT */
+}
