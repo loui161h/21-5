@@ -86,16 +86,16 @@ h1 {
     font-size: 2rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 1vw;
+    margin-bottom: -1vw;
 
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: #649087;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-bottom: 1vw;
+    margin-bottom: -1vw;
 
 }
 
@@ -105,7 +105,7 @@ h3 {
     color: #649087;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-bottom: 1vw;
+    margin-bottom: -1vw;
 
 
 }
@@ -114,7 +114,7 @@ h4 {
     font-size: 1.2rem;
     color: #649087;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 1vw;
+    margin-bottom: -1vw;
 
 
 }
@@ -1615,13 +1615,13 @@ footer {
     }
 
     h2 {
-        font-size: 2.6;
+        font-size: 2rem;
 
     }
 
 
     h3 {
-        font-size: 2rem;
+        font-size: 1.2rem;
 
     }
 
@@ -1782,7 +1782,7 @@ footer {
 
     #udlejning_paragraf1,
     #udlejning_paragraf2 {
-        margin-top: -2vw;
+        margin-top: -20vw;
     }
 
 
@@ -2185,6 +2185,25 @@ footer {
 
 @media only screen and (min-width: 1024px) {
 
+    h1 {
+        margin-bottom: -1vw;
+    }
+
+
+    h2 {
+        font-size: 1.7rem;
+        margin-bottom: -1vw;
+
+    }
+
+
+    h3 {
+        font-size: 1.4rem;
+
+    }
+
+
+
     #splash img {
         height: 70vh;
     }
@@ -2497,7 +2516,7 @@ footer {
 
     #udlejning_paragraf1,
     #udlejning_paragraf2 {
-        margin-top: -8vw;
+        margin-top: -14vw;
     }
 
 
