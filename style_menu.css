@@ -9,12 +9,14 @@ header {
 }
 
 
+
+/* menu checkbox betyder at den får effekten af at kunne blive foldet ud via den lille pil */
+
 .multi_level,
 .item ul,
 .nav input[type="checkbox"] {
     display: none;
 }
-
 
 #menu:checked ~ .multi_level,
 .item input:checked ~ ul {
@@ -22,6 +24,8 @@ header {
 }
 
 
+
+/* her styles logoet */
 .logo_menu #logo {
     display: block;
     margin-left: 14.5em;
@@ -31,7 +35,7 @@ header {
 
 
 
-/*** Arrow - her bliver de små pile stylet ***/
+/*** ARROW- her bliver de små pile stylet ***/
 
 .icon {
     width: 7px;
@@ -55,8 +59,10 @@ header {
 }
 
 
+/* Label er det tag alle vores overskrifter er sat ind i, for at de kan blive stående og foldes ud - inholdet af li og a findes ikke inde i disse, det skal styles for sig */
 label:hover {
     cursor: pointer;
+    color: #EFB047;
 }
 
 label {
@@ -89,7 +95,7 @@ label {
 label {
     line-height: 50px;
     margin: 0;
-    padding: 0 2em;
+    padding: 0 4em;
     list-style: none;
     text-decoration: none;
     color: #375151;
@@ -178,14 +184,22 @@ label {
         transition: 0.1s;
     }
 
-
+    /* Label er det tag alle vores overskrifter er sat ind i, for at de kan blive stående og foldes ud - inholdet af li og a findes ikke inde i disse, det skal styles for sig */
     label:hover {
         cursor: pointer;
+        color: #EFB047;
+    }
+
+
+
+    .item ul {
+        padding: 0 1.2em;
+
     }
 
     .nav {
         width: 100%;
-        background-color: white;
+        background-color: rgba(240, 240, 240, 0.50);
         overflow-x: hidden;
     }
 
