@@ -115,9 +115,10 @@ h4 {
     color: #649087;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 1vw;
-
-
+    font-weight: 400;
 }
+
+
 
 p {
     font-weight: 500;
@@ -2209,13 +2210,13 @@ footer {
 @media only screen and (min-width: 1024px) {
 
     h1 {
-        margin-bottom: -1vw;
+        margin-bottom: 1vw;
     }
 
 
     h2 {
         font-size: 1.7rem;
-        margin-bottom: -1vw;
+        margin-bottom: 1vw;
 
     }
 
