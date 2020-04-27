@@ -906,13 +906,15 @@ footer {
 }
 
 
+.embedly-card {
+    grid-area: embedly-card;
+}
+
 #dk39_heading2 {
     grid-area: dk39_heading2;
 }
 
-.embedly-card {
-    grid-area: embedly-card;
-}
+
 
 /* DK39 FAMILY GRID SLUT */
 
@@ -935,6 +937,8 @@ footer {
         "dk38_paragraf3"
         "dk38_paragraf4"
         "dk38_heading2"
+        "embedly-card"
+
 }
 
 
@@ -966,6 +970,12 @@ footer {
     grid-area: dk38_paragraf4;
 }
 
+
+.embedly-card {
+    grid-area: embedly-card;
+}
+
+
 #dk38_heading2 {
     grid-area: dk38_heading2;
 }
@@ -992,7 +1002,9 @@ footer {
         "dk36_paragraf3"
         "dk36_paragraf4"
         "dk36_heading2"
+        "embedly-card"
         "dk36_heading3"
+
 }
 
 
@@ -1024,9 +1036,16 @@ footer {
     grid-area: dk36_paragraf4;
 }
 
+.embedly-card {
+    grid-area: embedly-card;
+}
+
+
 #dk36_heading2 {
     grid-area: dk36_heading2;
 }
+
+
 
 /* LEDIGE ANDELE */
 
@@ -1943,6 +1962,8 @@ footer {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
@@ -1961,6 +1982,8 @@ footer {
             "dk36_paragraf3 dk36_paragraf4"
             "dk36_heading2 dk36_heading2"
             "dk36_heading3 dk36_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
@@ -2695,6 +2718,8 @@ footer {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
@@ -2712,6 +2737,8 @@ footer {
             "dk36_paragraf3 dk36_paragraf4"
             "dk36_heading2 dk36_heading2"
             "dk36_heading3 dk36_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
