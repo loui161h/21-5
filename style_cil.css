@@ -40,15 +40,20 @@
 summary {
     padding: 30px;
     background-color: #FAE3BE;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #649087;
 }
 
-/*
-details {
-    padding-left: 40px;
-}
-*/
+ details {
+        padding-left: 40px;
+        margin-top: 15px;
+        color: #606060;
+        line-height: 25px;
+        font-weight: 500;
+     font-size: 1rem;
+
+    }
+
 
 
 
@@ -518,6 +523,9 @@ select {
     details {
         padding-left: 40px;
         margin-top: 15px;
+        color: #606060;
+        line-height: 25px;
+        font-weight: 500;
     }
 
 
