@@ -2248,9 +2248,38 @@ footer {
 
     }
 
-    #voresfamilier_fullpage p {
+    #voresfamilier_tekst1 p {
+        color: #606060;
+    }
+
+
+    #familieboks1 p {
         color: white;
     }
+
+    #familieboks2 p {
+        color: white;
+    }
+
+
+    #familieboks3 p {
+        color: white;
+    }
+
+    #familieboks4 p {
+        color: white;
+    }
+
+    #familieboks5 p {
+        color: white;
+    }
+
+    #familieboks6 p {
+        color: white;
+    }
+
+
+
 
     #voresfamilier_fullpage h4 {
         text-align: center;
@@ -2275,7 +2304,7 @@ footer {
         bottom: 0;
         left: 0;
         right: 0;
-        height: 86%;
+        height: 85.9%;
         width: 100%;
         opacity: 0%;
         transition: .3s ease;
@@ -2324,6 +2353,10 @@ footer {
 
     #fordele_fullpage p {
         color: white;
+    }
+
+    #fordele_tekst1 p {
+        color: #606060;
     }
 
     #fordele_tekst2 p {
