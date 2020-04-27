@@ -44,9 +44,11 @@ summary {
     color: #649087;
 }
 
+/*
 details {
     padding-left: 40px;
 }
+*/
 
 
 
@@ -64,13 +66,14 @@ input[type=submit] {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     background-color: #BED2D0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #ffffff;
-    padding: 2¢0px 100px;
+    padding: 10px 50px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 
@@ -96,8 +99,7 @@ select {
     visibility: visible;
     background-color: rgba(239, 176, 71, 0.4);
     transition: transform .2s;
-    padding: 40px;
-    width: 70vw;
+    padding: 0px 35px;
     height: 30vh;
     margin: 20px;
 
@@ -133,7 +135,7 @@ select {
         transition: transform .2s;
         padding: 40px;
         width: 300px;
-        height: 425px;
+        height: 350px;
         margin: 15px;
         text-align: center;
     }
@@ -219,7 +221,6 @@ select {
 
     a {
         text-decoration: none;
-        color: black;
         color: #375151;
     }
 
@@ -545,11 +546,12 @@ select {
         background-color: #BED2D0;
         font-size: 1.2rem;
         color: #ffffff;
-        padding: 10px 100px;
+        padding: 10px 60px;
         border: none;
         border-radius: 10px;
         cursor: pointer;
         font-weight: 600;
+        margin-top: 10px;
     }
 
 

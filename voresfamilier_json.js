@@ -72,3 +72,26 @@ function visDataVoresFamilier() {
 
 
 }
+
+//TOP KNAP//
+
+var mybutton = document.getElementById("myBtn");
+
+// Når brugeren scroller 20 px ned fra toppen, vises knappen//
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// Når man klikker på knappen, kommer man til toppen//
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

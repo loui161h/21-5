@@ -120,33 +120,19 @@ h4 {
 }
 
 p {
+    font-weight: 500;
     font-size: 1rem;
     color: #606060;
     font-family: 'Quicksand', sans-serif;
     line-height: 25px;
-}
-
-/*
-
-#familier h4 {
-    font-size: 1.2rem;
-    text-align: center;
-    color: #649087;
-}
-
-#familier p {
-    font-size: 0.8rem;
-    line-height: 16px;
-    color: white;
-
 
 }
-*/
+
+a {
+    text-decoration: none;
+}
 
 
-/* ALLE SPLASH BILLEDE */
-
-/* ALLE SPLASH BILLEDE SLUT */
 
 /* GENERELLE INDSTILLINER SLUT */
 
@@ -681,8 +667,9 @@ footer {
         "stiftedeforeninger_tekst1"
         "stiftedeforeninger_paragraf1"
         "stiftedeforeninger_paragraf2"
-        "stiftedeforeninger_paragraf3"
         "stiftedeforeninger_paragraf4"
+        "stiftedeforeninger_paragraf3"
+
 
 }
 
@@ -872,6 +859,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
+    margin-top: -1vw;
     padding: 10px;
     grid-template-areas:
 
@@ -883,7 +871,6 @@ footer {
         "dk39_paragraf3"
         "dk39_paragraf4"
         "dk39_heading2"
-        /* her bliver videoen sat ind via class */
         "embedly-card"
 
 }
@@ -937,6 +924,7 @@ footer {
     min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
         "dk38_heading1"
@@ -993,6 +981,7 @@ footer {
     min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
         "dk36_heading1"
@@ -1046,6 +1035,7 @@ footer {
     min-height: 100%;
     grid-gap: 10px;
     padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
         "ledigeandele_heading"
         "ledigeandele_tekst1"
@@ -1179,13 +1169,23 @@ footer {
     justify-content: space-around;
     background-color: #BED2D0;
     font-size: 1.2rem;
-    color: #ffffff;
-    padding: 10px 50px 10px;
+    padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
-    width: 50%;
+    width: 40%;
+    text-align: center;
+}
+
+#information_fullpage a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#information_img {
+    width: 400px;
+    height: 280px;
 }
 
 /* PRAKTISK INFORMATION SLUT */
@@ -1206,7 +1206,6 @@ footer {
         "orienteringsmode_paragraf1"
         "orienteringsmode_paragraf2"
         "orienteringsmode_overskrift3"
-        /* her bliver videoen sat ind */
         "embedly-card"
 
 }
@@ -1380,9 +1379,10 @@ footer {
 
 #omos_fullpage {
     display: grid;
-    /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
     min-height: 100%;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
 
@@ -1459,6 +1459,8 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
         "historien_heading"
@@ -1512,14 +1514,17 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
+    padding: 10px;
+    margin-top: -1vw;
     grid-template-areas:
 
         "teamet_heading"
         "teamet_tekst1"
         "teamet_paragraf1"
         "teamet_paragraf2"
-        "teamet_paragraf3"
         "teamet_paragraf4"
+        "teamet_paragraf3"
+
         "teamet_paragraf5"
         "teamet_paragraf6"
 
@@ -1579,6 +1584,20 @@ footer {
 @media only screen and (min-width: 768px) {
 
     /*GENERELLE INDSTILLINGER */
+
+    #information_fullpage .knap {
+        font-family: 'Quicksand', sans-serif;
+        justify-content: space-around;
+        background-color: #BED2D0;
+        font-size: 1.2rem;
+        color: #ffffff;
+        padding: 10px 50px 10px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        width: 50%;
+    }
 
     .paddingbottom {
         padding: 0px 0px 50px 0px;
@@ -1761,6 +1780,10 @@ footer {
             "udlejning_paragraf1 udlejning_paragraf2"
     }
 
+    #udlejning_paragraf1,
+    #udlejning_paragraf2 {
+        margin-top: -2vw;
+    }
 
 
 
@@ -1825,7 +1848,7 @@ footer {
 
     #destinationer_fullpage {
         display: grid;
-        padding: 10px 30px 0px 30px;
+        padding: 10px 30px 50px 30px;
         grid-template-columns: 600px;
         justify-content: flex-start;
         grid-template-areas:
@@ -1977,6 +2000,15 @@ footer {
 
     }
 
+    #information_img {
+        width: 380px;
+        height: 280px;
+    }
+
+    #information_tekst1 {
+        margin-top: -4vw;
+    }
+
     /* PRAKTISK INFORMATION SLUT */
 
     /* ORIENTERINGSMØDE */
@@ -2043,6 +2075,11 @@ footer {
 
     }
 
+    #job_paragraf1,
+    #job_paragraf2 {
+        margin-top: -26vw;
+    }
+
     /* JOB I 21-5 SLUT */
 
 
@@ -2079,6 +2116,10 @@ footer {
 
 
 
+    }
+
+    #omos_tekst1 {
+        margin-top: -6vw;
     }
 
     #bokse {
@@ -2161,7 +2202,7 @@ footer {
     /* KONCEPT GRID  */
 
     #koncept_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 325px 325px 325px;
 
         grid-template-areas:
@@ -2180,7 +2221,7 @@ footer {
     /* GIVER MENING GRID */
 
     #givermening_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "givermening_heading givermening_heading"
@@ -2193,7 +2234,7 @@ footer {
 
     /* DET SIGER VORES FAMILIER GRID */
     #voresfamilier_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2260,8 +2301,7 @@ footer {
 
     #fordele_fullpage {
         justify-content: center;
-        grid-gap: 30px;
-        padding: 10px;
+        grid-gap: 22px;
         grid-template-columns: 333px 333px 333px;
         grid-template-areas:
 
@@ -2288,6 +2328,7 @@ footer {
         -ms-transform: translate(-50%, -50%);
         text-align: center;
         text-decoration: none;
+
 
     }
 
@@ -2352,7 +2393,7 @@ footer {
 
 
     #kommermed_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2369,7 +2410,7 @@ footer {
     /* BOOKINGSYSTEMET */
 
     #bookingsystemet_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2402,7 +2443,7 @@ footer {
     /* UDLEJNING BLANDT MEDLEMMER */
 
     #udlejning_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2410,13 +2451,19 @@ footer {
             "udlejning_paragraf1 udlejning_paragraf2"
     }
 
+    #udlejning_paragraf1,
+    #udlejning_paragraf2 {
+        margin-top: -8vw;
+    }
+
+
 
     /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
     /* PROCESSEN GRID */
 
     #process_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "process_heading process_heading"
@@ -2432,7 +2479,7 @@ footer {
     /* VI SKABER HJEM GRID */
 
     #skaberhjem_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2457,7 +2504,7 @@ footer {
 
 
     #stiftedeforeninger_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2487,9 +2534,9 @@ footer {
     /* DESTINATIONER GRID */
 
     #destinationer_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         justify-content: center;
-        padding: 10px 10px 0px 0px;
+        padding: 10px 10px 50px 0px;
         grid-template-columns: 1000px;
         grid-template-areas:
 
@@ -2502,8 +2549,8 @@ footer {
     /* DESTINATIONER SLUT */
     /* MALLORCA */
     #mallorca_fullpage {
-        grid-gap: 30px;
-
+        grid-gap: 22px;
+        justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "mallorca_heading mallorca_heading"
@@ -2520,7 +2567,7 @@ footer {
 
     /* TOSCANA */
     #toscana_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "toscana_heading toscana_heading"
@@ -2534,7 +2581,7 @@ footer {
     /* TILGÆNGELIGE FORENINGER */
 
     #foreninger_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 325px 325px 325px;
         grid-template-areas:
 
@@ -2553,7 +2600,7 @@ footer {
     /* FAMILIER */
 
     #dk39_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2568,13 +2615,13 @@ footer {
     }
 
     #dk39_paragraf3 {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-area: dk39_paragraf3;
         height: 80vh;
     }
 
     #dk38_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2591,7 +2638,7 @@ footer {
 
 
     #dk36_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2617,7 +2664,7 @@ footer {
     /* LEDIGE ANDELE */
 
     #ledigeandele_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "ledigeandele_heading ledigeandele_heading"
@@ -2637,7 +2684,7 @@ footer {
     /* PRAKTISK INFORMATION */
 
     #information_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2647,12 +2694,20 @@ footer {
 
     }
 
+    #information_img {
+        width: 500px;
+        height: 350px;
+    }
+
+
+
+
     /* PRAKTISK INFORMATION SLUT */
 
     /* ORIENTERINGSMØDE */
 
     #orienteringsmode_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2672,7 +2727,7 @@ footer {
     /* KAFFEMØDE */
 
     #kaffemode_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2687,7 +2742,7 @@ footer {
     /* KONTAKT */
     #kontakt_fullpage {
         grid-template-columns: 500px 500px;
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-areas:
 
 
@@ -2704,7 +2759,7 @@ footer {
 
     #job_fullpage {
         grid-template-columns: 500px 500px;
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-areas:
 
             "job_heading job_heading"
@@ -2712,12 +2767,19 @@ footer {
 
     }
 
+    #job_paragraf1,
+    #job_paragraf2 {
+        margin-top: -18vw;
+    }
+
+
     /* JOB I 21-5 SLUT */
 
     /* OFTE STILLEDE SPØRGSMÅL GRID */
 
     #spoergsmaal_fullpage {
         display: grid;
+        grid-gap: 22px;
         grid-template-columns: 1000px;
         justify-content: center;
         grid-template-areas:
@@ -2737,24 +2799,28 @@ footer {
 
     /* OM OS */
     #omos_fullpage {
-
-
-        /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
+        margin-top: -4vw;
         grid-template-columns: 500px 500px;
-        grid-gap: 20px;
+        grid-gap: 22px;
         grid-template-areas:
 
             "omos_heading omos_heading"
             "omos_tekst1 omos_tekst1"
             "omos_paragraf1 omos_paragraf2"
+    }
 
+    #omos_tekst1 {
+        margin-top: -6vw;
+    }
 
-
+    #omos_paragraf1,
+    #omos_paragraf2 {
+        margin-top: -4vw;
     }
 
 
     #bokse {
-        margin: -50px 120px 50px 240px;
+        margin: -100px 120px 50px 240px;
 
     }
 
@@ -2777,7 +2843,7 @@ footer {
 
     /* HISTORIEN  */
     #historien_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
@@ -2796,7 +2862,7 @@ footer {
     /* TEAMET GRID */
 
     #teamet_fullpage {
-        grid-gap: 30px;
+        grid-gap: 22px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 
