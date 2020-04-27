@@ -9,12 +9,14 @@ header {
 }
 
 
+
+/* menu checkbox betyder at den får effekten af at kunne blive foldet ud via den lille pil */
+
 .multi_level,
 .item ul,
 .nav input[type="checkbox"] {
     display: none;
 }
-
 
 #menu:checked ~ .multi_level,
 .item input:checked ~ ul {
@@ -22,17 +24,18 @@ header {
 }
 
 
-.logo #logo_menu {
+
+/* her styles logoet */
+.logo_menu #logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 14.5em;
     margin-top: -3em;
     width: 10%;
 }
 
 
 
-/*** Arrow - her bliver de små pile stylet ***/
+/*** ARROW- her bliver de små pile stylet ***/
 
 .icon {
     width: 7px;
@@ -56,8 +59,10 @@ header {
 }
 
 
+/* Label er det tag alle vores overskrifter er sat ind i, for at de kan blive stående og foldes ud - inholdet af li og a findes ikke inde i disse, det skal styles for sig */
 label:hover {
     cursor: pointer;
+    color: #EFB047;
 }
 
 label {
@@ -72,7 +77,6 @@ label {
     width: 100%;
     background-color: white;
     overflow-x: hidden;
-    border-bottom: 2px solid #EFB047;
 
 }
 
@@ -86,12 +90,12 @@ label {
 }
 
 /* her bliver alle overskrifterne stylet */
-.nav ul,
-.nav li,
+.multi_level ul,
+.multi_level li,
 label {
     line-height: 50px;
     margin: 0;
-    padding: 0 2em;
+    padding: 0 4em;
     list-style: none;
     text-decoration: none;
     color: #375151;
@@ -107,7 +111,7 @@ label {
 }
 
 
-.nav li a {
+.multi_level li a {
     line-height: 50px;
     margin: 0;
     list-style: none;
@@ -121,49 +125,71 @@ label {
 @media only screen and (min-width: 1024px) {
 
 
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        top: 0;
+        background-color: rgba(240, 240, 240, 0.50);
+    }
+
+
+    .multi_level {
+        display: block;
+        text-align: center;
+
+    }
+
+
+    #menu:checked ~ .multi_level,
+    .item input:checked ~ ul {
+        display: block;
+    }
+
+
+
+    .logo_menu #logo {
+        display: block;
+        margin-left: 0;
+        margin-top: 0;
+        width: 4%;
+        height: 4%;
+    }
+
+
+
+
+    /*** Arrow - her bliver de små pile stylet ***/
+
+    .icon {
+        width: 7px;
+        height: 7px;
+        vertical-align: middle;
+        float: left;
+        z-index: 0;
+        margin: 17px 1em 0 2em;
+        color: #375151;
+    }
+
+    /* her kommer der en animation på pilen */
+    .item input + .icon {
+        transform: rotate(-90deg);
+        transition: 0.1s;
+    }
+
+    .item input:checked + .icon {
+        transform: rotate(0deg);
+        transition: 0.1s;
+    }
+
+    /* Label er det tag alle vores overskrifter er sat ind i, for at de kan blive stående og foldes ud - inholdet af li og a findes ikke inde i disse, det skal styles for sig */
     label:hover {
         cursor: pointer;
-    }
-
-    label {
-        width: 100%;
-        display: block;
-        z-index: 3;
-        position: relative;
-    }
-
-
-    .nav {
-        width: 100%;
-        background-color: white;
-        overflow-x: hidden;
-        border-bottom: 2px solid #EFB047;
-
-    }
-
-
-    #nav_icon {
-        font-size: 28px;
-        line-height: 50px;
-        padding-left: 1em;
         color: #EFB047;
-        background-color: transparent;
     }
 
-    /* her bliver alle overskrifterne stylet */
-    .nav ul,
-    .nav li,
-    label {
-        line-height: 50px;
-        margin: 0;
-        padding: 0 2em;
-        list-style: none;
-        text-decoration: none;
-        color: #375151;
-        font-weight: 100;
-        width: 100%;
-
-    }
 
 
     .item ul {
@@ -171,8 +197,19 @@ label {
 
     }
 
+    .nav {
+        width: 100%;
+        background-color: rgba(240, 240, 240, 0.50);
+        overflow-x: hidden;
+    }
 
-    .nav li a {
+
+    #nav_icon {
+        display: none;
+    }
+
+    /* her bliver alle tekster stylet */
+    .multi_level li a {
         line-height: 50px;
         margin: 0;
         list-style: none;
@@ -180,9 +217,12 @@ label {
         color: #649087;
         font-weight: 100;
 
+
     }
 
-
+    .multi_level .item {
+        display: inline-block;
+    }
 
 
 }

@@ -86,7 +86,7 @@ h1 {
     font-size: 2rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: -1vw;
+    margin-bottom: 1vw;
 
 }
 
@@ -95,7 +95,7 @@ h2 {
     color: #649087;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-bottom: -1vw;
+    margin-bottom: 1vw;
 
 }
 
@@ -105,7 +105,7 @@ h3 {
     color: #649087;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-bottom: -1vw;
+    margin-bottom: 1vw;
 
 
 }
@@ -114,10 +114,11 @@ h4 {
     font-size: 1.2rem;
     color: #649087;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: -1vw;
-
-
+    margin-bottom: 1vw;
+    font-weight: 400;
 }
+
+
 
 p {
     font-weight: 500;
@@ -906,13 +907,15 @@ footer {
 }
 
 
+.embedly-card {
+    grid-area: embedly-card;
+}
+
 #dk39_heading2 {
     grid-area: dk39_heading2;
 }
 
-.embedly-card {
-    grid-area: embedly-card;
-}
+
 
 /* DK39 FAMILY GRID SLUT */
 
@@ -935,6 +938,8 @@ footer {
         "dk38_paragraf3"
         "dk38_paragraf4"
         "dk38_heading2"
+        "embedly-card"
+
 }
 
 
@@ -966,6 +971,12 @@ footer {
     grid-area: dk38_paragraf4;
 }
 
+
+.embedly-card {
+    grid-area: embedly-card;
+}
+
+
 #dk38_heading2 {
     grid-area: dk38_heading2;
 }
@@ -992,7 +1003,9 @@ footer {
         "dk36_paragraf3"
         "dk36_paragraf4"
         "dk36_heading2"
+        "embedly-card"
         "dk36_heading3"
+
 }
 
 
@@ -1024,9 +1037,16 @@ footer {
     grid-area: dk36_paragraf4;
 }
 
+.embedly-card {
+    grid-area: embedly-card;
+}
+
+
 #dk36_heading2 {
     grid-area: dk36_heading2;
 }
+
+
 
 /* LEDIGE ANDELE */
 
@@ -1943,6 +1963,8 @@ footer {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
@@ -1961,6 +1983,8 @@ footer {
             "dk36_paragraf3 dk36_paragraf4"
             "dk36_heading2 dk36_heading2"
             "dk36_heading3 dk36_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
@@ -2186,14 +2210,18 @@ footer {
 @media only screen and (min-width: 1024px) {
 
     h1 {
+<<<<<<< HEAD
         font-size: 3rem;
         margin-bottom: -1vw;
+=======
+        margin-bottom: 1vw;
+>>>>>>> origin/master
     }
 
 
     h2 {
         font-size: 1.7rem;
-        margin-bottom: -1vw;
+        margin-bottom: 1vw;
 
     }
 
@@ -2696,6 +2724,8 @@ footer {
             "dk38_paragraf3 dk38_paragraf4"
             "dk38_heading2 dk38_heading2"
             "dk38_heading3 dk38_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
@@ -2713,6 +2743,8 @@ footer {
             "dk36_paragraf3 dk36_paragraf4"
             "dk36_heading2 dk36_heading2"
             "dk36_heading3 dk36_heading3"
+            "embedly-card embedly-card"
+
 
     }
 
