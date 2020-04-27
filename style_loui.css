@@ -1168,21 +1168,6 @@ footer {
 
 }
 
-/*.knap {
-    font-family: 'Quicksand', sans-serif;
-    justify-content: space-around;
-    background-color: #BED2D0;
-    font-size: 1.2rem;
-    color: #ffffff;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 600;
-    width: 50%;
-}*/
-
 
 #information_fullpage .knap {
     font-family: 'Quicksand', sans-serif;
@@ -2129,7 +2114,6 @@ footer {
         max-height: 100%;
         display: grid;
         grid-gap: 20px;
-        /* vi skal sætte min-height på for at footeren rykker sig i bunden af siden */
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2210,12 +2194,10 @@ footer {
 @media only screen and (min-width: 1024px) {
 
     h1 {
-<<<<<<< HEAD
         font-size: 3rem;
         margin-bottom: -1vw;
-=======
-        margin-bottom: 1vw;
->>>>>>> origin/master
+
+
     }
 
 
@@ -2228,6 +2210,7 @@ footer {
 
     h3 {
         font-size: 1.4rem;
+
 
     }
 
