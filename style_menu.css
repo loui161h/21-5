@@ -28,9 +28,9 @@ header {
 /* her styles logoet */
 .logo_menu #logo {
     display: block;
-    margin-left: 14.5em;
+    margin-left: 10em;
     margin-top: -3em;
-    width: 10%;
+
 }
 
 
@@ -60,11 +60,6 @@ header {
 
 
 /* Label er det tag alle vores overskrifter er sat ind i, for at de kan blive stående og foldes ud - inholdet af li og a findes ikke inde i disse, det skal styles for sig */
-label:hover {
-    cursor: pointer;
-    color: #EFB047;
-}
-
 label {
     width: 100%;
     display: block;
@@ -95,7 +90,6 @@ label {
 label {
     line-height: 50px;
     margin: 0;
-    padding: 0 4em;
     list-style: none;
     text-decoration: none;
     color: #375151;
@@ -136,13 +130,6 @@ label {
     }
 
 
-    .multi_level {
-        display: block;
-        text-align: center;
-
-    }
-
-
     #menu:checked ~ .multi_level,
     .item input:checked ~ ul {
         display: block;
@@ -154,8 +141,6 @@ label {
         display: block;
         margin-left: 0;
         margin-top: 0;
-        width: 4%;
-        height: 4%;
     }
 
 
@@ -168,8 +153,7 @@ label {
         height: 7px;
         vertical-align: middle;
         float: left;
-        z-index: 0;
-        margin: 17px 1em 0 2em;
+        margin: 22px 1em 0 2em;
         color: #375151;
     }
 
@@ -186,6 +170,12 @@ label {
 
     /* Label er det tag alle vores overskrifter er sat ind i, for at de kan blive stående og foldes ud - inholdet af li og a findes ikke inde i disse, det skal styles for sig */
     label:hover {
+        cursor: pointer;
+        color: #EFB047;
+    }
+
+
+    .multi_level a:hover {
         cursor: pointer;
         color: #EFB047;
     }
@@ -208,20 +198,33 @@ label {
         display: none;
     }
 
-    /* her bliver alle tekster stylet */
+    /****** her bliver alle tekster stylet ******/
+
+    /* her bliver undermenu punkterne stylet */
     .multi_level li a {
         line-height: 50px;
         margin: 0;
         list-style: none;
         text-decoration: none;
         color: #649087;
-        font-weight: 100;
-
-
+        font-size: 18px;
     }
 
-    .multi_level .item {
-        display: inline-block;
+    /* her styles oversrifterne */
+    label {
+        line-height: 50px;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+        color: #375151;
+        font-size: 18px;
+    }
+
+    /* her sætter vi undermenuen i grid */
+    .multi_level {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+        padding
     }
 
 
