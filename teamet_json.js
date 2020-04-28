@@ -58,6 +58,9 @@ function visDataTeamet() {
     document.querySelector("#teamet_p4").innerHTML = alleTekster.tekst5;
 
 
+    document.querySelector("#teamet_mail").innerHTML = alleTekster.tekst2;
+    document.querySelector("#teamet_mail1").innerHTML = alleTekster.tekst4;
+    document.querySelector("#teamet_mail2").innerHTML = alleTekster.tekst6;
 
 
 
