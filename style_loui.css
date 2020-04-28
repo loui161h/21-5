@@ -34,7 +34,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     display: inline;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'Quicksand', sans-serif;
     color: #375151;
 }
@@ -54,10 +54,7 @@ ul.breadcrumb li a {
 }
 
 ul.breadcrumb li a:hover {
-    color: #01447e;
-
-    text-decoration: underline;
-
+    opacity: 50%;
 }
 
 
