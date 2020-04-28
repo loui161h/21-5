@@ -83,7 +83,7 @@ h1 {
     font-size: 2rem;
     color: #375151;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 1vw;
+    margin-bottom: 0vw;
 
 }
 
@@ -92,7 +92,7 @@ h2 {
     color: #649087;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-bottom: 1vw;
+    margin-bottom: 0vw;
 
 }
 
@@ -102,7 +102,7 @@ h3 {
     color: #649087;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-bottom: 1vw;
+    margin-bottom: 0vw;
 
 
 }
@@ -1784,7 +1784,7 @@ footer {
 
     #udlejning_paragraf1,
     #udlejning_paragraf2 {
-        margin-top: -20vw;
+        margin-top: -12vw;
     }
 
 
@@ -2083,7 +2083,7 @@ footer {
 
     #job_paragraf1,
     #job_paragraf2 {
-        margin-top: -26vw;
+        margin-top: -24vw;
     }
 
     /* JOB I 21-5 SLUT */
@@ -2192,7 +2192,8 @@ footer {
 
     h1 {
         font-size: 3rem;
-        margin-bottom: -1vw;
+
+
 
 
     }
@@ -2200,7 +2201,7 @@ footer {
 
     h2 {
         font-size: 1.7rem;
-        margin-bottom: 1vw;
+
 
     }
 
@@ -2525,7 +2526,7 @@ footer {
 
     #udlejning_paragraf1,
     #udlejning_paragraf2 {
-        margin-top: -10vw;
+        margin-top: -13vw;
     }
 
 
@@ -2850,7 +2851,7 @@ footer {
 
     #job_paragraf1,
     #job_paragraf2 {
-        margin-top: -18vw;
+        margin-top: -22vw;
     }
 
 

@@ -421,12 +421,12 @@ header nav a:visited {
 
 
     /*** MENU2 ****/
-
+    /*
     #menu2 {
         text-align: end;
         margin-right: 100px;
         margin-top: -20px;
-    }
+    }*/
 
     #menuknap {
         display: none;
