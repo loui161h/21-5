@@ -80,7 +80,7 @@ header nav a:visited {
 
 #menuknap {
     display: inline-block;
-   color: #375151;
+    color: #375151;
     margin: 0.5rem;
     font-size: 2rem;
 }
@@ -252,8 +252,8 @@ header nav a:visited {
     margin: 4px 15px 2px;
     cursor: pointer;
     border-radius: 12px;
-      font-family: Quicksand;
-        font-weight: 500;
+    font-family: Quicksand;
+    font-weight: 500;
 }
 
 
@@ -272,10 +272,10 @@ header nav a:visited {
 
 }
 
- .footer a {
-        font-weight: 500;
-        line-height: 25px;
-    }
+.footer a {
+    font-weight: 500;
+    line-height: 25px;
+}
 
 .kontakt p {
     color: #375151;
