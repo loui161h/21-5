@@ -28,7 +28,7 @@ header {
 /* her styles logoet */
 .logo_menu #logo {
     display: block;
-    margin-left: 10em;
+    margin-left: 14em;
     margin-top: -3em;
 
 }
@@ -43,7 +43,7 @@ header {
     vertical-align: middle;
     float: left;
     z-index: 0;
-    margin: 17px 1em 0 2em;
+    margin: 27px 1em 0 2em;
     color: #375151;
 }
 
@@ -81,20 +81,20 @@ label {
     line-height: 50px;
     padding-left: 1em;
     color: #EFB047;
-    background-color: transparent;
 }
 
 /* her bliver alle overskrifterne stylet */
 .multi_level ul,
 .multi_level li,
 label {
-    line-height: 50px;
+    line-height: 60px;
     margin: 0;
     list-style: none;
     text-decoration: none;
     color: #375151;
     font-weight: 100;
     width: 100%;
+    font-size: 1.4rem;
 
 }
 
@@ -112,7 +112,6 @@ label {
     text-decoration: none;
     color: #649087;
     font-weight: 100;
-
 }
 
 
@@ -141,8 +140,8 @@ label {
         display: block;
         margin-left: 1.6em;
         margin-top: 0;
-    }
 
+    }
 
 
 
@@ -188,7 +187,7 @@ label {
     }
 
     .nav {
-        width: 100%;
+
         background-color: rgba(240, 240, 240, 0.50);
         overflow-x: hidden;
     }
@@ -202,12 +201,12 @@ label {
 
     /* her bliver undermenu punkterne stylet */
     .multi_level li a {
-        line-height: 50px;
+        line-height: 35px;
         margin: 0;
         list-style: none;
         text-decoration: none;
         color: #649087;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /* her styles oversrifterne */
@@ -223,7 +222,7 @@ label {
     /* her sætter vi undermenuen i grid */
     .multi_level {
         display: grid;
-        grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-columns: 1.1fr 1fr 1fr 1fr 1fr 2.1fr;
         padding
     }
 

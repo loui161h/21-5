@@ -15,28 +15,6 @@ body {
 
 
 
-#foreningerbokse {
-    display: none;
-}
-
-.boks {
-    visibility: visible;
-    background-color: rgba(239, 176, 71, 0.4);
-    transition: transform .2s;
-    padding: 0px 35px;
-    height: 30vh;
-    margin: 20px;
-
-}
-
-.boks:hover {
-    -ms-transform: scale(1.1);
-    /* IE 9 */
-    -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
-    transform: scale(1.1);
-}
-
 
 
 #landingpage_fullpage img {
@@ -88,10 +66,12 @@ body {
 /* SKRIFT MOBIL */
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #375151;
     font-weight: 500;
-
+    font-family: Roboto;
+    line-height: 40px;
+    margin-bottom: 0;
 }
 
 
@@ -99,6 +79,7 @@ h2 {
     font-size: 2rem;
     color: #375151;
     font-weight: 500;
+    font-family: Roboto;
 }
 
 p {
@@ -112,10 +93,8 @@ p {
 #tredjeslide,
 #femteslide,
 p {
-    font-size: 1.4rem;
-    line-height: 30px;
-
-
+    font-size: 1.3rem;
+    line-height: 25px;
 }
 
 #blivendelaf p {
@@ -130,7 +109,6 @@ p {
 }
 
 #andenslide p {
-    color: #535353;
     font-size: 1rem;
     line-height: 20px;
 }
@@ -208,9 +186,8 @@ a:hover {
     }
 
     #andenslide p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 22px;
-
     }
 
 
