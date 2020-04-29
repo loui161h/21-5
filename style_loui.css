@@ -67,6 +67,18 @@ ul.breadcrumb li a:hover {
 }
 
 
+/* INDSTILLING FOR VIDEO I MOBIL */
+
+.embedly-card {
+    width: 80vw;
+    height: 80vh;
+}
+
+/* INDSTLLING FOR VIDEO SLUT */
+
+
+
+
 /* GENERELLE INDSTILLINER */
 
 h1 {
@@ -2227,6 +2239,17 @@ footer {
     #kaffemode_paragraf1 img {
         height: 100%;
     }
+
+    /* INDSTILLING FOR VIDEO TIL WEB */
+
+    .embedly-card {
+        width: 80vw;
+        height: 80vh;
+
+    }
+
+
+    /* INDSTILLING FOR VIDEO SLUT */
 
     /* KONCEPT GRID  */
 
