@@ -99,7 +99,7 @@ p {
 
 #blivendelaf p {
     text-align: start;
-    margin: 10px 10px 0px 72px;
+    margin: 0px 0px 0px 13px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -224,6 +224,12 @@ a:hover {
         visibility: hidden;
     }
 
+    #blivendelaf p {
+        margin: 10px 130px 0px 185px;
+
+    }
+
+
 
     /* PLACERING AF INDHOLD SLUT */
 
@@ -247,7 +253,7 @@ a:hover {
     #foersteslide,
     #tredjeslide,
     #femteslide {
-        margin-top: -530px;
+        margin-top: -560px;
         padding: 0px 200px;
     }
 
@@ -255,7 +261,7 @@ a:hover {
 
     #andenslide,
     #fjerdeslide {
-        margin-top: -500px;
+        margin-top: -550px;
     }
 
 
@@ -359,12 +365,15 @@ a:hover {
         margin-left: 52px;
     }
 
+    #blivendelaf p {
+        margin: 10px 4px 0px 72px;
+
+    }
+
 
 }
 
 /* GRID  */
-
-
 
 
 
