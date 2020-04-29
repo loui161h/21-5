@@ -29,7 +29,7 @@ img {
 ul.breadcrumb {
     padding: 10px 31px;
     list-style: none;
-    background-color: none;
+
 }
 
 ul.breadcrumb li {
@@ -41,7 +41,6 @@ ul.breadcrumb li {
 
 ul.breadcrumb li + li:before {
     padding: 8px;
-    color: ;
     content: "/\00a0";
     color: #375151;
 
@@ -69,15 +68,6 @@ ul.breadcrumb li a:hover {
 
 
 /* GENERELLE INDSTILLINER */
-
-
-
-
-/*
-.paddingbottom {
-    padding: 0px 20px 50px 20px;
-}
-*/
 
 h1 {
     font-size: 2rem;
@@ -142,7 +132,7 @@ a {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -170,13 +160,10 @@ a {
 
 paragraf1 {
     grid-area: paragraf1;
-    /*    max-width: 62ch;*/
-
 }
 
 paragraf2 {
     grid-area: paragraf2;
-    /*    max-width: 62ch;*/
 
 }
 
@@ -201,7 +188,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
         "givermening_heading"
@@ -252,7 +239,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -313,7 +300,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -407,7 +394,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -451,7 +438,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -529,7 +516,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-  padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -552,9 +539,6 @@ footer {
 
 
 
-
-
-
 /* UDLEJNING BLANDT MEDLEMMER SLUT */
 
 /* PROCESSEN GRID */
@@ -563,7 +547,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -607,7 +591,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
- padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -657,7 +641,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -719,7 +703,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -747,7 +731,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -783,7 +767,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -817,7 +801,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
- padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -858,7 +842,7 @@ footer {
     min-height: 100%;
     grid-gap: 10px;
     margin-top: -1vw;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     grid-template-areas:
 
         "dk39_heading1"
@@ -923,7 +907,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-    padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -988,7 +972,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1051,7 +1035,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
         "ledigeandele_heading"
@@ -1135,7 +1119,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1198,7 +1182,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1247,7 +1231,7 @@ footer {
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1287,7 +1271,7 @@ padding:  10px 30px 50px 30px;
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-  padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1319,7 +1303,7 @@ padding:  10px 30px 50px 30px;
     display: grid;
     max-height: 100%;
     grid-gap: 10px;
-  padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1349,7 +1333,7 @@ padding:  10px 30px 50px 30px;
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
         "spoergsmaal_heading"
@@ -1383,7 +1367,7 @@ padding:  10px 30px 50px 30px;
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1439,9 +1423,7 @@ padding:  10px 30px 50px 30px;
 
 .boks_om:hover {
     -ms-transform: scale(1.1);
-    /* IE 9 */
     -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
     transform: scale(1.1);
 }
 
@@ -1461,7 +1443,7 @@ padding:  10px 30px 50px 30px;
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1516,7 +1498,7 @@ padding:  10px 30px 50px 30px;
     display: grid;
     min-height: 100%;
     grid-gap: 10px;
-   padding:  10px 30px 50px 30px;
+    padding: 10px 30px 50px 30px;
     margin-top: -1vw;
     grid-template-areas:
 
@@ -1601,12 +1583,6 @@ padding:  10px 30px 50px 30px;
         width: 50%;
     }
 
-/*
-    .paddingbottom {
-        padding: 0px 0px 50px 0px;
-    }
-*/
-
     .padding {
         padding: 0px 0px 0px 0px;
     }
@@ -1657,7 +1633,7 @@ padding:  10px 30px 50px 30px;
     #koncept_fullpage {
         display: grid;
         padding: 10px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 225px 225px;
         justify-content: center;
         grid-template-areas:
@@ -1673,7 +1649,7 @@ padding:  10px 30px 50px 30px;
 
     #givermening_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1693,7 +1669,7 @@ padding:  10px 30px 50px 30px;
     #voresfamilier_fullpage {
         justify-content: center;
         grid-gap: 30px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         grid-template-areas:
 
@@ -1712,7 +1688,7 @@ padding:  10px 30px 50px 30px;
     #fordele_fullpage {
         justify-content: center;
         grid-gap: 30px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         grid-template-areas:
 
@@ -1734,7 +1710,7 @@ padding:  10px 30px 50px 30px;
 
     #kommermed_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1760,7 +1736,7 @@ padding:  10px 30px 50px 30px;
     #bookingsystemet_fullpage {
         display: grid;
         grid-gap: 30px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1784,7 +1760,7 @@ padding:  10px 30px 50px 30px;
 
     #udlejning_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1807,7 +1783,7 @@ padding:  10px 30px 50px 30px;
 
     #process_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1826,7 +1802,7 @@ padding:  10px 30px 50px 30px;
 
     #skaberhjem_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1846,7 +1822,7 @@ padding:  10px 30px 50px 30px;
 
     #stiftedeforeninger_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1897,7 +1873,7 @@ padding:  10px 30px 50px 30px;
     /* TOSCANA */
     #toscana_fullpage {
         display: grid;
-          padding: 10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1974,7 +1950,7 @@ padding:  10px 30px 50px 30px;
 
 
     #dk36_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -1997,7 +1973,7 @@ padding:  10px 30px 50px 30px;
     /* LEDIGE ANDELE */
 
     #ledigeandele_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2018,7 +1994,7 @@ padding:  10px 30px 50px 30px;
 
     #information_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2044,7 +2020,7 @@ padding:  10px 30px 50px 30px;
 
     #orienteringsmode_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2064,7 +2040,7 @@ padding:  10px 30px 50px 30px;
 
     #kaffemode_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2081,7 +2057,7 @@ padding:  10px 30px 50px 30px;
 
     #kontakt_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2098,7 +2074,7 @@ padding:  10px 30px 50px 30px;
 
     #job_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2121,7 +2097,7 @@ padding:  10px 30px 50px 30px;
 
     #spoergsmaal_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 700px;
         justify-content: center;
 
@@ -2139,7 +2115,7 @@ padding:  10px 30px 50px 30px;
         max-height: 100%;
         display: grid;
         grid-gap: 20px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2177,7 +2153,7 @@ padding:  10px 30px 50px 30px;
     /* HISTORIEN  */
     #historien_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2198,7 +2174,7 @@ padding:  10px 30px 50px 30px;
 
     #teamet_fullpage {
         display: grid;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 350px 350px;
         justify-content: center;
         grid-template-areas:
@@ -2256,7 +2232,7 @@ padding:  10px 30px 50px 30px;
 
     #koncept_fullpage {
         grid-gap: 30px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 325px 325px 325px;
         grid-template-areas:
 
@@ -2273,7 +2249,7 @@ padding:  10px 30px 50px 30px;
     /* GIVER MENING GRID */
 
     #givermening_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2287,7 +2263,7 @@ padding:  10px 30px 50px 30px;
 
     /* DET SIGER VORES FAMILIER GRID */
     #voresfamilier_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         justify-content: center;
         grid-template-columns: 500px 500px;
@@ -2322,14 +2298,14 @@ padding:  10px 30px 50px 30px;
 
     #familieboks3 p {
         color: white;
-         padding: 0px 40px;
+        padding: 0px 40px;
         margin-top: -0.5vw;
     }
 
     #familieboks4 p {
         color: white;
-          padding: 0px 40px;
-         margin-top: 2vw;
+        padding: 0px 40px;
+        margin-top: 2vw;
     }
 
     #familieboks5 p {
@@ -2340,7 +2316,7 @@ padding:  10px 30px 50px 30px;
 
     #familieboks6 p {
         color: white;
-         padding: 0px 40px;
+        padding: 0px 40px;
         margin-top: 1.5vw;
     }
 
@@ -2399,7 +2375,7 @@ padding:  10px 30px 50px 30px;
     /* FORDELE VED AT KØBE EN ANDEL GRID */
 
     #fordele_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         justify-content: center;
         grid-gap: 30px;
         grid-template-columns: 333px 333px 333px;
@@ -2556,7 +2532,7 @@ padding:  10px 30px 50px 30px;
 
 
     #kommermed_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2574,7 +2550,7 @@ padding:  10px 30px 50px 30px;
     /* BOOKINGSYSTEMET */
 
     #bookingsystemet_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2608,7 +2584,7 @@ padding:  10px 30px 50px 30px;
     /* UDLEJNING BLANDT MEDLEMMER */
 
     #udlejning_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2629,7 +2605,7 @@ padding:  10px 30px 50px 30px;
     /* PROCESSEN GRID */
 
     #process_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2646,7 +2622,7 @@ padding:  10px 30px 50px 30px;
     /* VI SKABER HJEM GRID */
 
     #skaberhjem_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2672,7 +2648,7 @@ padding:  10px 30px 50px 30px;
 
 
     #stiftedeforeninger_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2705,7 +2681,7 @@ padding:  10px 30px 50px 30px;
     #destinationer_fullpage {
         grid-gap: 30px;
         justify-content: center;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 1000px;
         grid-template-areas:
 
@@ -2719,7 +2695,7 @@ padding:  10px 30px 50px 30px;
     /* MALLORCA */
     #mallorca_fullpage {
         grid-gap: 30px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         justify-content: center;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2737,7 +2713,7 @@ padding:  10px 30px 50px 30px;
 
     /* TOSCANA */
     #toscana_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2752,7 +2728,7 @@ padding:  10px 30px 50px 30px;
     /* TILGÆNGELIGE FORENINGER */
 
     #foreninger_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 325px 325px 325px;
         grid-template-areas:
@@ -2772,7 +2748,7 @@ padding:  10px 30px 50px 30px;
     /* FAMILIER */
 
     #dk39_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         justify-content: center;
         grid-template-columns: 500px 500px;
@@ -2788,14 +2764,14 @@ padding:  10px 30px 50px 30px;
     }
 
     #dk39_paragraf3 {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-area: dk39_paragraf3;
         height: 80vh;
     }
 
     #dk38_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2815,7 +2791,7 @@ padding:  10px 30px 50px 30px;
 
 
     #dk36_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2844,7 +2820,7 @@ padding:  10px 30px 50px 30px;
     /* LEDIGE ANDELE */
 
     #ledigeandele_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2865,7 +2841,7 @@ padding:  10px 30px 50px 30px;
     /* PRAKTISK INFORMATION */
 
     #information_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2889,7 +2865,7 @@ padding:  10px 30px 50px 30px;
     /* ORIENTERINGSMØDE */
 
     #orienteringsmode_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2915,7 +2891,7 @@ padding:  10px 30px 50px 30px;
     /* KAFFEMØDE */
 
     #kaffemode_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -2930,7 +2906,7 @@ padding:  10px 30px 50px 30px;
 
     /* KONTAKT */
     #kontakt_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 500px 500px;
         grid-gap: 30px;
         grid-template-areas:
@@ -2949,7 +2925,7 @@ padding:  10px 30px 50px 30px;
 
     #job_fullpage {
 
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 500px 500px;
         grid-gap: 30px;
         grid-template-areas:
@@ -2970,7 +2946,7 @@ padding:  10px 30px 50px 30px;
     /* OFTE STILLEDE SPØRGSMÅL GRID */
 
     #spoergsmaal_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         display: grid;
         grid-gap: 30px;
         grid-template-columns: 1000px;
@@ -2992,7 +2968,7 @@ padding:  10px 30px 50px 30px;
 
     /* OM OS */
     #omos_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         margin-top: -4vw;
         grid-template-columns: 500px 500px;
         grid-gap: 30px;
@@ -3037,7 +3013,7 @@ padding:  10px 30px 50px 30px;
 
     /* HISTORIEN  */
     #historien_fullpage {
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-gap: 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
@@ -3058,7 +3034,7 @@ padding:  10px 30px 50px 30px;
 
     #teamet_fullpage {
         grid-gap: 30px;
-        padding:  10px 30px 80px 30px;
+        padding: 10px 30px 80px 30px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
 

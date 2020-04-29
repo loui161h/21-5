@@ -134,15 +134,6 @@ header nav a:visited {
 
 
 
-/* The container <div> - needed to position the dropdown content */
-/*
-.dropdown {
-    background-color: white;
-
-
-
-}
-*/
 
 
 
@@ -539,10 +530,6 @@ header nav a:visited {
     /*** MENU2 ****/
 
 
-
-
-
-
     #menuknap {
         display: none;
     }
@@ -554,8 +541,6 @@ header nav a:visited {
         opacity: 1;
         display: inline-block;
     }
-
-
 
 
     /* MENU 2 SLUT */

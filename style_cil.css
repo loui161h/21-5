@@ -1,40 +1,4 @@
 /* GENERELLE INDSTILLINGER */
-/*
-.image {
-    display: block;
-    width: 100%;
-    height:  100%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50%;
-    width: 100%;
-    opacity: 0%;
-    transition: .3s ease;
-    background-color: rgba(239, 176, 71, 0.71);
-}
-
-.container:hover .overlay {
-    opacity: 1;
-}
-
-.tekst {
-    color: white;
-    position: relative;
-    top: 55px;
-    left: 0px;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    text-decoration: none;
-}
-*/
-
 
 
 summary {
@@ -112,9 +76,7 @@ select {
 
 .boks:hover {
     -ms-transform: scale(1.1);
-    /* IE 9 */
     -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
     transform: scale(1.1);
 }
 
@@ -140,10 +102,10 @@ select {
 }
 
 .snapscroll h2 {
-        font-size: 1.6rem;
-        color: #EFB047;
-        margin-top: 0vw;
-    }
+    font-size: 1.6rem;
+    color: #EFB047;
+    margin-top: 0vw;
+}
 
 
 /****************** MEDIA QUERIES **********************/
@@ -184,9 +146,7 @@ select {
 
     .boks:hover {
         -ms-transform: scale(1.2);
-        /* IE 9 */
         -webkit-transform: scale(1.2);
-        /* Safari 3-8 */
         transform: scale(1.2);
     }
 
@@ -288,13 +248,13 @@ select {
 
     /* MENU2 */
 
-#menu2 a {
-    font-size: 1.1rem;
-    color: #375151;
-    text-decoration: none;
-    padding: 0px 3px 0px 5px;
-    font-family: 'Quicksand', sans-serif;
-}
+    #menu2 a {
+        font-size: 1.1rem;
+        color: #375151;
+        text-decoration: none;
+        padding: 0px 3px 0px 5px;
+        font-family: 'Quicksand', sans-serif;
+    }
 
 
     #landingpage_footer {
@@ -322,7 +282,6 @@ select {
         justify-content: space-between;
         position: absolute;
         bottom: 0;
-        /* SKAL NED I WEB NÅR MOBIL LAVES */
         padding: 0px 20px 40px 40px;
         width: 100%;
     }
@@ -464,9 +423,7 @@ select {
 
     .zoom:hover {
         -ms-transform: scale(1.2);
-        /* IE 9 */
         -webkit-transform: scale(1.2);
-        /* Safari 3-8 */
         transform: scale(1.2);
     }
 
@@ -475,85 +432,6 @@ select {
 
 
     /* FADE IN OVERLAY TIL DET SIGER VORES FAMILIER OG FORDELE VED KØB AF ANDEL */
-
-    /*   .container {
-        position: relative;
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .image {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0%;
-        transition: .3s ease;
-        background-color: rgba(239, 176, 71, 0.71);
-    }
-
-    .container:hover .overlay {
-        opacity: 1;
-    }
-
-    .tekst {
-        color: white;
-        position: relative;
-        top: 55px;
-        left: 0px;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-        text-decoration: none;
-    }
-
-
-    .container2 {
-        position: relative;
-        width: 100%;
-        max-width: 300px;
-    }
-
-
-
-
-    .boks {
-        display: block;
-        width: 100%;
-        height: 300px;
-        width: 300px;
-        background-color: rgba(239, 176, 71, 0.4);
-    }
-
-    .tekst2 {
-        color: white;
-        font-size: 15px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-        text-decoration: none;
-    }
-
-    container2 p {
-        color: white;
-        font-size: 20px;
-    }
-
-    .container2:hover .overlay {
-        opacity: 1;
-    }*/
 
 
     /* SLIDE DOWN SLIDE UP TIL OFTE STILLEDE SPØRGSMÅL */
@@ -671,9 +549,7 @@ select {
 
 .child:hover {
     -ms-transform: scale(1.1);
-    /* IE 9 */
     -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
     transform: scale(1.1);
 }
 
@@ -682,12 +558,12 @@ select {
 
 @media only screen and (min-width: 1024px) {
     #menu2 a {
-    font-size: 1rem;
-    color: #375151;
-    text-decoration: none;
-    padding: 0px;
-    font-family: 'Quicksand', sans-serif;
-}
+        font-size: 1rem;
+        color: #375151;
+        text-decoration: none;
+        padding: 0px;
+        font-family: 'Quicksand', sans-serif;
+    }
 
     .snapscroll h2 {
         font-size: 2.5rem;

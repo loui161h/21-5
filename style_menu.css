@@ -222,8 +222,8 @@ label {
     /* her sætter vi undermenuen i grid */
     .multi_level {
         display: grid;
-        grid-template-columns: 1.1fr 1fr 1fr 1fr 1fr 2.1fr;
-        padding
+        grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+
     }
 
 
