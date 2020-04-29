@@ -29,7 +29,7 @@ img {
 ul.breadcrumb {
     padding: 10px 31px;
     list-style: none;
-    background-color: none;
+
 }
 
 ul.breadcrumb li {
@@ -41,7 +41,6 @@ ul.breadcrumb li {
 
 ul.breadcrumb li + li:before {
     padding: 8px;
-    color: ;
     content: "/\00a0";
     color: #375151;
 
