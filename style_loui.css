@@ -2239,7 +2239,7 @@ footer {
     /* INDSTILLING FOR VIDEO TIL WEB */
 
     .embedly-card {
-        width: 80vw;
+        width: 70vw;
         height: 60vh;
 
     }
@@ -2782,6 +2782,11 @@ footer {
             "embedly-card embedly-card"
     }
 
+    dk39_heading2 h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
     #dk39_paragraf3 {
         padding: 10px 30px 80px 30px;
         grid-gap: 30px;
@@ -2807,6 +2812,11 @@ footer {
 
     }
 
+    #dk38_heading2 h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
 
 
     #dk36_fullpage {
@@ -2825,6 +2835,11 @@ footer {
             "embedly-card embedly-card"
 
 
+    }
+
+    #dk36_heading2 h2 {
+        font-size: 2rem;
+        text-align: center;
     }
 
     #dk36_paragraf3 {
