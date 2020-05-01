@@ -29,7 +29,7 @@ img {
 ul.breadcrumb {
     padding: 10px 31px;
     list-style: none;
-
+    font-weight: 500;
 }
 
 ul.breadcrumb li {
@@ -83,7 +83,7 @@ ul.breadcrumb li a:hover {
 
 h1 {
     font-size: 2rem;
-    margin-bottom: -1vw;
+    margin-bottom: 0vw;
     color: #375151;
     font-family: 'Roboto', sans-serif;
 
@@ -1603,7 +1603,7 @@ footer {
 
     h1 {
         font-size: 2.8rem;
-        margin-bottom: -1vw;
+        margin-bottom: 0vw;
 
     }
 
@@ -1783,7 +1783,7 @@ footer {
 
     #udlejning_paragraf1,
     #udlejning_paragraf2 {
-        margin-top: -12vw;
+        margin-top: -15vw;
     }
 
 
@@ -2020,10 +2020,6 @@ footer {
     #information_img {
         width: 380px;
         height: 280px;
-    }
-
-    #information_tekst1 {
-        margin-top: -4vw;
     }
 
     /* PRAKTISK INFORMATION SLUT */
@@ -2960,7 +2956,7 @@ footer {
 
     #job_paragraf1,
     #job_paragraf2 {
-        margin-top: -20vw;
+        margin-top: -15vw;
     }
 
 
@@ -3002,13 +2998,11 @@ footer {
             "omos_paragraf1 omos_paragraf2"
     }
 
-    #omos_tekst1 {
-        margin-top: -6vw;
-    }
+
 
     #omos_paragraf1,
     #omos_paragraf2 {
-        margin-top: -4vw;
+        margin-top: -8vw;
     }
 
 
@@ -3072,6 +3066,13 @@ footer {
     /* TEAMET GRID  SLUT */
 
 
+    #bookingsystemet_overskrift1 {
+        margin-bottom: 2.5vw;
+    }
+
+    #udlejning_overskrift1 {
+        margin-bottom: 3.5vw;
+    }
 }
 
 
